@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class MyWebDriver {
     public static void main(String[] args) throws InterruptedException {
 
-        System.setProperty("webdriver.chrome.driver", "e:\\ATP\\ChromeWebDriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized"); // Maximize browser window via options, just an example
         WebDriver driver = new ChromeDriver(options);
@@ -26,7 +26,7 @@ public class MyWebDriver {
 
         //Enter login
         WebElement searchLogin = driver.findElement(By.id("mailbox:login"));
-        searchLogin.sendKeys("mentee2017");
+        searchLogin.sendKeys("mentee2017_2");
 
         //Enter password
         WebElement searchPassword = driver.findElement(By.id("mailbox:password"));
@@ -81,26 +81,40 @@ public class MyWebDriver {
 
         //Check if the message body of the draft is correct
         driver.switchTo().frame(0);
-
-        new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(text(),'WebDriver is a remote control interface')]")));
         WebElement checkMailBody = driver.findElement(By.xpath("//div[contains(text(),'WebDriver is a remote control interface')]"));
 
         //return back to initial context
         driver.switchTo().defaultContent();
 
         // Sending email
-        new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='b-sticky']//div[@data-name='send']")));
+        new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='b-sticky']//div[@data-name='send']")));
         WebElement sendEmailBtn = driver.findElement(By.xpath("//div[@class='b-sticky']//div[@data-name='send']"));
         sendEmailBtn.click();
 
-
-//        new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='LEGO']//a[@href='/messages/drafts/']")));
-
         //Enter Drafts again
-//           WebElement emailDraftsEnter2 = driver.findElement(By.xpath("//div[@id='LEGO']//a[@href='/messages/drafts/']"));
-//           emailDraftsEnter2.click();
+        WebElement emailDraftsEnter2 = driver.findElement(By.xpath("//div[@id='LEGO']//a[@href='/messages/drafts/']"));
+        emailDraftsEnter2.click();
+        new WebDriverWait(driver, 10).until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//a[@data-subject='lecture5 selenium']")));
 
-//        WebElement searchLogout = driver.findElement(By.id("PH_logoutLink"));
-//        searchLogout.click();
+        //Enter Sent
+        WebElement clickSent = driver.findElement(By.xpath("//div[@data-id='500000']/a[@href='/messages/sent/']"));
+        clickSent.click();
+
+        //Check availability of the sent email
+        new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[@data-subject='lecture5 selenium']")));
+        WebElement sentEmail = driver.findElement(By.xpath("//a[@data-subject='lecture5 selenium']"));
+
+        //Select all in Sent folder
+        WebElement selectAll = driver.findElement(By.xpath("//div[@class='b-sticky']//div[@data-cache-key='500000_undefined_false']//div[@class='b-checkbox__box']"));
+        selectAll.click();
+
+        //Remove All from Sent
+        new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='b-sticky']//div[@data-cache-key='500000_undefined_false']//div[@data-name ='remove']")));
+        WebElement removeAll = driver.findElement(By.xpath("//div[@class='b-sticky']//div[@data-cache-key='500000_undefined_false']//div[@data-name ='remove']"));
+        removeAll.click();
+
+        //Log out
+        WebElement searchLogout = driver.findElement(By.id("PH_logoutLink"));
+        searchLogout.click();
     }
 }
