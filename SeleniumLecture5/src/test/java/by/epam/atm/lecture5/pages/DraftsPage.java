@@ -4,20 +4,21 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+
 import java.util.List;
 
-public class DraftsPage extends AbstractPage{
+public class DraftsPage extends AbstractPage {
 
-    @FindBy(xpath="//a[@data-subject='lecture5 selenium']")
+    @FindBy(xpath = "//a[@data-subject='lecture5 selenium']")
     private List<WebElement> savedMail;
 
-    @FindBy(xpath="//div[text()='uladzie@gmail.com']")
+    @FindBy(xpath = "//div[text()='uladzie@gmail.com']")
     private List<WebElement> checkAddressee;
 
-    @FindBy(xpath="//div[text()='lecture5 selenium']")
+    @FindBy(xpath = "//div[text()='lecture5 selenium']")
     private List<WebElement> checkSubject;
 
-    @FindBy(xpath="//div[@data-id='500000']/a[@href='/messages/sent/']")
+    @FindBy(xpath = "//div[@data-id='500000']/a[@href='/messages/sent/']")
     private WebElement clickSent;
 
     public DraftsPage(WebDriver driver) {
@@ -36,7 +37,7 @@ public class DraftsPage extends AbstractPage{
         return isElementPresent(checkSubject);
     }
 
-    public DraftMailPage openDraft(){
+    public DraftMailPage openDraft() {
         checkSubject.get(0).click();
         return new DraftMailPage(driver);
     }
@@ -46,7 +47,7 @@ public class DraftsPage extends AbstractPage{
         return isElementPresent(savedMail);
     }
 
-    public SentPage goToSent(){
+    public SentPage goToSent() {
         clickSent.click();
         return new SentPage(driver);
     }

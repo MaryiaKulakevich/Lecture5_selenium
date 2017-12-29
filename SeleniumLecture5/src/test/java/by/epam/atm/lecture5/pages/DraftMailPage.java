@@ -3,6 +3,8 @@ package by.epam.atm.lecture5.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
 import java.util.List;
 
 public class DraftMailPage extends AbstractPage {
@@ -10,7 +12,7 @@ public class DraftMailPage extends AbstractPage {
     private List<WebElement> checkBody;
 
     @FindBy(xpath="//div[@class='b-sticky']//div[@data-name='send']")
-    private WebElement sendEmailBtn;
+    private List<WebElement> sendEmailBtn;
 
     @FindBy(xpath="//div[@id='LEGO']//a[@href='/messages/drafts/']")
     private WebElement emailDraftsEnter2;
@@ -27,7 +29,8 @@ public class DraftMailPage extends AbstractPage {
     public DraftsPage sendMailGoDraftsAgain(){
         driver.switchTo().defaultContent();
         // Sending email
-        sendEmailBtn.click();
+        explicitTimeout().until(ExpectedConditions.visibilityOfAllElements(sendEmailBtn));
+        sendEmailBtn.get(0).click();
 
         //Enter Drafts again
         emailDraftsEnter2.click();

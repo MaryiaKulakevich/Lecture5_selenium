@@ -21,7 +21,9 @@ public class MyWebDriverTest {
     private static final String BODY = "WebDriver is a remote control interface that enables introspection and control of user agents. It provides a platform- and language-neutral wire protocol as a way for out-of-process programs to remotely instruct the behaviour of web browsers";
 
     private WebDriver driver;
+    private LoggedInPage login;
     private DraftsPage drafts;
+    private DraftMailPage savedDraft;
 
     @BeforeClass(description = "Start browser")
     public void startBrowser() {
@@ -40,7 +42,8 @@ public class MyWebDriverTest {
 
     @Test(description = "Login")
     public void login() throws InterruptedException {
-        boolean loginSuccessful = new LoginPage(driver).loginToMail(LOGIN_NAME, PASSWORD).isLoginSuccessful();
+        login = new LoginPage(driver).loginToMail(LOGIN_NAME, PASSWORD);
+        boolean loginSuccessful = login.isLoginSuccessful();
         Assert.assertTrue(loginSuccessful, "Login was not successful");
         System.out.println("Login is successful");
     }
@@ -48,7 +51,7 @@ public class MyWebDriverTest {
     @Test(description = "Creation of an email and saving it to Drafts", dependsOnMethods = {
             "login"})
     public void createSaveMail() throws InterruptedException {
-        drafts = new LoggedInPage(driver).createMail().createAndSaveMail(TO, SUBJECT, BODY);
+        drafts = login.createMail().createAndSaveMail(TO, SUBJECT, BODY);
 
         //Check availability of the draft
         boolean mailSaved = drafts.isMaleSaved();
@@ -66,7 +69,8 @@ public class MyWebDriverTest {
         System.out.println("The subject is correct");
 
         //Check if the message body of the draft is correct
-        boolean bodyCorrect = drafts.openDraft().isBodyCorrect();
+        savedDraft = drafts.openDraft();
+        boolean bodyCorrect = savedDraft.isBodyCorrect();
         Assert.assertTrue(bodyCorrect);
         System.out.println("The body is correct");
     }
@@ -75,7 +79,7 @@ public class MyWebDriverTest {
     public void sendMail() throws InterruptedException {
 
         //Verify that the mail has disappeared from ‘Draft’ folder
-        boolean draftDisappears = new DraftMailPage(driver).sendMailGoDraftsAgain().isMailPresent();
+        boolean draftDisappears = savedDraft.sendMailGoDraftsAgain().isMailPresent();
         Assert.assertFalse(draftDisappears, "The draft mail is still present in Drafts");
         System.out.println("The draft mail is not present in Drafts anymore");
 

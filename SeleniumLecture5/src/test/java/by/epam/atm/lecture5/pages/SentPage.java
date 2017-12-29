@@ -3,6 +3,8 @@ package by.epam.atm.lecture5.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
 import java.util.List;
 
 public class SentPage extends AbstractPage {
@@ -14,7 +16,7 @@ public class SentPage extends AbstractPage {
     private WebElement selectAll;
 
     @FindBy(xpath = "//div[@class='b-sticky']//div[@data-cache-key='500000_undefined_false']//div[@data-name ='remove']")
-    private WebElement removeAll;
+    private List<WebElement> removeAll;
 
     @FindBy(id = "PH_logoutLink")
     private WebElement searchLogout;
@@ -32,7 +34,8 @@ public class SentPage extends AbstractPage {
         selectAll.click();
 
         //Remove All from Sent
-        removeAll.click();
+        explicitTimeout().until(ExpectedConditions.visibilityOfAllElements(removeAll));
+        removeAll.get(0).click();
         System.out.println("All mails from Sent are removed");
 
         //Log out

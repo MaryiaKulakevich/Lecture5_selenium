@@ -19,6 +19,6 @@ public abstract class AbstractPage {
     }
 
     public WebDriverWait explicitTimeout() {
-        return new WebDriverWait(driver, 5);
+        return new WebDriverWait(driver, 10);
     }
 }
