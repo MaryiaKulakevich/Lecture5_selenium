@@ -12,7 +12,8 @@ public class DraftsPage extends AbstractPage {
     @FindBy(xpath = "//a[@data-subject='lecture5 selenium']")
     private List<WebElement> savedMail;
 
-    @FindBy(xpath = "//div[text()='uladzie@gmail.com']")
+    @FindBy(xpath = "//div[text()='mentee2017@mail.ru']")
+//    @FindBy(xpath ="//a[@data-title='mentee2017 <mentee2017@mail.ru>']")
     private List<WebElement> checkAddressee;
 
     @FindBy(xpath = "//div[text()='lecture5 selenium']")

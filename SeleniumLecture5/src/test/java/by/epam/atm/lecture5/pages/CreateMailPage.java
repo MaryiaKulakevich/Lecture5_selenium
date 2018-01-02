@@ -1,7 +1,9 @@
 package by.epam.atm.lecture5.pages;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import java.util.List;
@@ -14,11 +16,11 @@ public class CreateMailPage extends AbstractPage{
     @FindBy(css="div.compose-head__field>input.b-input")
     private WebElement emailSubjectField;
 
-    @FindBy(xpath="//body[@class='mceContentBody compose2']")
-    private WebElement emailBodyField;
+//    @FindBy(xpath="//body[@class='mceContentBody compose2']")
+//    private WebElement emailBodyField;
 
-    @FindBy(xpath="//div[@class='b-sticky']//div[@data-name='saveDraft']")
-    private WebElement emailSaveBtn;
+//    @FindBy(xpath="//div[@class='b-sticky']//div[@data-name='saveDraft']")
+//    private WebElement emailSaveBtn;
 
     @FindBy(xpath="//div[@class='b-sticky']//a[@href='/messages/drafts']")
     private List<WebElement> mailSaved;
@@ -35,19 +37,20 @@ public class CreateMailPage extends AbstractPage{
         emailToField.sendKeys(to);
 
         //Enter Subject value
+//        new Actions(driver).sendKeys(emailToField, Keys.ENTER).sendKeys(emailToField, Keys.TAB).sendKeys(subject).build().perform();
         emailSubjectField.sendKeys(subject);
 
-        //Switch to the frame of Body
-        driver.switchTo().frame(0);
+        //Switch to body, enter body text and save the draft
+        new Actions(driver)
+                .sendKeys(emailSubjectField, Keys.TAB)
+                .sendKeys(body).keyDown(Keys.CONTROL).sendKeys("s")
+                .keyUp(Keys.CONTROL)
+                .build().perform();
 
-        //Enter Body
-        emailBodyField.sendKeys(body);
-
-        //return back to initial context
-        driver.switchTo().defaultContent();
-
-        //Save the email as a draft.
-        emailSaveBtn.click();
+//        driver.switchTo().frame(0);
+//        emailBodyField.sendKeys(body);
+//        driver.switchTo().defaultContent();
+//        emailSaveBtn.click();
 
         //Wait until the mail is saved
         explicitTimeout().until(ExpectedConditions.visibilityOfAllElements(mailSaved));
