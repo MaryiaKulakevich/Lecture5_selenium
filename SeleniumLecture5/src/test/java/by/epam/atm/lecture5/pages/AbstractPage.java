@@ -1,10 +1,12 @@
 package by.epam.atm.lecture5.pages;
 
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
 
 public abstract class AbstractPage {
@@ -27,12 +29,22 @@ public abstract class AbstractPage {
         String bg = element.getCssValue("backgroundColor");
         JavascriptExecutor js = ((JavascriptExecutor) driver);
         js.executeScript("arguments[0].style.backgroundColor = '" + "yellow" + "'", element);
-        // take screenshot here or just pause/blink
+        makeScreenshot();
         try {
-            Thread.sleep(500);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         js.executeScript("arguments[0].style.backgroundColor = '" + bg + "'", element);
     }
+
+    public void makeScreenshot() {
+        try {
+            File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+            FileUtils.copyFile(scrFile, new File("src/test/test-output/screenshot"+System.currentTimeMillis()+".png"));
+        } catch (IOException e) {
+            System.out.println(e);
+        }
+    }
+
 }
