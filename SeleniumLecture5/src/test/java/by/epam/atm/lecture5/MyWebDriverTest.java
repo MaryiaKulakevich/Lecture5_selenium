@@ -1,14 +1,24 @@
 package by.epam.atm.lecture5;
 
 import by.epam.atm.lecture5.pages.*;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.firefox.GeckoDriverService;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.opera.OperaDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class MyWebDriverTest {
@@ -20,25 +30,51 @@ public class MyWebDriverTest {
     private static final String SUBJECT = "lecture5 selenium";
     private static final String BODY = "WebDriver is a remote control interface that enables introspection and control of user agents. It provides a platform- and language-neutral wire protocol as a way for out-of-process programs to remotely instruct the behaviour of web browsers";
 
-    private WebDriver driver;
+    private static WebDriver driver;
     private LoggedInPage login;
     private DraftsPage drafts;
     private DraftMailPage savedDraft;
     private SentPage sent;
 
+    public static WebDriver getDriver() {
+
+        if (driver == null) {
+            setDriver();
+        }
+        return driver;
+    }
+
+    private static void setDriver() {
+//        Setting up Chrome driver and browser
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("start-maximized");
+        options.setCapability("platformName", Platform.WINDOWS);
+
+        //Setting up Firefox driver and browser
+//        System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
+//        FirefoxOptions options = new FirefoxOptions();
+//        options.addArguments("start-maximized");
+//        options.setCapability("platformName", Platform.WINDOWS);
+
+        try {
+            driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
+    }
+
     @BeforeClass(description = "Start browser")
     public void startBrowser() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-        driver = new ChromeDriver();
 
-        // Setting standard timeout
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
-        // Maximize browser window
-        driver.manage().window().maximize();
+        driver = getDriver();
 
         // Open the web page
         driver.get(URL);
+
+        // Setting standard timeout and maximizing window
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
     }
 
     @Test(description = "Login")
