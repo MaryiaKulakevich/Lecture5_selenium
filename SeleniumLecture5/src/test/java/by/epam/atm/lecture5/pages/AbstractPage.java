@@ -30,11 +30,11 @@ public abstract class AbstractPage {
         JavascriptExecutor js = ((JavascriptExecutor) driver);
         js.executeScript("arguments[0].style.backgroundColor = '" + "yellow" + "'", element);
         makeScreenshot();
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            Thread.sleep(1000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
         js.executeScript("arguments[0].style.backgroundColor = '" + bg + "'", element);
     }
 

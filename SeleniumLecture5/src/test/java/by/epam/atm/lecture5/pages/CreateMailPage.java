@@ -16,12 +16,6 @@ public class CreateMailPage extends AbstractPage{
     @FindBy(css="div.compose-head__field>input.b-input")
     private WebElement emailSubjectField;
 
-//    @FindBy(xpath="//body[@class='mceContentBody compose2']")
-//    private WebElement emailBodyField;
-
-//    @FindBy(xpath="//div[@class='b-sticky']//div[@data-name='saveDraft']")
-//    private WebElement emailSaveBtn;
-
     @FindBy(xpath="//div[@class='b-sticky']//a[@href='/messages/drafts']")
     private List<WebElement> mailSaved;
 
@@ -37,7 +31,6 @@ public class CreateMailPage extends AbstractPage{
         emailToField.sendKeys(to);
 
         //Enter Subject value
-//        new Actions(driver).sendKeys(emailToField, Keys.ENTER).sendKeys(emailToField, Keys.TAB).sendKeys(subject).build().perform();
         emailSubjectField.sendKeys(subject);
 
         //Switch to body, enter body text and save the draft
@@ -47,17 +40,12 @@ public class CreateMailPage extends AbstractPage{
                 .keyUp(Keys.CONTROL)
                 .build().perform();
 
-//        driver.switchTo().frame(0);
-//        emailBodyField.sendKeys(body);
-//        driver.switchTo().defaultContent();
-//        emailSaveBtn.click();
 
         //Wait until the mail is saved
         explicitTimeout().until(ExpectedConditions.visibilityOfAllElements(mailSaved));
 
         //Enter Drafts
         emailDraftsEnter.click();
-
         return new DraftsPage(driver);
     }
 }

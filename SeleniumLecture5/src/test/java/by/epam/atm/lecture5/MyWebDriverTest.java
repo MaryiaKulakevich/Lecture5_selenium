@@ -28,7 +28,7 @@ public class MyWebDriverTest {
     private static final String PASSWORD = "automation2017";
     private static final String TO = "mentee2017@mail.ru";
     private static final String SUBJECT = "lecture5 selenium";
-    private static final String BODY = "WebDriver is a remote control interface that enables introspection and control of user agents. It provides a platform- and language-neutral wire protocol as a way for out-of-process programs to remotely instruct the behaviour of web browsers";
+    private static final String BODY = "WebDriver is a remote control interface that enables introspection and control of user agents.";
 
     private static WebDriver driver;
     private LoggedInPage login;
@@ -45,16 +45,15 @@ public class MyWebDriverTest {
     }
 
     private static void setDriver() {
-//        Setting up Chrome driver and browser
+
+        //Setting up Chrome driver and browser
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("start-maximized");
         options.setCapability("platformName", Platform.WINDOWS);
 
-        //Setting up Firefox driver and browser
+//        //Setting up Firefox driver and browser
 //        System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
 //        FirefoxOptions options = new FirefoxOptions();
-//        options.addArguments("start-maximized");
 //        options.setCapability("platformName", Platform.WINDOWS);
 
         try {
@@ -108,8 +107,8 @@ public class MyWebDriverTest {
         //Check if the message body of the draft is correct
         savedDraft = drafts.openDraft();
         boolean bodyCorrect = savedDraft.isBodyCorrect();
-        Assert.assertTrue(bodyCorrect);
-        System.out.println("The body is correct");
+        Assert.assertTrue(bodyCorrect,"the body message is wrong" );
+        System.out.println("The body message is correct");
     }
 
     @Test(description = "Send the email, verify that the email is sent", dependsOnMethods = {"createSaveMail"})
