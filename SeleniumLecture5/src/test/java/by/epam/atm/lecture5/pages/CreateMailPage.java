@@ -1,5 +1,6 @@
 package by.epam.atm.lecture5.pages;
 
+import by.epam.atm.lecture5.bo.Letter;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -26,17 +27,17 @@ public class CreateMailPage extends AbstractPage{
         super(driver);
     }
 
-    public DraftsPage createAndSaveMail(String to, String subject, String body){
+    public DraftsPage createAndSaveMail(Letter letter){
         //Enter To value
-        emailToField.sendKeys(to);
+        emailToField.sendKeys(letter.getRecipient());
 
         //Enter Subject value
-        emailSubjectField.sendKeys(subject);
+        emailSubjectField.sendKeys(letter.getSubject());
 
         //Switch to body, enter body text and save the draft
         new Actions(driver)
                 .sendKeys(emailSubjectField, Keys.TAB)
-                .sendKeys(body).keyDown(Keys.CONTROL).sendKeys("s")
+                .sendKeys(letter.getBody()).keyDown(Keys.CONTROL).sendKeys("s")
                 .keyUp(Keys.CONTROL)
                 .build().perform();
 

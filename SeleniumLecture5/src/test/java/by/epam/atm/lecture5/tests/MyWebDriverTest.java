@@ -1,5 +1,7 @@
-package by.epam.atm.lecture5;
+package by.epam.atm.lecture5.tests;
 
+import by.epam.atm.lecture5.bo.Account;
+import by.epam.atm.lecture5.bo.Letter;
 import by.epam.atm.lecture5.pages.*;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
@@ -24,11 +26,6 @@ import java.util.concurrent.TimeUnit;
 public class MyWebDriverTest {
 
     private static final String URL = "https://mail.ru";
-    private static final String LOGIN_NAME = "mentee2017_2";
-    private static final String PASSWORD = "automation2017";
-    private static final String TO = "mentee2017@mail.ru";
-    private static final String SUBJECT = "lecture5 selenium";
-    private static final String BODY = "WebDriver is a remote control interface that enables introspection and control of user agents.";
 
     private static WebDriver driver;
     private LoggedInPage login;
@@ -36,49 +33,24 @@ public class MyWebDriverTest {
     private DraftMailPage savedDraft;
     private SentPage sent;
 
-    public static WebDriver getDriver() {
-
-        if (driver == null) {
-            setDriver();
-        }
-        return driver;
-    }
-
-    private static void setDriver() {
-
-        //Setting up Chrome driver and browser
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-        ChromeOptions options = new ChromeOptions();
-        options.setCapability("platformName", Platform.WINDOWS);
-
-//        //Setting up Firefox driver and browser
-//        System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
-//        FirefoxOptions options = new FirefoxOptions();
-//        options.setCapability("platformName", Platform.WINDOWS);
-
-        try {
-            driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        }
-    }
-
     @BeforeClass(description = "Start browser")
     public void startBrowser() {
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+        driver = new ChromeDriver();
 
-        driver = getDriver();
+        // Setting standard timeout
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+        // Maximize browser window
+        driver.manage().window().maximize();
 
         // Open the web page
         driver.get(URL);
-
-        // Setting standard timeout and maximizing window
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
     }
 
     @Test(description = "Login")
     public void login() throws InterruptedException {
-        login = new LoginPage(driver).loginToMail(LOGIN_NAME, PASSWORD);
+        login = new LoginPage(driver).loginToMail(new Account());
         boolean loginSuccessful = login.isLoginSuccessful();
         Assert.assertTrue(loginSuccessful, "Login was not successful");
         System.out.println("Login is successful");
@@ -87,9 +59,7 @@ public class MyWebDriverTest {
     @Test(description = "Creation of an email and saving it to Drafts", dependsOnMethods = {
             "login"})
     public void createSaveMail() throws InterruptedException {
-        drafts = login.createMail().createAndSaveMail(TO, SUBJECT, BODY);
-
-        //Check availability of the draft
+        drafts = login.createMail().createAndSaveMail(new Letter());
         boolean mailSaved = drafts.isMaleSaved();
         Assert.assertTrue(mailSaved, "The draft mail is not present in Drafts");
         System.out.println("The draft mail is present in Drafts");

@@ -1,5 +1,6 @@
 package by.epam.atm.lecture5.pages;
 
+import by.epam.atm.lecture5.bo.Account;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,12 +20,12 @@ public class LoginPage extends AbstractPage {
         super(driver);
     }
 
-    public LoggedInPage loginToMail(String userName, String password) {
+    public LoggedInPage loginToMail(Account user) {
         //Enter login
-        searchLogin.sendKeys(userName);
+        searchLogin.sendKeys(user.getLogin());
 
         //Enter password
-        searchPassword.sendKeys(password);
+        searchPassword.sendKeys(user.getPassword());
 
         //Click Enter button
         clickEnterBtn.click();
