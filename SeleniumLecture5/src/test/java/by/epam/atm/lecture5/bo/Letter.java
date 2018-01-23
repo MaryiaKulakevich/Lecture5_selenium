@@ -1,13 +1,15 @@
 package by.epam.atm.lecture5.bo;
 
+import by.epam.atm.lecture5.utiles.AddNumberToString;
+
 public class Letter {
 
     private static final String TO = "mentee2017@mail.ru";
     private static final String SUBJECT = "lecture5 selenium";
-    private static final String BODY = "WebDriver is a remote control interface that enables introspection and control of user agents.";
+    private static final String BODY = "Automation mentoring program";
 
     public String getRecipient() {
-        return TO ;
+        return TO;
     }
 
     public String getSubject() {
@@ -15,7 +17,7 @@ public class Letter {
     }
 
     public String getBody() {
-        return BODY;
+        return new AddNumberToString().addRandomNumber(BODY);
     }
 
 }
