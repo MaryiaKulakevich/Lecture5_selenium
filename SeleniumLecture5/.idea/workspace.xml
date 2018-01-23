@@ -21,8 +21,8 @@
       <file leaf-file-name="MyWebDriverTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/tests/MyWebDriverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="62" column="42" lean-forward="true" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+            <state relative-caret-position="670">
+              <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,12 +33,58 @@
       <file leaf-file-name="AbstractPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/pages/AbstractPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="837">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="664">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
-                <element signature="e#543#544#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#791#792#0" expanded="true" />
+                <element signature="e#857#858#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Screenshot.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/utiles/Screenshot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="633">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DraftsPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/pages/DraftsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HighlightElement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/utiles/HighlightElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DraftMailPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/pages/DraftMailPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -48,62 +94,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="341">
               <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DraftsPage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/pages/DraftsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Letter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/bo/Letter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateMailPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/pages/CreateMailPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding>
-                <element signature="e#878#879#0" expanded="true" />
-                <element signature="e#907#908#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoggedInPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/pages/LoggedInPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-              <folding>
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/pages/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="27" column="50" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -141,9 +131,11 @@
         <option value="$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/bo/Account.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/bo/Letter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/pages/AbstractPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/pages/CreateMailPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/tests/MyWebDriverTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/pages/AbstractPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/utiles/Screenshot.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/utiles/HighlightElement.java" />
       </list>
     </option>
   </component>
@@ -268,6 +260,33 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lecture5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumLecture5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumLecture5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture5" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumLecture5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumLecture5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture5" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumLecture5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumLecture5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture5" type="462c0819:PsiDirectoryNode" />
+              <item name="utiles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -532,34 +551,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyWebDriverTest - 2018.01.05 at 16h 02m 12s.xml">
-      <configuration name="MyWebDriverTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyWebDriverTest - 2018.01.05 at 16h 04m 20s.xml">
-      <configuration name="MyWebDriverTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyWebDriverTest - 2018.01.05 at 16h 04m 57s.xml">
-      <configuration name="MyWebDriverTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyWebDriverTest - 2018.01.05 at 16h 05m 40s.xml">
-      <configuration name="MyWebDriverTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyWebDriverTest - 2018.01.05 at 16h 07m 41s.xml">
-      <configuration name="MyWebDriverTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyWebDriverTest - 2018.01.05 at 16h 08m 49s.xml">
-      <configuration name="MyWebDriverTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyWebDriverTest - 2018.01.05 at 16h 10m 18s.xml">
-      <configuration name="MyWebDriverTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyWebDriverTest - 2018.01.22 at 15h 45m 38s.xml">
-      <configuration name="MyWebDriverTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyWebDriverTest - 2018.01.22 at 15h 55m 48s.xml">
-      <configuration name="MyWebDriverTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="MyWebDriverTest - 2018.01.22 at 16h 15m 30s.xml">
+      <configuration name="MyWebDriverTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyWebDriverTest - 2018.01.23 at 12h 13m 48s.xml">
+      <configuration name="MyWebDriverTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyWebDriverTest - 2018.01.23 at 12h 17m 59s.xml">
+      <configuration name="MyWebDriverTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyWebDriverTest - 2018.01.23 at 12h 32m 25s.xml">
+      <configuration name="MyWebDriverTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyWebDriverTest - 2018.01.23 at 12h 34m 55s.xml">
+      <configuration name="MyWebDriverTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyWebDriverTest - 2018.01.23 at 12h 36m 54s.xml">
+      <configuration name="MyWebDriverTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyWebDriverTest - 2018.01.23 at 12h 38m 49s.xml">
+      <configuration name="MyWebDriverTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyWebDriverTest - 2018.01.23 at 12h 42m 12s.xml">
+      <configuration name="MyWebDriverTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyWebDriverTest - 2018.01.23 at 12h 47m 03s.xml">
+      <configuration name="MyWebDriverTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyWebDriverTest - 2018.01.23 at 12h 50m 58s.xml">
       <configuration name="MyWebDriverTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -574,6 +593,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -581,14 +601,14 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56311744" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1984375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1984375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -614,22 +634,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/lang/InterruptedException.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.8.1/selenium-support-3.8.1.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/MyWebDriver.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/.idea/lecture5.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.8.1/selenium-api-3.8.1.jar!/org/openqa/selenium/By.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -743,14 +747,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/test-output/screenshot1515156903160.png" />
     <entry file="file://$PROJECT_DIR$/src/test/test-output/screenshot1515156905287.png" />
     <entry file="file://$PROJECT_DIR$/src/test/test-output/screenshot1515156936739.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/pages/DraftMailPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/pages/SentPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="992">
@@ -782,33 +778,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/pages/AbstractPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/pages/LoggedInPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
           <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
           <folding>
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="false" />
+            <element signature="e#593#594#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/bo/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -825,16 +802,75 @@
         <state relative-caret-position="314">
           <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="false" />
+            <element signature="e#907#908#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/bo/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/pages/DraftMailPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test-output/screenshot1516700202791.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test-output/screenshot1516700084267.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/tests/MyWebDriverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="62" column="42" lean-forward="true" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+        <state relative-caret-position="670">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/pages/AbstractPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/utiles/Screenshot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/utiles/HighlightElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -843,8 +879,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/pages/DraftsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        <state relative-caret-position="372">
+          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
           <folding />
         </state>
       </provider>

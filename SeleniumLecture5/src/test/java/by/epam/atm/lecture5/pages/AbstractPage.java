@@ -1,5 +1,6 @@
 package by.epam.atm.lecture5.pages;
 
+import by.epam.atm.lecture5.utiles.HighlightElement;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.PageFactory;
@@ -26,20 +27,7 @@ public abstract class AbstractPage {
     }
 
     public void highlightElement(WebElement element) {
-        String bg = element.getCssValue("backgroundColor");
-        JavascriptExecutor js = ((JavascriptExecutor) driver);
-        js.executeScript("arguments[0].style.backgroundColor = '" + "yellow" + "'", element);
-        makeScreenshot();
-        js.executeScript("arguments[0].style.backgroundColor = '" + bg + "'", element);
-    }
-
-    public void makeScreenshot() {
-        try {
-            File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            FileUtils.copyFile(scrFile, new File("src/test/test-output/screenshot"+System.currentTimeMillis()+".png"));
-        } catch (IOException e) {
-            System.out.println(e);
-        }
+        HighlightElement.highlightElement(element, driver);
     }
 
 }
