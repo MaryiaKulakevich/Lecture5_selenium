@@ -43,7 +43,7 @@ public class CreateMailPage extends AbstractPage{
 
 
         //Wait until the mail is saved
-        explicitTimeout().until(ExpectedConditions.visibilityOfAllElements(mailSaved));
+        explicitTimeout().waitUntilVisible(mailSaved);
 
         //Enter Drafts
         emailDraftsEnter.click();

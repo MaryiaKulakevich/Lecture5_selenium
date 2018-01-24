@@ -30,7 +30,7 @@ public class SentPage extends AbstractPage {
     }
 
     public boolean isMailRemoved() {
-        explicitTimeout().until(ExpectedConditions.invisibilityOfAllElements(sentMail));
+        explicitTimeout().waitUntilInvisible(sentMail);
         return isElementPresent(sentMail);
     }
 

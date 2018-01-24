@@ -10,7 +10,6 @@ import java.util.List;
 
 public class DraftMailPage extends AbstractPage {
 
-//    @FindBy(xpath="//body[@id='tinymce']//div[contains(text(),'WebDriver is a remote control interface')]")
     @FindBy(xpath="//body[@id='tinymce']//div[contains(text(),'Automation mentoring program')]")
     private List<WebElement> checkBody;
 

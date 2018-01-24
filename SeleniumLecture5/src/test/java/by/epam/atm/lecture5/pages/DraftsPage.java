@@ -44,7 +44,7 @@ public class DraftsPage extends AbstractPage {
     }
 
     public boolean isMailPresent() {
-        explicitTimeout().until(ExpectedConditions.invisibilityOfAllElements(savedMail));
+        explicitTimeout().waitUntilInvisible(savedMail);
         return isElementPresent(savedMail);
     }
 

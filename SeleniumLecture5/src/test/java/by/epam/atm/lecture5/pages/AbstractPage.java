@@ -1,6 +1,7 @@
 package by.epam.atm.lecture5.pages;
 
 import by.epam.atm.lecture5.utiles.HighlightAndScreenshot;
+import by.epam.atm.lecture5.utiles.Waiter;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -19,8 +20,8 @@ public abstract class AbstractPage {
         return element.size() > 0;
     }
 
-    public WebDriverWait explicitTimeout() {
-        return new WebDriverWait(driver, 10);
+    public Waiter explicitTimeout() {
+        return new Waiter(driver, 10);
     }
 
 
