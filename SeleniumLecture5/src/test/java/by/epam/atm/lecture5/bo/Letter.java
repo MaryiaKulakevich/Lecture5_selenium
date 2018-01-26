@@ -17,7 +17,7 @@ public class Letter {
     }
 
     public String getBody() {
-        return new AddNumberToString().addRandomNumber(BODY);
+        return AddNumberToString.addRandomNumber(BODY);
     }
 
 }
