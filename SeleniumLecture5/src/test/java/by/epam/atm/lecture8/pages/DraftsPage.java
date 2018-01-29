@@ -25,7 +25,7 @@ public class DraftsPage extends AbstractPage {
     }
 
     public boolean isMaleSaved() {
-        highlightElement(savedMail.get(0));
+//        highlightElement(savedMail.get(0));
         return isElementPresent(savedMail);
     }
 

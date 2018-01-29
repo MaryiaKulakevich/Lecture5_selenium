@@ -23,7 +23,7 @@ public class SentPage extends AbstractPage {
     }
 
     public boolean isMaleSent() {
-        highlightElement(sentMail.get(0));
+//        highlightElement(sentMail.get(0));
         return isElementPresent(sentMail);
     }
 

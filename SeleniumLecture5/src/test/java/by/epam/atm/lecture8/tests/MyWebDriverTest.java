@@ -30,7 +30,7 @@ public class MyWebDriverTest {
     @BeforeClass(description = "Start browser")
     public void startBrowser() throws UnknownDriverTypeException {
         driver = WebDriverSingleton.getWebDriverInstance(CHROME);
-//        driver = new WebDriverDecorator(driver);
+        driver = new WebDriverDecorator(driver);
 
         // Open the web page
         driver.get(URL);
