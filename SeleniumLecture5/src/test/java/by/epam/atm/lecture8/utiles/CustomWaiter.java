@@ -7,12 +7,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
-public class Waiter {
+public class CustomWaiter {
 
     private long time;
     private WebDriver driver;
 
-    public Waiter( WebDriver driver, long time){
+    public CustomWaiter(WebDriver driver, long time){
         this.driver = driver;
         this.time=time;
     }

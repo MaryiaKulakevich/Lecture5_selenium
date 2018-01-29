@@ -3,6 +3,8 @@ package by.epam.atm.lecture8.tests;
 import by.epam.atm.lecture8.bo.Account;
 import by.epam.atm.lecture8.bo.Letter;
 import by.epam.atm.lecture8.pages.*;
+import by.epam.atm.patterns.decorator.WebDriverDecorator;
+import by.epam.atm.patterns.singleton.UnknownDriverTypeException;
 import by.epam.atm.patterns.singleton.WebDriverSingleton;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -11,6 +13,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
+
+import static by.epam.atm.patterns.singleton.WebDriverType.CHROME;
+import static by.epam.atm.patterns.singleton.WebDriverType.FIREFOX;
 
 public class MyWebDriverTest {
 
@@ -23,11 +28,9 @@ public class MyWebDriverTest {
     private SentPage sent;
 
     @BeforeClass(description = "Start browser")
-    public void startBrowser() {
-        driver = WebDriverSingleton.getWebDriverInstance();
-
-        // Setting standard timeout
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    public void startBrowser() throws UnknownDriverTypeException {
+        driver = WebDriverSingleton.getWebDriverInstance(CHROME);
+//        driver = new WebDriverDecorator(driver);
 
         // Open the web page
         driver.get(URL);
