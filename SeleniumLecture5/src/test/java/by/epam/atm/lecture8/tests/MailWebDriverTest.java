@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 import static by.epam.atm.patterns.singleton.WebDriverType.CHROME;
 import static by.epam.atm.patterns.singleton.WebDriverType.FIREFOX;
 
-public class MyWebDriverTest {
+public class MailWebDriverTest {
 
     private static final String URL = "https://mail.ru";
 
@@ -46,7 +46,7 @@ public class MyWebDriverTest {
 
     @Test(description = "Creation of an email and saving it to Drafts", dependsOnMethods = {
             "login"})
-    public void createSaveMail() throws InterruptedException {
+    public void createSaveMail() throws InterruptedException, UnknownDriverTypeException {
         drafts = login.createMail().createAndSaveMail(new Letter());
         boolean mailSaved = drafts.isMaleSaved();
         Assert.assertTrue(mailSaved, "The draft mail is not present in Drafts");

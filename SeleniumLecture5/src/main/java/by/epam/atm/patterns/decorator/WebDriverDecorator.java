@@ -6,12 +6,16 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.interactions.HasInputDevices;
+import org.openqa.selenium.interactions.Keyboard;
+import org.openqa.selenium.interactions.Mouse;
+import org.openqa.selenium.remote.*;
 import org.testng.Reporter;
 
 import java.util.List;
 import java.util.Set;
 
-public class WebDriverDecorator implements WebDriver {
+public class WebDriverDecorator implements WebDriver{
 
     protected WebDriver driver;
 
@@ -20,7 +24,7 @@ public class WebDriverDecorator implements WebDriver {
     }
 
     public void get(String s) {
-         driver.get(s);
+        driver.get(s);
     }
 
     public String getCurrentUrl() {
@@ -52,6 +56,11 @@ public class WebDriverDecorator implements WebDriver {
         jsExec.executeScript(script);
     }
 
+    public Actions createAction(){
+        Actions action = new Actions(driver);
+        return action;
+    }
+
     public String getPageSource() {
         return driver.getPageSource();
     }
@@ -61,7 +70,7 @@ public class WebDriverDecorator implements WebDriver {
     }
 
     public void quit() {
-       driver.quit();
+        driver.quit();
     }
 
     public Set<String> getWindowHandles() {
@@ -83,4 +92,5 @@ public class WebDriverDecorator implements WebDriver {
     public Options manage() {
         return driver.manage();
     }
+
 }

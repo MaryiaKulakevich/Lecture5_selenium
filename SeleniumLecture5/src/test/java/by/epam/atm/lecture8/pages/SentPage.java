@@ -1,5 +1,6 @@
 package by.epam.atm.lecture8.pages;
 
+import by.epam.atm.patterns.decorator.WebDriverDecorator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -33,7 +34,8 @@ public class SentPage extends AbstractPage {
     }
 
     public void removeMailFromSent() {
-        new Actions(driver).dragAndDrop(sentMail.get(0), bin).build().perform();
+
+        ((WebDriverDecorator)driver).createAction().dragAndDrop(sentMail.get(0), bin).build().perform();
     }
 
     public void logout() {
