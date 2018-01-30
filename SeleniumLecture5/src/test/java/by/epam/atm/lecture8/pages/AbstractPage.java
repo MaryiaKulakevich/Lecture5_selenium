@@ -1,8 +1,9 @@
 package by.epam.atm.lecture8.pages;
 
 
-import by.epam.atm.lecture8.utiles.CustomWaiter;
-import by.epam.atm.lecture8.utiles.HighlightAndScreenshot;
+import by.epam.atm.patterns.decorator.WebDriverDecorator;
+import by.epam.atm.patterns.utiles.CustomWaiter;
+import by.epam.atm.patterns.utiles.HighlightAndScreenshot;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.PageFactory;
 
@@ -20,7 +21,7 @@ public abstract class AbstractPage {
         return element.size() > 0;
     }
 
-    public CustomWaiter explicitTimeout() { return new CustomWaiter(driver, 10);
+    public CustomWaiter explicitTimeout() { return new CustomWaiter(driver, 15);
     }
 
     public void highlightElement(WebElement element) {

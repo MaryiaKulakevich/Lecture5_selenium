@@ -18,6 +18,7 @@ public class LoggedInPage extends AbstractPage{
     }
 
     public boolean isLoginSuccessful() {
+        explicitTimeout().waitUntilVisible(loginSuccessful);
         return isElementPresent(loginSuccessful);
     }
 

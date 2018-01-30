@@ -1,8 +1,11 @@
 package by.epam.atm.patterns.decorator;
 
+import by.epam.atm.patterns.utiles.HighlightAndScreenshot;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Reporter;
 
 import java.util.List;
@@ -28,16 +31,25 @@ public class WebDriverDecorator implements WebDriver {
         return driver.getTitle();
     }
 
-    public List<WebElement> findElements(By by) {
+    public List<WebElement> findElements(By by)  {
         Reporter.log(String.format("Finding element: %s, current URL: '%s'", by.toString(), driver.getCurrentUrl()),
                 true);
+        HighlightAndScreenshot.makeScreenshot(driver);
+//        HighlightAndScreenshot.highlightElement(driver.findElement(by), driver);
         return driver.findElements(by);
     }
 
     public WebElement findElement(By by) {
         Reporter.log(String.format("Finding element: %s, current URL: '%s'", by.toString(), driver.getCurrentUrl()),
                 true);
+        HighlightAndScreenshot.makeScreenshot(driver);;
+//        HighlightAndScreenshot.highlightElement(driver.findElement(by), driver);
         return driver.findElement(by);
+    }
+
+    public void scriptExecutor(String script){
+        JavascriptExecutor jsExec = (JavascriptExecutor) driver;
+        jsExec.executeScript(script);
     }
 
     public String getPageSource() {
