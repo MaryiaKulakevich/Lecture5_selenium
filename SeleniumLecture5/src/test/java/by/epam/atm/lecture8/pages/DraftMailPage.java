@@ -21,7 +21,6 @@ public class DraftMailPage extends AbstractPage {
 
     public boolean isBodyCorrect() {
         driver.switchTo().frame(0);
-//        highlightElement(checkBody.get(0));
         return isElementPresent(checkBody);
     }
 
@@ -31,7 +30,7 @@ public class DraftMailPage extends AbstractPage {
         ((WebDriverDecorator)driver).scriptExecutor("document.querySelector(\"div#b-toolbar__right div[data-name='send']\").click()");
 
         //Enter Drafts again
-        explicitTimeout().waitUntilClickable(emailDraftsEnter2);
+        explicitTimeout(5).waitUntilClickable(emailDraftsEnter2);
         emailDraftsEnter2.click();
 
         return new DraftsPage(driver);}

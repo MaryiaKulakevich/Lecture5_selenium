@@ -10,14 +10,16 @@ import java.util.concurrent.TimeUnit;
 public class ChromeDriverCreator implements WebDriverFactory {
 
     private WebDriver driver;
-    private CustomWaiter timeout;
+    private CustomWaiter waiter;
+    private long time = 10;
 
     public WebDriver createWebDriver() {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized");
         driver = new ChromeDriver(options);
-        timeout = new CustomWaiter(driver,10);
+        waiter = new CustomWaiter(driver,time);
+        waiter.waitImplicitly();
         return driver;
     }
 }

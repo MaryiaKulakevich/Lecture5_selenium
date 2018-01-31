@@ -20,11 +20,6 @@ public abstract class AbstractPage {
         return element.size() > 0;
     }
 
-    public CustomWaiter explicitTimeout() { return new CustomWaiter(driver, 15);
+    public CustomWaiter explicitTimeout(long time) { return new CustomWaiter(driver, time);
     }
-
-    public void highlightElement(WebElement element) {
-        HighlightAndScreenshot.highlightElement(element, driver);
-    }
-
 }

@@ -36,7 +36,6 @@ public class CreateMailPage extends AbstractPage {
         emailSubjectField.sendKeys(letter.getSubject());
 
         //Switch to body, enter body text and save the draft
-
         ((WebDriverDecorator)driver).createAction()
                 .sendKeys(emailSubjectField, Keys.TAB)
                 .sendKeys(letter.getBody()).keyDown(Keys.CONTROL).sendKeys("s")
@@ -44,7 +43,7 @@ public class CreateMailPage extends AbstractPage {
                 .build().perform();
 
         //Wait until the mail is saved
-        explicitTimeout().waitUntilVisible(mailSaved);
+        explicitTimeout(10).waitUntilVisible(mailSaved);
 
         //Enter Drafts
         emailDraftsEnter.click();

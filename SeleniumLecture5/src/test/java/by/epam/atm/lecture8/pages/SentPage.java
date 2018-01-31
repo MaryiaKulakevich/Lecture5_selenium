@@ -23,12 +23,12 @@ public class SentPage extends AbstractPage {
     }
 
     public boolean isMaleSent() {
-//        highlightElement(sentMail.get(0));
+        ((WebDriverDecorator)driver).highlightElement(sentMail.get(0));
         return isElementPresent(sentMail);
     }
 
     public boolean isMailRemoved() {
-        explicitTimeout().waitUntilInvisible(sentMail);
+        explicitTimeout(10).waitUntilInvisible(sentMail);
         return isElementPresent(sentMail);
     }
 

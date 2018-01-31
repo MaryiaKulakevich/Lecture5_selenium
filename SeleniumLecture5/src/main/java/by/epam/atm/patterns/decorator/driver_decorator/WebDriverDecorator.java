@@ -42,7 +42,7 @@ public class WebDriverDecorator implements WebDriver{
     public WebElement findElement(By by) {
         Reporter.log(String.format("Finding element: %s, current URL: '%s'", by.toString(), driver.getCurrentUrl()),
                 true);
-        MakeScreenshot.makeScreenshot(driver);;
+        MakeScreenshot.makeScreenshot(driver);
         return driver.findElement(by);
     }
 
@@ -54,6 +54,10 @@ public class WebDriverDecorator implements WebDriver{
     public Actions createAction(){
         Actions action = new Actions(driver);
         return action;
+    }
+
+    public void highlightElement(WebElement element) {
+        HighlightAndScreenshot.highlightElement(element, driver);
     }
 
     public String getPageSource() {

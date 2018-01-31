@@ -18,7 +18,7 @@ public class CustomWaiter {
         this.time=time;
     }
 
-    public void waitImplicitly(WebDriver driver, long time){
+    public void waitImplicitly(){
      driver.manage().timeouts().implicitlyWait(time,TimeUnit.SECONDS);}
 
     public void waitUntilVisible(List<WebElement> elements){

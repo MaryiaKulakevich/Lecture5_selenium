@@ -25,7 +25,6 @@ public class DraftsPage extends AbstractPage {
     }
 
     public boolean isMaleSaved() {
-//        highlightElement(savedMail.get(0));
         return isElementPresent(savedMail);
     }
 
@@ -43,7 +42,7 @@ public class DraftsPage extends AbstractPage {
     }
 
     public boolean isMailPresent() {
-        explicitTimeout().waitUntilInvisible(savedMail);
+        explicitTimeout(10).waitUntilInvisible(savedMail);
         return isElementPresent(savedMail);
     }
 
