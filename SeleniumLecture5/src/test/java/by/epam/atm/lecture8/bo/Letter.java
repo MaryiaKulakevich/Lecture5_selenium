@@ -1,6 +1,6 @@
 package by.epam.atm.lecture8.bo;
 
-import by.epam.atm.patterns.utiles.AddNumberToString;
+import by.epam.atm.patterns.decorator.string_decorator.AddNumberToString;
 
 public class Letter {
 

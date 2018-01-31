@@ -1,7 +1,6 @@
 package by.epam.atm.lecture8.pages;
 
-import by.epam.atm.patterns.decorator.WebDriverDecorator;
-import org.openqa.selenium.JavascriptExecutor;
+import by.epam.atm.patterns.decorator.driver_decorator.WebDriverDecorator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

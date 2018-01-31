@@ -14,7 +14,7 @@ public class FireFoxDriverCreator implements WebDriverFactory {
         FirefoxOptions options = new FirefoxOptions();
         options.addArguments("start-maximized");
         WebDriver driver = new FirefoxDriver(options);
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         return driver;
     }
 }

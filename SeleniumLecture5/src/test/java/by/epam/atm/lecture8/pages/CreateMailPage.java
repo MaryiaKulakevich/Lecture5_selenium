@@ -1,7 +1,7 @@
 package by.epam.atm.lecture8.pages;
 
 import by.epam.atm.lecture8.bo.Letter;
-import by.epam.atm.patterns.decorator.WebDriverDecorator;
+import by.epam.atm.patterns.decorator.driver_decorator.WebDriverDecorator;
 import by.epam.atm.patterns.singleton.UnknownDriverTypeException;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;

@@ -1,4 +1,4 @@
-package by.epam.atm.patterns.utiles;
+package by.epam.atm.patterns.decorator.string_decorator;
 
 import java.util.Random;
 

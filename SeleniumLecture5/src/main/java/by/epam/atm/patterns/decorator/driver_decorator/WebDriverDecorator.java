@@ -1,15 +1,12 @@
-package by.epam.atm.patterns.decorator;
+package by.epam.atm.patterns.decorator.driver_decorator;
 
-import by.epam.atm.patterns.utiles.HighlightAndScreenshot;
+import by.epam.atm.utiles.HighlightAndScreenshot;
+import by.epam.atm.utiles.MakeScreenshot;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.interactions.HasInputDevices;
-import org.openqa.selenium.interactions.Keyboard;
-import org.openqa.selenium.interactions.Mouse;
-import org.openqa.selenium.remote.*;
 import org.testng.Reporter;
 
 import java.util.List;
@@ -38,16 +35,14 @@ public class WebDriverDecorator implements WebDriver{
     public List<WebElement> findElements(By by)  {
         Reporter.log(String.format("Finding element: %s, current URL: '%s'", by.toString(), driver.getCurrentUrl()),
                 true);
-        HighlightAndScreenshot.makeScreenshot(driver);
-//        HighlightAndScreenshot.highlightElement(driver.findElement(by), driver);
+        MakeScreenshot.makeScreenshot(driver);
         return driver.findElements(by);
     }
 
     public WebElement findElement(By by) {
         Reporter.log(String.format("Finding element: %s, current URL: '%s'", by.toString(), driver.getCurrentUrl()),
                 true);
-        HighlightAndScreenshot.makeScreenshot(driver);;
-//        HighlightAndScreenshot.highlightElement(driver.findElement(by), driver);
+        MakeScreenshot.makeScreenshot(driver);;
         return driver.findElement(by);
     }
 
