@@ -1,11 +1,9 @@
 package by.epam.atm.patterns.factorymethod;
 
-import by.epam.atm.utiles.CustomWaiter;
+import by.epam.atm.patterns.staticfactory.CustomWaiter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-
-import java.util.concurrent.TimeUnit;
 
 public class FireFoxDriverCreator implements WebDriverFactory {
 
@@ -19,8 +17,7 @@ public class FireFoxDriverCreator implements WebDriverFactory {
         FirefoxOptions options = new FirefoxOptions();
         options.addArguments("start-maximized");
         driver = new FirefoxDriver(options);
-        waiter = new CustomWaiter(driver,time);
-        waiter.waitImplicitly();
+        CustomWaiter.waitImplicitly(driver, time);
         return driver;
     }
 }

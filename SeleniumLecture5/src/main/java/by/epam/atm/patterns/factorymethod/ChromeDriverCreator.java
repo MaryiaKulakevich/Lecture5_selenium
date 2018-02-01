@@ -1,11 +1,9 @@
 package by.epam.atm.patterns.factorymethod;
 
-import by.epam.atm.utiles.CustomWaiter;
+import by.epam.atm.patterns.staticfactory.CustomWaiter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-
-import java.util.concurrent.TimeUnit;
 
 public class ChromeDriverCreator implements WebDriverFactory {
 
@@ -18,8 +16,7 @@ public class ChromeDriverCreator implements WebDriverFactory {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized");
         driver = new ChromeDriver(options);
-        waiter = new CustomWaiter(driver,time);
-        waiter.waitImplicitly();
+        CustomWaiter.waitImplicitly(driver, time);
         return driver;
     }
 }
