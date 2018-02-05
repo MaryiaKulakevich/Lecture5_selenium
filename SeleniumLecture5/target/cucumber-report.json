@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Mail login",
+        "description": "",
+        "id": "mail-basic-tests;mail-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1402260217,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to mail home page",
+            "match": {
+              "location": "MailLoginSteps.userNavigatesToMailHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 323940070,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters credentials and clicks enter button",
+            "match": {
+              "location": "MailLoginSteps.userEntersCredentialsAndClicksEnterButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3872757090,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is logged in to his account",
+            "match": {
+              "location": "MailLoginSteps.userIsLoggedInToHisAccount()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Mail basic tests",
+    "description": "",
+    "id": "mail-basic-tests",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features_cucumber/mail_tests.feature"
+  }
+]
