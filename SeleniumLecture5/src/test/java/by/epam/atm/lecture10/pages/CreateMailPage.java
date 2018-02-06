@@ -29,7 +29,7 @@ public class CreateMailPage extends AbstractPage {
         super(driver);
     }
 
-    public DraftsPage createAndSaveMail(Letter letter) throws UnknownDriverTypeException {
+    public DraftsPage createAndSaveMail(Letter letter)  {
         //Enter To value
         emailToField.sendKeys(letter.getRecipient());
 

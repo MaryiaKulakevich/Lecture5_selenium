@@ -5,7 +5,7 @@ import by.epam.atm.patterns.decorator.string_decorator.AddNumberToString;
 public class Letter {
 
     private static final String TO = "mentee2017@mail.ru";
-    private static final String SUBJECT = "lecture10 selenium";
+    private static String subject= "lecture10 selenium";
     private static final String BODY = "Automation mentoring program";
 
     public String getRecipient() {
@@ -13,7 +13,11 @@ public class Letter {
     }
 
     public String getSubject() {
-        return SUBJECT;
+        return subject;
+    }
+
+    public static void setSubject(String string){
+       subject=string;
     }
 
     public String getBody() {

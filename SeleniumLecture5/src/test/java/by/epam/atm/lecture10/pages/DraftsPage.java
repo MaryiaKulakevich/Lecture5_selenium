@@ -9,7 +9,7 @@ import java.util.List;
 
 public class DraftsPage extends AbstractPage {
 
-    @FindBy(xpath = "//a[@data-subject='lecture10 selenium']")
+    @FindBy(xpath = "//a[@data-subject='lecture9 selenium']")
     private List<WebElement> savedMail;
 
     @FindBy(xpath = "//div[text()='mentee2017@mail.ru']")

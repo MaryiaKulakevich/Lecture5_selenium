@@ -18,7 +18,7 @@ import static by.epam.atm.patterns.singleton.WebDriverType.CHROME;
 
 public class MailDriverCucumberTestNgTest extends AbstractTestNGCucumberTests {
 
-    private static WebDriver driver;
+    protected static WebDriver driver;
 
     @BeforeClass(description = "Start browser")
     public void startBrowser() throws UnknownDriverTypeException {
@@ -26,10 +26,10 @@ public class MailDriverCucumberTestNgTest extends AbstractTestNGCucumberTests {
         driver = new WebDriverDecorator(driver);
     }
 
-    @AfterClass(description = "Log out and close browser")
-    public void logOffStopBrowser() {
-        new SentPage(driver).logout();
-        driver.quit();
-        System.out.println("Browser was successfully quited.");
-    }
+//    @AfterClass(description = "Log out and close browser")
+//    public void logOffStopBrowser() {
+//        new SentPage(driver).logout();
+//        driver.quit();
+//        System.out.println("Browser was successfully quited.");
+//    }
 }

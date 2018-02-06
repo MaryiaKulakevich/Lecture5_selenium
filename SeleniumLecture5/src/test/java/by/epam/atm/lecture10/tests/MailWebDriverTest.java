@@ -40,7 +40,7 @@ public class MailWebDriverTest {
 
     @Test(description = "Creation of an email, saving it to Drafts, check that the mail is saved", dependsOnMethods = {
             "login"})
-    public void createSaveMail() throws UnknownDriverTypeException {
+    public void createSaveMail(){
         drafts = login.createMail().createAndSaveMail(new Letter());
         boolean mailSaved = drafts.isMaleSaved();
         Assert.assertTrue(mailSaved, "The draft mail is not present in Drafts");
