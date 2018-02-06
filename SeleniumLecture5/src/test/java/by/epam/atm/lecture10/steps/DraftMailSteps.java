@@ -13,11 +13,11 @@ import org.testng.Assert;
 public class DraftMailSteps extends MailDriverCucumberTestNgTest {
 
     private DraftsPage drafts;
-    private DraftMailPage draft;
+    private static DraftMailPage draft;
 
     @Given("^user navigates to Drafts folder$")
     public void userNavigatesToDraftsFolder(){
-       drafts = new DraftsPage(driver);
+        drafts = new DraftsPage(driver);
     }
 
     @When("^user opens the saved mail$")
@@ -34,7 +34,7 @@ public class DraftMailSteps extends MailDriverCucumberTestNgTest {
 
     @When("^clicks send button$")
     public void clicksSendButton()  {
-      drafts = draft.sendMailGoDraftsAgain();
+        drafts = draft.sendMailGoDraftsAgain();
     }
 
     @Then("^the mail disappears from Drafts$")

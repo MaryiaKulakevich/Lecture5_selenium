@@ -13,7 +13,7 @@ Then  user is logged in to his account
 Scenario Outline: Create a mail
 Given user creates a new mail
 When user fills in addressee, "<subject>", body and keys CTRL_S in
-Then the mail is saved in Drafts with "<subject>"
+Then the mail is saved in Drafts
 And addressee is correct
 
 Examples:
@@ -24,11 +24,10 @@ Examples:
 #  Scenario: Check body message
 #  When user opens the saved mail
 #  Then the message body is correct
-
- @smokeTest
- Scenario: Send mail
- When user opens the saved mail
- When clicks send button
- Then the mail disappears from Drafts
- And appears in Sent
+#
+# @smokeTest
+# Scenario: Send mail
+# When clicks send button
+# Then the mail disappears from Drafts
+# And appears in Sent
 

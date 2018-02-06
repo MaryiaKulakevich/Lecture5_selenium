@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 104390372,
+              "duration": 154153386,
               "status": "passed"
             },
             "line": 4,
@@ -33,7 +33,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1216559981,
+              "duration": 1467162027,
               "status": "passed"
             },
             "line": 8,
@@ -45,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 1658427968,
+              "duration": 1678108160,
               "status": "passed"
             },
             "line": 9,
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 25083773357,
+              "duration": 6222769494,
               "status": "passed"
             },
             "line": 10,
@@ -84,7 +84,7 @@
         "steps": [
           {
             "result": {
-              "duration": 315362,
+              "duration": 245760,
               "status": "passed"
             },
             "line": 4,
@@ -106,7 +106,7 @@
         "steps": [
           {
             "result": {
-              "duration": 866008533,
+              "duration": 835682133,
               "status": "passed"
             },
             "line": 14,
@@ -118,7 +118,7 @@
           },
           {
             "result": {
-              "duration": 3350184148,
+              "duration": 3548216320,
               "status": "passed"
             },
             "line": 15,
@@ -139,28 +139,19 @@
           },
           {
             "result": {
-              "duration": 474377316,
+              "duration": 551976107,
               "status": "passed"
             },
             "line": 16,
-            "name": "the mail is saved in Drafts with \"lecture9 selenium\"",
+            "name": "the mail is saved in Drafts",
             "match": {
-              "arguments": [
-                {
-                  "val": "lecture9 selenium",
-                  "offset": 34
-                }
-              ],
-              "location": "CreateMailSteps.theMailIsSavedInDraftsWith(String)"
+              "location": "CreateMailSteps.theMailIsSavedInDraftsWith()"
             },
-            "matchedColumns": [
-              0
-            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 351535476,
+              "duration": 336802133,
               "status": "passed"
             },
             "line": 17,
@@ -174,109 +165,6 @@
         "tags": [
           {
             "line": 12,
-            "name": "@smokeTest"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 253782,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user navigates to Drafts folder",
-            "match": {
-              "location": "DraftMailSteps.userNavigatesToDraftsFolder()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "comments": [
-          {
-            "line": 23,
-            "value": "#@smokeTest"
-          },
-          {
-            "line": 24,
-            "value": "#  Scenario: Check body message"
-          },
-          {
-            "line": 25,
-            "value": "#  When user opens the saved mail"
-          },
-          {
-            "line": 26,
-            "value": "#  Then the message body is correct"
-          }
-        ],
-        "line": 29,
-        "name": "Send mail",
-        "description": "",
-        "id": "mail-basic-tests;send-mail",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 629113310,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "user opens the saved mail",
-            "match": {
-              "location": "DraftMailSteps.userOpensTheSavedMail()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2130396217,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "clicks send button",
-            "match": {
-              "location": "DraftMailSteps.clicksSendButton()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 20796814285,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "the mail disappears from Drafts",
-            "match": {
-              "location": "DraftMailSteps.theMailDisappearsFromDrafts()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1510884027,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "appears in Sent",
-            "match": {
-              "location": "DraftMailSteps.appearsInSent()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 28,
             "name": "@smokeTest"
           }
         ]

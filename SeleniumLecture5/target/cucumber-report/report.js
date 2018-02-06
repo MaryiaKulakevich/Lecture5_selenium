@@ -22,7 +22,7 @@ formatter.match({
   "location": "DraftMailSteps.userNavigatesToDraftsFolder()"
 });
 formatter.result({
-  "duration": 104390372,
+  "duration": 154153386,
   "status": "passed"
 });
 formatter.scenario({
@@ -58,21 +58,21 @@ formatter.match({
   "location": "MailLoginSteps.userNavigatesToMailHomePage()"
 });
 formatter.result({
-  "duration": 1216559981,
+  "duration": 1467162027,
   "status": "passed"
 });
 formatter.match({
   "location": "MailLoginSteps.userEntersCredentialsAndClicksEnterButton()"
 });
 formatter.result({
-  "duration": 1658427968,
+  "duration": 1678108160,
   "status": "passed"
 });
 formatter.match({
   "location": "MailLoginSteps.userIsLoggedInToHisAccount()"
 });
 formatter.result({
-  "duration": 25083773357,
+  "duration": 6222769494,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -101,7 +101,7 @@ formatter.step({
 });
 formatter.step({
   "line": 16,
-  "name": "the mail is saved in Drafts with \"\u003csubject\u003e\"",
+  "name": "the mail is saved in Drafts",
   "keyword": "Then "
 });
 formatter.step({
@@ -148,7 +148,7 @@ formatter.match({
   "location": "DraftMailSteps.userNavigatesToDraftsFolder()"
 });
 formatter.result({
-  "duration": 315362,
+  "duration": 245760,
   "status": "passed"
 });
 formatter.scenario({
@@ -180,10 +180,7 @@ formatter.step({
 });
 formatter.step({
   "line": 16,
-  "name": "the mail is saved in Drafts with \"lecture9 selenium\"",
-  "matchedColumns": [
-    0
-  ],
+  "name": "the mail is saved in Drafts",
   "keyword": "Then "
 });
 formatter.step({
@@ -195,7 +192,7 @@ formatter.match({
   "location": "CreateMailSteps.userCreatesANewMail()"
 });
 formatter.result({
-  "duration": 866008533,
+  "duration": 835682133,
   "status": "passed"
 });
 formatter.match({
@@ -208,126 +205,21 @@ formatter.match({
   "location": "CreateMailSteps.userFillsInAddresseeBodyAndKeysCTRL_SIn(String)"
 });
 formatter.result({
-  "duration": 3350184148,
+  "duration": 3548216320,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "lecture9 selenium",
-      "offset": 34
-    }
-  ],
-  "location": "CreateMailSteps.theMailIsSavedInDraftsWith(String)"
+  "location": "CreateMailSteps.theMailIsSavedInDraftsWith()"
 });
 formatter.result({
-  "duration": 474377316,
+  "duration": 551976107,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateMailSteps.addresseeIsCorrect()"
 });
 formatter.result({
-  "duration": 351535476,
-  "status": "passed"
-});
-formatter.background({
-  "line": 3,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 4,
-  "name": "user navigates to Drafts folder",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "DraftMailSteps.userNavigatesToDraftsFolder()"
-});
-formatter.result({
-  "duration": 253782,
-  "status": "passed"
-});
-formatter.scenario({
-  "comments": [
-    {
-      "line": 23,
-      "value": "#@smokeTest"
-    },
-    {
-      "line": 24,
-      "value": "#  Scenario: Check body message"
-    },
-    {
-      "line": 25,
-      "value": "#  When user opens the saved mail"
-    },
-    {
-      "line": 26,
-      "value": "#  Then the message body is correct"
-    }
-  ],
-  "line": 29,
-  "name": "Send mail",
-  "description": "",
-  "id": "mail-basic-tests;send-mail",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 28,
-      "name": "@smokeTest"
-    }
-  ]
-});
-formatter.step({
-  "line": 30,
-  "name": "user opens the saved mail",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 31,
-  "name": "clicks send button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 32,
-  "name": "the mail disappears from Drafts",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 33,
-  "name": "appears in Sent",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "DraftMailSteps.userOpensTheSavedMail()"
-});
-formatter.result({
-  "duration": 629113310,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DraftMailSteps.clicksSendButton()"
-});
-formatter.result({
-  "duration": 2130396217,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DraftMailSteps.theMailDisappearsFromDrafts()"
-});
-formatter.result({
-  "duration": 20796814285,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DraftMailSteps.appearsInSent()"
-});
-formatter.result({
-  "duration": 1510884027,
+  "duration": 336802133,
   "status": "passed"
 });
 });

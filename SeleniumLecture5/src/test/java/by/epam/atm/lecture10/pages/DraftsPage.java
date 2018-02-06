@@ -1,6 +1,8 @@
 package by.epam.atm.lecture10.pages;
 
+import by.epam.atm.lecture10.bo.Letter;
 import by.epam.atm.patterns.staticfactory.CustomWaiter;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,8 +11,11 @@ import java.util.List;
 
 public class DraftsPage extends AbstractPage {
 
-    @FindBy(xpath = "//a[@data-subject='lecture9 selenium']")
+//    @FindBy(xpath = "//a[@data-subject='lecture9 selenium']")
+//    private List<WebElement> savedMail;
+
     private List<WebElement> savedMail;
+    private String CHECK_MAIL_AVAILABILITY = String.format("//a[@data-subject='%s']", new Letter().getSubject());
 
     @FindBy(xpath = "//div[text()='mentee2017@mail.ru']")
     private List<WebElement> checkAddressee;
@@ -23,6 +28,7 @@ public class DraftsPage extends AbstractPage {
     }
 
     public boolean isMaleSaved() {
+        savedMail = driver.findElements(By.xpath(CHECK_MAIL_AVAILABILITY));
         return isElementPresent(savedMail);
     }
 

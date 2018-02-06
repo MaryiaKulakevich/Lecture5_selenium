@@ -12,8 +12,7 @@ public class Letter {
         return TO;
     }
 
-    public String getSubject() {
-        return subject;
+    public String getSubject() {return subject;
     }
 
     public static void setSubject(String string){

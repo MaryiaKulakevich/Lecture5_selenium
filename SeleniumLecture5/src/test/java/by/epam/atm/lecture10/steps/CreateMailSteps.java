@@ -34,8 +34,8 @@ public class CreateMailSteps extends MailDriverCucumberTestNgTest {
     }
 
 
-    @Then("^the mail is saved in Drafts with \"([^\"]*)\"$")
-    public void theMailIsSavedInDraftsWith(String subject) {
+    @Then("^the mail is saved in Drafts$")
+    public void theMailIsSavedInDraftsWith() {
         boolean mailSaved = drafts.isMaleSaved();
         Assert.assertTrue(mailSaved, "The draft mail is not present in Drafts");
         System.out.println("The draft mail is present in Drafts");
