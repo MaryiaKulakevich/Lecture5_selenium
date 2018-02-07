@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 154153386,
+              "duration": 10563818186,
               "status": "passed"
             },
             "line": 4,
@@ -33,7 +33,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1467162027,
+              "duration": 1103988818,
               "status": "passed"
             },
             "line": 8,
@@ -45,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 1678108160,
+              "duration": 1663067167,
               "status": "passed"
             },
             "line": 9,
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 6222769494,
+              "duration": 4453028733,
               "status": "passed"
             },
             "line": 10,
@@ -84,7 +84,7 @@
         "steps": [
           {
             "result": {
-              "duration": 245760,
+              "duration": 10329086013,
               "status": "passed"
             },
             "line": 4,
@@ -106,7 +106,7 @@
         "steps": [
           {
             "result": {
-              "duration": 835682133,
+              "duration": 780185361,
               "status": "passed"
             },
             "line": 14,
@@ -118,7 +118,7 @@
           },
           {
             "result": {
-              "duration": 3548216320,
+              "duration": 3916033778,
               "status": "passed"
             },
             "line": 15,
@@ -139,7 +139,7 @@
           },
           {
             "result": {
-              "duration": 551976107,
+              "duration": 183467,
               "status": "passed"
             },
             "line": 16,
@@ -151,7 +151,7 @@
           },
           {
             "result": {
-              "duration": 336802133,
+              "duration": 325510976,
               "status": "passed"
             },
             "line": 17,
@@ -165,6 +165,235 @@
         "tags": [
           {
             "line": 12,
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 328560359,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to Drafts folder",
+            "match": {
+              "location": "DraftMailSteps.userNavigatesToDraftsFolder()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Create a mail",
+        "description": "",
+        "id": "mail-basic-tests;create-a-mail;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 586898272,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user creates a new mail",
+            "match": {
+              "location": "CreateMailSteps.userCreatesANewMail()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3519469210,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user fills in addressee, \"lecture10 selenium\", body and keys CTRL_S in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lecture10 selenium",
+                  "offset": 26
+                }
+              ],
+              "location": "CreateMailSteps.userFillsInAddresseeBodyAndKeysCTRL_SIn(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40960,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the mail is saved in Drafts",
+            "match": {
+              "location": "CreateMailSteps.theMailIsSavedInDraftsWith()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 335618700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "addressee is correct",
+            "match": {
+              "location": "CreateMailSteps.addresseeIsCorrect()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 332117903,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to Drafts folder",
+            "match": {
+              "location": "DraftMailSteps.userNavigatesToDraftsFolder()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Check body message",
+        "description": "",
+        "id": "mail-basic-tests;check-body-message",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 239909342,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user opens the saved mail",
+            "match": {
+              "location": "DraftMailSteps.userOpensTheSavedMail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 992163420,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the message body is correct",
+            "match": {
+              "location": "DraftMailSteps.theMessageBodyIsCorrect()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10346381785,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to Drafts folder",
+            "match": {
+              "location": "DraftMailSteps.userNavigatesToDraftsFolder()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Send mail",
+        "description": "",
+        "id": "mail-basic-tests;send-mail",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11975906581,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "clicks send button",
+            "match": {
+              "location": "DraftMailSteps.clicksSendButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3007144,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the mail disappears from Drafts",
+            "match": {
+              "location": "DraftMailSteps.theMailDisappearsFromDrafts()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10795090948,
+              "error_message": "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0\r\n\tat java.util.ArrayList.rangeCheck(ArrayList.java:653)\r\n\tat java.util.ArrayList.get(ArrayList.java:429)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)\r\n\tat com.sun.proxy.$Proxy18.get(Unknown Source)\r\n\tat by.epam.atm.lecture10.pages.SentPage.isMaleSent(SentPage.java:27)\r\n\tat by.epam.atm.lecture10.steps.DraftMailSteps.appearsInSent(DraftMailSteps.java:49)\r\n\tat ✽.And appears in Sent(src/test/resources/features_cucumber/mail_tests.feature:33)\r\n",
+              "status": "failed"
+            },
+            "line": 33,
+            "name": "appears in Sent",
+            "match": {
+              "location": "DraftMailSteps.appearsInSent()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 29,
             "name": "@smokeTest"
           }
         ]

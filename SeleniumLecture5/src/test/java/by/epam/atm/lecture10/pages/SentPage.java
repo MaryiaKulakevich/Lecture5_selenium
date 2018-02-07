@@ -10,7 +10,7 @@ import java.util.List;
 
 public class SentPage extends AbstractPage {
 
-    @FindBy(xpath = "//a[@data-subject='lecture9 selenium']")
+    @FindBy(xpath = "//div[@data-cache-key='500000_undefined_false']//a[@data-subject='lecture9 selenium' ]")
     private List<WebElement> sentMail;
 
     @FindBy(xpath = "//div[@id='b-nav_folders']//a[@href='/messages/trash/']")

@@ -19,15 +19,16 @@ And addressee is correct
 Examples:
 | subject     |
 | lecture9 selenium   |
+| lecture10 selenium   |
 
-#@smokeTest
-#  Scenario: Check body message
-#  When user opens the saved mail
-#  Then the message body is correct
-#
-# @smokeTest
-# Scenario: Send mail
-# When clicks send button
-# Then the mail disappears from Drafts
-# And appears in Sent
+@smokeTest
+ Scenario: Check body message
+ When user opens the saved mail
+ Then the message body is correct
+
+ @smokeTest
+ Scenario: Send mail
+ When clicks send button
+ Then the mail disappears from Drafts
+ And appears in Sent
 

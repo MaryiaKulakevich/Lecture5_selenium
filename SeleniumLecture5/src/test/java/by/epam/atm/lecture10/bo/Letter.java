@@ -6,7 +6,7 @@ public class Letter {
 
     private static final String TO = "mentee2017@mail.ru";
     private static String subject= "lecture10 selenium";
-    private static final String BODY = "Automation mentoring program";
+    private static final String BODY = "Automation program";
 
     public String getRecipient() {
         return TO;

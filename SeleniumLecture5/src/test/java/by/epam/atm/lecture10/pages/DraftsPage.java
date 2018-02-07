@@ -14,8 +14,8 @@ public class DraftsPage extends AbstractPage {
 //    @FindBy(xpath = "//a[@data-subject='lecture9 selenium']")
 //    private List<WebElement> savedMail;
 
-    private List<WebElement> savedMail;
     private String CHECK_MAIL_AVAILABILITY = String.format("//a[@data-subject='%s']", new Letter().getSubject());
+    private List<WebElement> savedMail=driver.findElements(By.xpath(CHECK_MAIL_AVAILABILITY));
 
     @FindBy(xpath = "//div[text()='mentee2017@mail.ru']")
     private List<WebElement> checkAddressee;
@@ -28,7 +28,6 @@ public class DraftsPage extends AbstractPage {
     }
 
     public boolean isMaleSaved() {
-        savedMail = driver.findElements(By.xpath(CHECK_MAIL_AVAILABILITY));
         return isElementPresent(savedMail);
     }
 
