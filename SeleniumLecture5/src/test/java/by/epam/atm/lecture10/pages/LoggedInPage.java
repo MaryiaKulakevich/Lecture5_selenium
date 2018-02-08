@@ -24,6 +24,7 @@ public class LoggedInPage extends AbstractPage{
     }
 
     public CreateMailPage createMail(){
+        CustomWaiter.waitUntilClickable(driver,5, clickWriteEmailBtn);
         clickWriteEmailBtn.click();
         return new CreateMailPage(driver);
     }

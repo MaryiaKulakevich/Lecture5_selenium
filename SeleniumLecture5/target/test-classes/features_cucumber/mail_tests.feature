@@ -20,6 +20,7 @@ Examples:
 | subject     |
 | lecture9 selenium   |
 | lecture10 selenium  |
+| lecture11 selenium  |
 
 @smokeTest
  Scenario: Check body message
@@ -28,7 +29,7 @@ Examples:
 
  @smokeTest
  Scenario: Send mail
- When clicks send button
+ When user clicks send button
  Then the mail disappears from Drafts
  And appears in Sent
 
@@ -37,3 +38,9 @@ Examples:
  Given user navigates to Sent folder
  When user drags and drops the mail to the bin
  Then the male is removed from Sent
+
+ @smokeTest
+ Scenario: Remove mails from Drafts
+ Given user returns to Drafts folder
+ When user clicks select all checkbox and drags and drops 2 mails to the bin
+ Then 2 mails removed

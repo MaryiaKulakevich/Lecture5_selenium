@@ -32,8 +32,8 @@ public class DraftMailSteps extends MailDriverCucumberTestNgTest {
         System.out.println("The body message is correct");
     }
 
-    @When("^clicks send button$")
-    public void clicksSendButton()  {
+    @When("^user clicks send button$")
+    public void clickSendButton()  {
         drafts = draft.sendMailGoDraftsAgain();
     }
 
@@ -50,4 +50,5 @@ public class DraftMailSteps extends MailDriverCucumberTestNgTest {
         Assert.assertTrue(mailSent, "The mail is not present in Sent");
         System.out.println("The mail is present in Sent");
     }
+
 }

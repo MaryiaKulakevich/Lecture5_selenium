@@ -26,6 +26,9 @@ public class SentPage extends AbstractPage {
     @FindBy(id = "PH_logoutLink")
     private WebElement searchLogout;
 
+    @FindBy(xpath = "//div[@data-id='500001']//span[@class='b-nav__item__text']")
+    private WebElement emailDraftsEnter;
+
     public SentPage(WebDriver driver) {
         super(driver);
     }
@@ -45,6 +48,11 @@ public class SentPage extends AbstractPage {
         sentMail=driver.findElements(By.xpath(CHECK_MAIL_AVAILABILITY));
         CustomWaiter.waitUntilInvisible(driver, 10, sentMail);
         return isElementPresent(sentMail);
+    }
+
+    public DraftsPage goToDrafts(){
+        emailDraftsEnter.click();
+        return new DraftsPage(driver);
     }
 
     public void logout() {
