@@ -19,7 +19,7 @@ And addressee is correct
 Examples:
 | subject     |
 | lecture9 selenium   |
-| lecture10 selenium   |
+| lecture10 selenium  |
 
 @smokeTest
  Scenario: Check body message
@@ -32,3 +32,8 @@ Examples:
  Then the mail disappears from Drafts
  And appears in Sent
 
+ @smokeTest
+ Scenario: Remove the mail from Sent
+ Given user navigates to Sent folder
+ When user drags and drops the mail to the bin
+ Then the male is removed from Sent

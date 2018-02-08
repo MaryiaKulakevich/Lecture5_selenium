@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10563818186,
+              "duration": 10549629683,
               "status": "passed"
             },
             "line": 4,
@@ -33,7 +33,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1103988818,
+              "duration": 1344616176,
               "status": "passed"
             },
             "line": 8,
@@ -45,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 1663067167,
+              "duration": 1811571914,
               "status": "passed"
             },
             "line": 9,
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 4453028733,
+              "duration": 4808389061,
               "status": "passed"
             },
             "line": 10,
@@ -84,7 +84,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10329086013,
+              "duration": 10371508083,
               "status": "passed"
             },
             "line": 4,
@@ -106,7 +106,7 @@
         "steps": [
           {
             "result": {
-              "duration": 780185361,
+              "duration": 1090429235,
               "status": "passed"
             },
             "line": 14,
@@ -118,7 +118,7 @@
           },
           {
             "result": {
-              "duration": 3916033778,
+              "duration": 3609311136,
               "status": "passed"
             },
             "line": 15,
@@ -139,7 +139,7 @@
           },
           {
             "result": {
-              "duration": 183467,
+              "duration": 72776,
               "status": "passed"
             },
             "line": 16,
@@ -151,7 +151,7 @@
           },
           {
             "result": {
-              "duration": 325510976,
+              "duration": 395799654,
               "status": "passed"
             },
             "line": 17,
@@ -178,7 +178,7 @@
         "steps": [
           {
             "result": {
-              "duration": 328560359,
+              "duration": 335524486,
               "status": "passed"
             },
             "line": 4,
@@ -200,7 +200,7 @@
         "steps": [
           {
             "result": {
-              "duration": 586898272,
+              "duration": 579061590,
               "status": "passed"
             },
             "line": 14,
@@ -212,7 +212,7 @@
           },
           {
             "result": {
-              "duration": 3519469210,
+              "duration": 3421302600,
               "status": "passed"
             },
             "line": 15,
@@ -233,7 +233,7 @@
           },
           {
             "result": {
-              "duration": 40960,
+              "duration": 41364,
               "status": "passed"
             },
             "line": 16,
@@ -245,7 +245,7 @@
           },
           {
             "result": {
-              "duration": 335618700,
+              "duration": 356058773,
               "status": "passed"
             },
             "line": 17,
@@ -272,7 +272,7 @@
         "steps": [
           {
             "result": {
-              "duration": 332117903,
+              "duration": 359713114,
               "status": "passed"
             },
             "line": 4,
@@ -294,7 +294,7 @@
         "steps": [
           {
             "result": {
-              "duration": 239909342,
+              "duration": 244784245,
               "status": "passed"
             },
             "line": 26,
@@ -306,7 +306,7 @@
           },
           {
             "result": {
-              "duration": 992163420,
+              "duration": 967638711,
               "status": "passed"
             },
             "line": 27,
@@ -333,7 +333,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10346381785,
+              "duration": 10385144528,
               "status": "passed"
             },
             "line": 4,
@@ -355,7 +355,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11975906581,
+              "duration": 12047647008,
               "status": "passed"
             },
             "line": 31,
@@ -367,7 +367,7 @@
           },
           {
             "result": {
-              "duration": 3007144,
+              "duration": 3831615,
               "status": "passed"
             },
             "line": 32,
@@ -379,9 +379,8 @@
           },
           {
             "result": {
-              "duration": 10795090948,
-              "error_message": "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0\r\n\tat java.util.ArrayList.rangeCheck(ArrayList.java:653)\r\n\tat java.util.ArrayList.get(ArrayList.java:429)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)\r\n\tat com.sun.proxy.$Proxy18.get(Unknown Source)\r\n\tat by.epam.atm.lecture10.pages.SentPage.isMaleSent(SentPage.java:27)\r\n\tat by.epam.atm.lecture10.steps.DraftMailSteps.appearsInSent(DraftMailSteps.java:49)\r\n\tat ✽.And appears in Sent(src/test/resources/features_cucumber/mail_tests.feature:33)\r\n",
-              "status": "failed"
+              "duration": 1450538261,
+              "status": "passed"
             },
             "line": 33,
             "name": "appears in Sent",
@@ -394,6 +393,79 @@
         "tags": [
           {
             "line": 29,
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 407462134,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to Drafts folder",
+            "match": {
+              "location": "DraftMailSteps.userNavigatesToDraftsFolder()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "Remove the mail from Sent",
+        "description": "",
+        "id": "mail-basic-tests;remove-the-mail-from-sent",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 237921,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user navigates to Sent folder",
+            "match": {
+              "location": "RemoveMailSteps.userNavigatesToSentFolder()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2019003195,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user drags and drops the mail to the bin",
+            "match": {
+              "location": "RemoveMailSteps.userDragsAndDropsTheMailToTheBin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10444849619,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the male is removed from Sent",
+            "match": {
+              "location": "RemoveMailSteps.theMaleIsRemovedFromSent()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 35,
             "name": "@smokeTest"
           }
         ]

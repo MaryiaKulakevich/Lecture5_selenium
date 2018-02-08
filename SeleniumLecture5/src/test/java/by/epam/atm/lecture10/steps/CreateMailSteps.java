@@ -47,4 +47,5 @@ public class CreateMailSteps extends MailDriverCucumberTestNgTest {
         Assert.assertTrue(addresseeCorrect, "the addressee is wrong");
         System.out.println("The addressee is correct");
     }
+
 }
