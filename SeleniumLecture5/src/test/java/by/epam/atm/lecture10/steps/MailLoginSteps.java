@@ -22,7 +22,7 @@ public class MailLoginSteps extends MailDriverCucumberTestNgTest {
     private LoggedInPage login;
     
     @Given("^user navigates to mail home page$")
-    public void userNavigatesToMailHomePage() throws UnknownDriverTypeException {
+    public void userNavigatesToMailHomePage(){
         driver.get(URL);
     }
 

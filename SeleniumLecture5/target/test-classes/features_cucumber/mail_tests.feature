@@ -20,7 +20,7 @@ Examples:
 | subject     |
 | lecture9 selenium   |
 | lecture10 selenium  |
-| lecture11 selenium  |
+#| lecture11 selenium  |
 
 @smokeTest
  Scenario: Check body message
@@ -42,5 +42,5 @@ Examples:
  @smokeTest
  Scenario: Remove mails from Drafts
  Given user returns to Drafts folder
- When user clicks select all checkbox and drags and drops 2 mails to the bin
- Then 2 mails removed
+ When user clicks select all checkbox and drags and drops 1 mail to the bin
+ Then 1 mail removed

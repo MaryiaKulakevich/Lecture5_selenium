@@ -15,6 +15,9 @@ public class DraftsPage extends AbstractPage {
 //    @FindBy(xpath = "//a[@data-subject='lecture9 selenium']")
 //    private List<WebElement> savedMail;
 
+    /**
+     * the locator is made dynamic
+     */
     private String CHECK_MAIL_AVAILABILITY = String.format("//a[@data-subject='%s']", new Letter().getSubject());
     private List<WebElement> savedMail;
 
@@ -29,6 +32,9 @@ public class DraftsPage extends AbstractPage {
 
     @FindBy(xpath = "//div[@id='b-nav_folders']//a[@href='/messages/trash/']")
     private WebElement bin;
+
+    @FindBy(id = "PH_logoutLink")
+    private WebElement searchLogout;
 
     public DraftsPage(WebDriver driver) {
         super(driver);
@@ -51,7 +57,7 @@ public class DraftsPage extends AbstractPage {
 
     public boolean isMailPresent() {
         savedMail=driver.findElements(By.xpath(CHECK_MAIL_AVAILABILITY));
-        CustomWaiter.waitUntilInvisible(driver, 10, savedMail);
+        CustomWaiter.waitUntilInvisible(driver, 15, savedMail);
         return isElementPresent(savedMail);
     }
 
@@ -60,13 +66,34 @@ public class DraftsPage extends AbstractPage {
         return new SentPage(driver);
     }
 
+    /**
+     * The method is added to remove mails from Drafts
+     * if more than one mail with different subject was saved
+     * See Scenario Outline: Create a mail, Examples
+     */
     public void removeFromDrafts(){
+        if(isElementPresent(checkAddressee)){
         checkBoxAll.click();
-        ((WebDriverDecorator)driver).createAction().dragAndDrop(checkAddressee.get(0), bin).build().perform();
+        ((WebDriverDecorator)driver).createAction().dragAndDrop(checkAddressee.get(0), bin).build().perform();}
+        else{
+            System.out.println("No mails to remove");
+        }
     }
 
+    /**
+     * Verification of whether mails were removed from Drafts
+     */
    public boolean isNotRemoved(){
        return isElementPresent(checkAddressee);
    }
+
+    /**
+     * Make logout from Drafts page
+     */
+    public void logout() {
+        //Log out
+        searchLogout.click();
+        System.out.println("Logout");
+    }
 
 }

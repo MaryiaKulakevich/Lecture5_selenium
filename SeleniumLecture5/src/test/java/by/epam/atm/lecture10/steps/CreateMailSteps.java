@@ -33,9 +33,8 @@ public class CreateMailSteps extends MailDriverCucumberTestNgTest {
        drafts = mail.createAndSaveMail(new Letter());
     }
 
-
     @Then("^the mail is saved in Drafts$")
-    public void theMailIsSavedInDraftsWith() {
+    public void theMailIsSavedInDrafts() {
         boolean mailSaved = drafts.isMaleSaved();
         Assert.assertTrue(mailSaved, "The draft mail is not present in Drafts");
         System.out.println("The draft mail is present in Drafts");

@@ -22,7 +22,7 @@ formatter.match({
   "location": "DraftMailSteps.userNavigatesToDraftsFolder()"
 });
 formatter.result({
-  "duration": 133721486,
+  "duration": 106080077,
   "status": "passed"
 });
 formatter.scenario({
@@ -58,21 +58,21 @@ formatter.match({
   "location": "MailLoginSteps.userNavigatesToMailHomePage()"
 });
 formatter.result({
-  "duration": 1400620032,
+  "duration": 1294713117,
   "status": "passed"
 });
 formatter.match({
   "location": "MailLoginSteps.userEntersCredentialsAndClicksEnterButton()"
 });
 formatter.result({
-  "duration": 1791023111,
+  "duration": 1690797965,
   "status": "passed"
 });
 formatter.match({
   "location": "MailLoginSteps.userIsLoggedInToHisAccount()"
 });
 formatter.result({
-  "duration": 5767358918,
+  "duration": 4485619001,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -135,13 +135,6 @@ formatter.examples({
       ],
       "line": 22,
       "id": "mail-basic-tests;create-a-mail;;3"
-    },
-    {
-      "cells": [
-        "lecture11 selenium"
-      ],
-      "line": 23,
-      "id": "mail-basic-tests;create-a-mail;;4"
     }
   ],
   "keyword": "Examples"
@@ -162,7 +155,7 @@ formatter.match({
   "location": "DraftMailSteps.userNavigatesToDraftsFolder()"
 });
 formatter.result({
-  "duration": 291839,
+  "duration": 427635,
   "status": "passed"
 });
 formatter.scenario({
@@ -206,7 +199,7 @@ formatter.match({
   "location": "CreateMailSteps.userCreatesANewMail()"
 });
 formatter.result({
-  "duration": 1440609758,
+  "duration": 902282922,
   "status": "passed"
 });
 formatter.match({
@@ -219,21 +212,21 @@ formatter.match({
   "location": "CreateMailSteps.userFillsInAddresseeBodyAndKeysCTRL_SIn(String)"
 });
 formatter.result({
-  "duration": 2844859866,
+  "duration": 3536587884,
   "status": "passed"
 });
 formatter.match({
-  "location": "CreateMailSteps.theMailIsSavedInDraftsWith()"
+  "location": "CreateMailSteps.theMailIsSavedInDrafts()"
 });
 formatter.result({
-  "duration": 464130164,
+  "duration": 463067519,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateMailSteps.addresseeIsCorrect()"
 });
 formatter.result({
-  "duration": 361951265,
+  "duration": 391144801,
   "status": "passed"
 });
 formatter.background({
@@ -252,7 +245,7 @@ formatter.match({
   "location": "DraftMailSteps.userNavigatesToDraftsFolder()"
 });
 formatter.result({
-  "duration": 246186,
+  "duration": 429812,
   "status": "passed"
 });
 formatter.scenario({
@@ -296,7 +289,7 @@ formatter.match({
   "location": "CreateMailSteps.userCreatesANewMail()"
 });
 formatter.result({
-  "duration": 1267852571,
+  "duration": 615076598,
   "status": "passed"
 });
 formatter.match({
@@ -309,21 +302,21 @@ formatter.match({
   "location": "CreateMailSteps.userFillsInAddresseeBodyAndKeysCTRL_SIn(String)"
 });
 formatter.result({
-  "duration": 2483002468,
+  "duration": 3099921812,
   "status": "passed"
 });
 formatter.match({
-  "location": "CreateMailSteps.theMailIsSavedInDraftsWith()"
+  "location": "CreateMailSteps.theMailIsSavedInDrafts()"
 });
 formatter.result({
-  "duration": 612140704,
+  "duration": 431630235,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateMailSteps.addresseeIsCorrect()"
 });
 formatter.result({
-  "duration": 321739672,
+  "duration": 379361029,
   "status": "passed"
 });
 formatter.background({
@@ -342,98 +335,16 @@ formatter.match({
   "location": "DraftMailSteps.userNavigatesToDraftsFolder()"
 });
 formatter.result({
-  "duration": 275200,
+  "duration": 333090,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 23,
-  "name": "Create a mail",
-  "description": "",
-  "id": "mail-basic-tests;create-a-mail;;4",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
+  "comments": [
     {
-      "line": 12,
-      "name": "@smokeTest"
-    }
-  ]
-});
-formatter.step({
-  "line": 14,
-  "name": "user creates a new mail",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 15,
-  "name": "user fills in addressee, \"lecture11 selenium\", body and keys CTRL_S in",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 16,
-  "name": "the mail is saved in Drafts",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 17,
-  "name": "addressee is correct",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateMailSteps.userCreatesANewMail()"
-});
-formatter.result({
-  "duration": 5631452048,
-  "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (920af3e1f5b5be5c8dd9762903ade813)] -\u003e xpath: //div[@class\u003d\u0027b-sticky\u0027]//a[@data-name\u003d\u0027compose\u0027]] (tried for 5 second(s) with 500 MILLISECONDS interval)\nBuild info: version: \u00273.8.1\u0027, revision: \u00276e95a6684b\u0027, time: \u00272017-12-01T18:33:54.468Z\u0027\nSystem info: host: \u0027MASHA-HP\u0027, ip: \u0027192.168.100.6\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_131\u0027\nDriver info: by.epam.atm.patterns.decorator.driver_decorator.WebDriverDecorator\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\r\n\tat by.epam.atm.patterns.staticfactory.CustomWaiter.waitUntilClickable(CustomWaiter.java:28)\r\n\tat by.epam.atm.lecture10.pages.LoggedInPage.createMail(LoggedInPage.java:27)\r\n\tat by.epam.atm.lecture10.steps.CreateMailSteps.userCreatesANewMail(CreateMailSteps.java:27)\r\n\tat ✽.Given user creates a new mail(src/test/resources/features_cucumber/mail_tests.feature:14)\r\n",
-  "status": "failed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "lecture11 selenium",
-      "offset": 26
+      "line": 23,
+      "value": "#| lecture11 selenium  |"
     }
   ],
-  "location": "CreateMailSteps.userFillsInAddresseeBodyAndKeysCTRL_SIn(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "CreateMailSteps.theMailIsSavedInDraftsWith()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "CreateMailSteps.addresseeIsCorrect()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.background({
-  "line": 3,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 4,
-  "name": "user navigates to Drafts folder",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "DraftMailSteps.userNavigatesToDraftsFolder()"
-});
-formatter.result({
-  "duration": 361387,
-  "status": "passed"
-});
-formatter.scenario({
   "line": 26,
   "name": "Check body message",
   "description": "",
@@ -461,14 +372,14 @@ formatter.match({
   "location": "DraftMailSteps.userOpensTheSavedMail()"
 });
 formatter.result({
-  "duration": 548070359,
+  "duration": 641076845,
   "status": "passed"
 });
 formatter.match({
   "location": "DraftMailSteps.theMessageBodyIsCorrect()"
 });
 formatter.result({
-  "duration": 954573265,
+  "duration": 984004561,
   "status": "passed"
 });
 formatter.background({
@@ -487,7 +398,7 @@ formatter.match({
   "location": "DraftMailSteps.userNavigatesToDraftsFolder()"
 });
 formatter.result({
-  "duration": 355839,
+  "duration": 287993,
   "status": "passed"
 });
 formatter.scenario({
@@ -523,21 +434,21 @@ formatter.match({
   "location": "DraftMailSteps.clickSendButton()"
 });
 formatter.result({
-  "duration": 1540929672,
+  "duration": 1624436688,
   "status": "passed"
 });
 formatter.match({
   "location": "DraftMailSteps.theMailDisappearsFromDrafts()"
 });
 formatter.result({
-  "duration": 10478049298,
+  "duration": 10400306156,
   "status": "passed"
 });
 formatter.match({
   "location": "DraftMailSteps.appearsInSent()"
 });
 formatter.result({
-  "duration": 1221189785,
+  "duration": 1407233854,
   "status": "passed"
 });
 formatter.background({
@@ -556,7 +467,7 @@ formatter.match({
   "location": "DraftMailSteps.userNavigatesToDraftsFolder()"
 });
 formatter.result({
-  "duration": 338773,
+  "duration": 329357,
   "status": "passed"
 });
 formatter.scenario({
@@ -592,21 +503,21 @@ formatter.match({
   "location": "RemoveFromSentSteps.userNavigatesToSentFolder()"
 });
 formatter.result({
-  "duration": 333226,
+  "duration": 212729,
   "status": "passed"
 });
 formatter.match({
   "location": "RemoveFromSentSteps.userDragsAndDropsTheMailToTheBin()"
 });
 formatter.result({
-  "duration": 2093137841,
+  "duration": 2076624222,
   "status": "passed"
 });
 formatter.match({
   "location": "RemoveFromSentSteps.theMaleIsRemovedFromSent()"
 });
 formatter.result({
-  "duration": 10531711973,
+  "duration": 10429755168,
   "status": "passed"
 });
 formatter.background({
@@ -625,7 +536,7 @@ formatter.match({
   "location": "DraftMailSteps.userNavigatesToDraftsFolder()"
 });
 formatter.result({
-  "duration": 285013,
+  "duration": 637566,
   "status": "passed"
 });
 formatter.scenario({
@@ -649,45 +560,45 @@ formatter.step({
 });
 formatter.step({
   "line": 45,
-  "name": "user clicks select all checkbox and drags and drops 2 mails to the bin",
+  "name": "user clicks select all checkbox and drags and drops 1 mail to the bin",
   "keyword": "When "
 });
 formatter.step({
   "line": 46,
-  "name": "2 mails removed",
+  "name": "1 mail removed",
   "keyword": "Then "
 });
 formatter.match({
   "location": "RemoveFromDraftsSteps.userReturnsToDraftsFolder()"
 });
 formatter.result({
-  "duration": 469294106,
+  "duration": 480622351,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "2",
+      "val": "1",
       "offset": 52
     }
   ],
   "location": "RemoveFromDraftsSteps.removeToBin(int)"
 });
 formatter.result({
-  "duration": 2382453434,
+  "duration": 2789500005,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "2",
+      "val": "1",
       "offset": 0
     }
   ],
   "location": "RemoveFromDraftsSteps.mailIsRemoved(int)"
 });
 formatter.result({
-  "duration": 10431757712,
+  "duration": 10375830779,
   "status": "passed"
 });
 });

@@ -1,6 +1,7 @@
 package by.epam.atm.lecture10.tests;
 
 
+import by.epam.atm.lecture10.pages.DraftsPage;
 import by.epam.atm.lecture10.pages.SentPage;
 import by.epam.atm.patterns.decorator.driver_decorator.WebDriverDecorator;
 import by.epam.atm.patterns.singleton.UnknownDriverTypeException;
@@ -26,10 +27,10 @@ public class MailDriverCucumberTestNgTest extends AbstractTestNGCucumberTests {
         driver = new WebDriverDecorator(driver);
     }
 
-//    @AfterClass(description = "Log out and close browser")
-//    public void logOffStopBrowser() {
-//        new SentPage(driver).logout();
-//        driver.quit();
-//        System.out.println("Browser was successfully quited.");
-//    }
+    @AfterClass(description = "Log out and close browser")
+    public void logOffStopBrowser() {
+        new DraftsPage(driver).logout();
+        driver.quit();
+        System.out.println("Browser was successfully quited.");
+    }
 }

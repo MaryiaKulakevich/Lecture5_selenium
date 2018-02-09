@@ -17,6 +17,9 @@ public class SentPage extends AbstractPage {
 //    @FindBy(xpath = "//div[@data-cache-key='500000_undefined_false']//a[@data-subject='lecture10 selenium']")
 //    private List<WebElement> sentMail;
 
+    /**
+     * the locator is made dynamic
+     */
     private String CHECK_MAIL_AVAILABILITY = String.format("//div[@data-cache-key='500000_undefined_false']//a[@data-subject='%s']", new Letter().getSubject());
     private List<WebElement> sentMail;
 
@@ -50,6 +53,9 @@ public class SentPage extends AbstractPage {
         return isElementPresent(sentMail);
     }
 
+    /**
+     * the method was added to navigate to Drafts folder from Sent folder
+     */
     public DraftsPage goToDrafts(){
         emailDraftsEnter.click();
         return new DraftsPage(driver);

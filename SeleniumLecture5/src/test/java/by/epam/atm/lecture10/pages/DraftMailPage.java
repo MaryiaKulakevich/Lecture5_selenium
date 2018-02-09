@@ -10,7 +10,7 @@ import java.util.List;
 
 public class DraftMailPage extends AbstractPage {
 
-    @FindBy(xpath="//body[@id='tinymce']//div[contains(text(),'Automation program')]")
+    @FindBy(xpath="//body[@id='tinymce']//div[contains(text(),'Automation')]")
     private List<WebElement> checkBody;
 
     @FindBy(xpath="//div[@id='LEGO']//a[@href='/messages/drafts/']")
