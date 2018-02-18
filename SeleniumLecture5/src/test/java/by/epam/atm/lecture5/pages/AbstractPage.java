@@ -8,9 +8,11 @@ import java.util.List;
 
 public abstract class AbstractPage {
     protected WebDriver driver;
+    protected WebDriverWait wait;
 
-    public AbstractPage(WebDriver driver) {
+    public AbstractPage(WebDriver driver, WebDriverWait wait) {
         this.driver = driver;
+        this.wait = wait;
         PageFactory.initElements(driver, this);
     }
 
@@ -18,7 +20,4 @@ public abstract class AbstractPage {
         return element.size() > 0;
     }
 
-    public WebDriverWait explicitTimeout() {
-        return new WebDriverWait(driver, 10);
-    }
 }

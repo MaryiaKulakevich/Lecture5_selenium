@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
@@ -21,8 +22,8 @@ public class DraftsPage extends AbstractPage {
     @FindBy(xpath = "//div[@data-id='500000']/a[@href='/messages/sent/']")
     private WebElement clickSent;
 
-    public DraftsPage(WebDriver driver) {
-        super(driver);
+    public DraftsPage(WebDriver driver, WebDriverWait wait) {
+        super(driver, wait);
     }
 
     public boolean isMaleSaved() {
@@ -39,17 +40,17 @@ public class DraftsPage extends AbstractPage {
 
     public DraftMailPage openDraft() {
         checkSubject.get(0).click();
-        return new DraftMailPage(driver);
+        return new DraftMailPage(driver, wait);
     }
 
     public boolean isMailPresent() {
-        explicitTimeout().until(ExpectedConditions.invisibilityOfAllElements(savedMail));
+        wait.until(ExpectedConditions.invisibilityOfAllElements(savedMail));
         return isElementPresent(savedMail);
     }
 
     public SentPage goToSent() {
         clickSent.click();
-        return new SentPage(driver);
+        return new SentPage(driver, wait);
     }
 
 }

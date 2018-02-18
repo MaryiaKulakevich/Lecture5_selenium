@@ -2,8 +2,8 @@ package by.epam.atm.lecture5;
 
 import by.epam.atm.lecture5.pages.*;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -24,13 +24,14 @@ public class MyWebDriverTest {
     private LoggedInPage login;
     private DraftsPage drafts;
     private DraftMailPage savedDraft;
+    private WebDriverWait wait;
 
     @BeforeClass(description = "Start browser")
     public void startBrowser() {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         driver = new ChromeDriver();
 
-        // Setting standard timeout
+        // Setting implicit timeout
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         // Maximize browser window
@@ -38,11 +39,13 @@ public class MyWebDriverTest {
 
         // Open the web page
         driver.get(URL);
+
+        wait = new WebDriverWait(driver, 10);
     }
 
     @Test(description = "Login")
     public void login() throws InterruptedException {
-        login = new LoginPage(driver).loginToMail(LOGIN_NAME, PASSWORD);
+        login = new LoginPage(driver, wait).loginToMail(LOGIN_NAME, PASSWORD);
         boolean loginSuccessful = login.isLoginSuccessful();
         Assert.assertTrue(loginSuccessful, "Login was not successful");
         System.out.println("Login is successful");
@@ -92,7 +95,7 @@ public class MyWebDriverTest {
     @AfterClass(description = "Remove sent emails, log off and close browser")
     public void logOffStopBrowser() throws InterruptedException {
 
-        new SentPage(driver).removeAllAndLogOut();
+        new SentPage(driver, wait).removeAllAndLogOut();
 
         driver.quit();
         System.out.println("Browser was successfully quited.");

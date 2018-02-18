@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
@@ -21,8 +22,8 @@ public class SentPage extends AbstractPage {
     @FindBy(id = "PH_logoutLink")
     private WebElement searchLogout;
 
-    public SentPage(WebDriver driver) {
-        super(driver);
+    public SentPage(WebDriver driver, WebDriverWait wait) {
+        super(driver, wait);
     }
 
     public boolean isMaleSent() {
@@ -34,7 +35,7 @@ public class SentPage extends AbstractPage {
         selectAll.click();
 
         //Remove All from Sent
-        explicitTimeout().until(ExpectedConditions.visibilityOfAllElements(removeAll));
+        wait.until(ExpectedConditions.visibilityOfAllElements(removeAll));
         removeAll.get(0).click();
         System.out.println("All mails from Sent are removed");
 

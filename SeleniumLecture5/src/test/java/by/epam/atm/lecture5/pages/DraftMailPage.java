@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
@@ -17,8 +18,8 @@ public class DraftMailPage extends AbstractPage {
     @FindBy(xpath="//div[@id='LEGO']//a[@href='/messages/drafts/']")
     private WebElement emailDraftsEnter2;
 
-    public DraftMailPage(WebDriver driver) {
-        super(driver);
+    public DraftMailPage(WebDriver driver, WebDriverWait wait) {
+        super(driver, wait);
     }
 
     public boolean isBodyCorrect() {
@@ -29,12 +30,12 @@ public class DraftMailPage extends AbstractPage {
     public DraftsPage sendMailGoDraftsAgain(){
         driver.switchTo().defaultContent();
         // Sending email
-        explicitTimeout().until(ExpectedConditions.visibilityOfAllElements(sendEmailBtn));
+        wait.until(ExpectedConditions.visibilityOfAllElements(sendEmailBtn));
         sendEmailBtn.get(0).click();
 
         //Enter Drafts again
         emailDraftsEnter2.click();
 
-        return new DraftsPage(driver);}
+        return new DraftsPage(driver, wait);}
 
 }
