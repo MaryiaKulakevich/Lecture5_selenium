@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
@@ -20,8 +21,8 @@ public class SentPage extends AbstractPage {
     @FindBy(id = "PH_logoutLink")
     private WebElement searchLogout;
 
-    public SentPage(WebDriver driver) {
-        super(driver);
+    public SentPage(WebDriver driver, WebDriverWait wait) {
+        super(driver, wait);
     }
 
     public boolean isMaleSent() {
@@ -30,7 +31,7 @@ public class SentPage extends AbstractPage {
     }
 
     public boolean isMailRemoved() {
-        explicitTimeout().until(ExpectedConditions.invisibilityOfAllElements(sentMail));
+        wait.until(ExpectedConditions.invisibilityOfAllElements(sentMail));
         return isElementPresent(sentMail);
     }
 

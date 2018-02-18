@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.util.List;
 
 public class CreateMailPage extends AbstractPage{
@@ -22,8 +24,8 @@ public class CreateMailPage extends AbstractPage{
     @FindBy(xpath="//div[@data-id='500001']//span[@class='b-nav__item__text']")
     private WebElement emailDraftsEnter;
 
-    public CreateMailPage(WebDriver driver) {
-        super(driver);
+    public CreateMailPage(WebDriver driver, WebDriverWait wait) {
+        super(driver, wait);
     }
 
     public DraftsPage createAndSaveMail(String to, String subject, String body){
@@ -42,10 +44,10 @@ public class CreateMailPage extends AbstractPage{
 
 
         //Wait until the mail is saved
-        explicitTimeout().until(ExpectedConditions.visibilityOfAllElements(mailSaved));
+        wait.until(ExpectedConditions.visibilityOfAllElements(mailSaved));
 
         //Enter Drafts
         emailDraftsEnter.click();
-        return new DraftsPage(driver);
+        return new DraftsPage(driver, wait);
     }
 }

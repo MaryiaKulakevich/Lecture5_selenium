@@ -13,6 +13,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -35,6 +36,7 @@ public class MyWebDriverTest {
     private DraftsPage drafts;
     private DraftMailPage savedDraft;
     private SentPage sent;
+    private WebDriverWait wait;
 
     public static WebDriver getDriver() {
 
@@ -51,11 +53,6 @@ public class MyWebDriverTest {
         ChromeOptions options = new ChromeOptions();
         options.setCapability("platformName", Platform.WINDOWS);
 
-//        //Setting up Firefox driver and browser
-//        System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
-//        FirefoxOptions options = new FirefoxOptions();
-//        options.setCapability("platformName", Platform.WINDOWS);
-
         try {
             driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
         } catch (MalformedURLException e) {
@@ -66,19 +63,23 @@ public class MyWebDriverTest {
     @BeforeClass(description = "Start browser")
     public void startBrowser() {
 
+        //get driver instance
         driver = getDriver();
+
+        // Setting implicit timeout and maximizing window
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
 
         // Open the web page
         driver.get(URL);
 
-        // Setting standard timeout and maximizing window
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
+        wait = new WebDriverWait(driver, 10);
+
     }
 
     @Test(description = "Login")
     public void login() throws InterruptedException {
-        login = new LoginPage(driver).loginToMail(LOGIN_NAME, PASSWORD);
+        login = new LoginPage(driver, wait).loginToMail(LOGIN_NAME, PASSWORD);
         boolean loginSuccessful = login.isLoginSuccessful();
         Assert.assertTrue(loginSuccessful, "Login was not successful");
         System.out.println("Login is successful");
@@ -129,7 +130,7 @@ public class MyWebDriverTest {
     public void noMailsLeft() throws InterruptedException {
 
         //remove the mail from Sent
-        sent = new SentPage(driver);
+        sent = new SentPage(driver, wait);
         sent.removeMailFromSent();
 
         //Verify that the mail has been removed from ‘Sent’ folder

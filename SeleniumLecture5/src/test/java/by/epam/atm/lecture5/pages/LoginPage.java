@@ -3,6 +3,7 @@ package by.epam.atm.lecture5.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginPage extends AbstractPage {
 
@@ -15,8 +16,8 @@ public class LoginPage extends AbstractPage {
     @FindBy(xpath = "//input[@value='Войти']")
     private WebElement clickEnterBtn;
 
-    public LoginPage(WebDriver driver) {
-        super(driver);
+    public LoginPage(WebDriver driver, WebDriverWait wait) {
+        super(driver, wait);
     }
 
     public LoggedInPage loginToMail(String userName, String password) {
@@ -29,7 +30,7 @@ public class LoginPage extends AbstractPage {
         //Click Enter button
         clickEnterBtn.click();
 
-        return new LoggedInPage(driver);
+        return new LoggedInPage(driver, wait);
     }
 
 }

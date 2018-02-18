@@ -11,9 +11,11 @@ import java.util.List;
 
 public abstract class AbstractPage {
     protected WebDriver driver;
+    protected WebDriverWait wait;
 
-    public AbstractPage(WebDriver driver) {
+    public AbstractPage(WebDriver driver, WebDriverWait wait) {
         this.driver = driver;
+        this.wait = wait;
         PageFactory.initElements(driver, this);
     }
 
@@ -21,20 +23,11 @@ public abstract class AbstractPage {
         return element.size() > 0;
     }
 
-    public WebDriverWait explicitTimeout() {
-        return new WebDriverWait(driver, 10);
-    }
-
     public void highlightElement(WebElement element) {
         String bg = element.getCssValue("backgroundColor");
         JavascriptExecutor js = ((JavascriptExecutor) driver);
         js.executeScript("arguments[0].style.backgroundColor = '" + "yellow" + "'", element);
         makeScreenshot();
-//        try {
-//            Thread.sleep(1000);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
         js.executeScript("arguments[0].style.backgroundColor = '" + bg + "'", element);
     }
 
