@@ -19,7 +19,6 @@ import static by.epam.atm.patterns.singleton.WebDriverType.CHROME;
 public class MailWebDriverTest {
 
     private static final String URL = "https://mail.ru";
-    private static final long TIME = 30;
     private static WebDriver driver;
     private static WebDriverWait explicitWait;
     private LoggedInPage login;
@@ -31,7 +30,7 @@ public class MailWebDriverTest {
     public void startBrowser() throws UnknownDriverTypeException {
         driver = WebDriverSingleton.getWebDriverInstance(CHROME);
         driver = new WebDriverDecorator(driver);
-        explicitWait = CustomWaiter.getDriverWaitInstance(driver, TIME/2);
+        explicitWait = CustomWaiter.getDriverWaitInstance(driver, 3);
         driver.get(URL);
     }
 

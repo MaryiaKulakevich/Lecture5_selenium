@@ -23,13 +23,12 @@ public class MailDriverCucumberTestNgTest extends AbstractTestNGCucumberTests {
 
     protected static WebDriver driver;
     protected static WebDriverWait explicitWait;
-    protected static final long TIME = 30;
 
     @BeforeClass(description = "Start browser")
     public void startBrowser() throws UnknownDriverTypeException {
         driver = WebDriverSingleton.getWebDriverInstance(CHROME);
         driver = new WebDriverDecorator(driver);
-        explicitWait = CustomWaiter.getDriverWaitInstance(driver, TIME/2);
+        explicitWait = CustomWaiter.getDriverWaitInstance(driver, 3);
 
     }
 
