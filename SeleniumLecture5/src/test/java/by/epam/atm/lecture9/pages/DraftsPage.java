@@ -36,7 +36,7 @@ public class DraftsPage extends AbstractPage {
     }
 
     public boolean isMailPresent() {
-        CustomWaiter.waitUntilInvisible(driver, 10, savedMail);
+        CustomWaiter.waitUntilInvisible(savedMail);
         return isElementPresent(savedMail);
     }
 

@@ -29,7 +29,7 @@ public class SentPage extends AbstractPage {
     }
 
     public boolean isMailRemoved() {
-        CustomWaiter.waitUntilInvisible(driver, 10, sentMail);
+        CustomWaiter.waitUntilInvisible(sentMail);
         return isElementPresent(sentMail);
     }
 

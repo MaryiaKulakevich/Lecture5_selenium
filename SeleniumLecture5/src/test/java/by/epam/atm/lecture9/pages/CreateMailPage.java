@@ -8,6 +8,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
@@ -44,7 +45,7 @@ public class CreateMailPage extends AbstractPage {
                 .build().perform();
 
         //Wait until the mail is saved
-        CustomWaiter.waitUntilVisible(driver, 5, mailSaved);
+        CustomWaiter.waitUntilVisible(mailSaved);
 
         //Enter Drafts
         emailDraftsEnter.click();

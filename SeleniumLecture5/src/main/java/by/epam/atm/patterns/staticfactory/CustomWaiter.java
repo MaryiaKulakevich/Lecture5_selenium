@@ -10,18 +10,25 @@ import java.util.concurrent.TimeUnit;
 
 public class CustomWaiter {
 
-    public static void waitUntilVisible(WebDriver driver, long time, List<WebElement> elements){
-        WebDriverWait explicitWait = new WebDriverWait(driver, time);
+    private static WebDriverWait explicitWait;
+    private static final long TIME =50;
+
+    public static WebDriverWait getDriverWaitInstance(WebDriver driver, int number){
+        if(explicitWait==null){
+           explicitWait = new WebDriverWait(driver, TIME/number);
+        }
+        return explicitWait;
+    }
+
+    public static void waitUntilVisible(List<WebElement> elements){
         explicitWait.until(ExpectedConditions.visibilityOfAllElements(elements));
     }
 
-    public static void waitUntilInvisible(WebDriver driver, long time, List<WebElement> elements){
-        WebDriverWait explicitWait = new WebDriverWait(driver, time);
+    public static void waitUntilInvisible(List<WebElement> elements){
         explicitWait.until(ExpectedConditions.invisibilityOfAllElements(elements));
     }
 
-    public static void waitUntilClickable(WebDriver driver, long time, WebElement element){
-        WebDriverWait explicitWait = new WebDriverWait(driver, time);;
+    public static void waitUntilClickable(WebElement element){
         explicitWait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
