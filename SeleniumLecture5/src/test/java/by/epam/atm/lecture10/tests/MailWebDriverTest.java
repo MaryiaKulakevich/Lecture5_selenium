@@ -6,7 +6,9 @@ import by.epam.atm.lecture10.pages.*;
 import by.epam.atm.patterns.decorator.driver_decorator.WebDriverDecorator;
 import by.epam.atm.patterns.singleton.UnknownDriverTypeException;
 import by.epam.atm.patterns.singleton.WebDriverSingleton;
+import by.epam.atm.patterns.staticfactory.CustomWaiter;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -17,7 +19,9 @@ import static by.epam.atm.patterns.singleton.WebDriverType.CHROME;
 public class MailWebDriverTest {
 
     private static final String URL = "https://mail.ru";
+    private static final long TIME = 30;
     private static WebDriver driver;
+    private static WebDriverWait explicitWait;
     private LoggedInPage login;
     private DraftsPage drafts;
     private DraftMailPage savedDraft;
@@ -27,6 +31,7 @@ public class MailWebDriverTest {
     public void startBrowser() throws UnknownDriverTypeException {
         driver = WebDriverSingleton.getWebDriverInstance(CHROME);
         driver = new WebDriverDecorator(driver);
+        explicitWait = CustomWaiter.getDriverWaitInstance(driver, TIME/2);
         driver.get(URL);
     }
 

@@ -49,7 +49,7 @@ public class SentPage extends AbstractPage {
 
     public boolean isMailRemoved() {
         sentMail=driver.findElements(By.xpath(CHECK_MAIL_AVAILABILITY));
-        CustomWaiter.waitUntilInvisible(driver, 10, sentMail);
+        CustomWaiter.waitUntilInvisible(sentMail);
         return isElementPresent(sentMail);
     }
 

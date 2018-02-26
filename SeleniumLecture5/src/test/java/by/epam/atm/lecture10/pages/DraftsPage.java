@@ -57,7 +57,7 @@ public class DraftsPage extends AbstractPage {
 
     public boolean isMailPresent() {
         savedMail=driver.findElements(By.xpath(CHECK_MAIL_AVAILABILITY));
-        CustomWaiter.waitUntilInvisible(driver, 15, savedMail);
+        CustomWaiter.waitUntilInvisible(savedMail);
         return isElementPresent(savedMail);
     }
 

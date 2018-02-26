@@ -31,7 +31,7 @@ public class DraftMailPage extends AbstractPage {
         ((WebDriverDecorator)driver).scriptExecutor("document.querySelector(\"div#b-toolbar__right div[data-name='send']\").click()");
 
         //Enter Drafts again
-        CustomWaiter.waitUntilClickable(driver,5, emailDraftsEnter2);
+        CustomWaiter.waitUntilClickable(emailDraftsEnter2);
         emailDraftsEnter2.click();
 
         return new DraftsPage(driver);}

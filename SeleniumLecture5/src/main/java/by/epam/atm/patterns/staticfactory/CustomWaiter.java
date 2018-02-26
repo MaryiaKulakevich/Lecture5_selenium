@@ -13,22 +13,25 @@ public class CustomWaiter {
 
     private static WebDriverWait explicitWait;
 
-    public static void waitUntilVisible(WebDriver driver, long time, List<WebElement> elements){
-        explicitWait = new WebDriverWait(driver, time);
+    public static WebDriverWait getDriverWaitInstance(WebDriver driver, long time){
+        if(explicitWait==null){
+            explicitWait = new WebDriverWait(driver,time);
+        }
+        return explicitWait;
+    }
+
+    public static void waitUntilVisible(List<WebElement> elements){
         explicitWait.until(ExpectedConditions.visibilityOfAllElements(elements));
     }
 
-    public static void waitUntilInvisible(WebDriver driver, long time, List<WebElement> elements){
-        explicitWait = new WebDriverWait(driver, time);
+    public static void waitUntilInvisible(List<WebElement> elements){
         explicitWait.until(ExpectedConditions.invisibilityOfAllElements(elements));
     }
 
-    public static void waitUntilClickable(WebDriver driver, long time, WebElement element){
-        explicitWait = new WebDriverWait(driver, time);;
+    public static void waitUntilClickable(WebElement element){
         explicitWait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
     public static void waitImplicitly(WebDriver driver, long time){
      driver.manage().timeouts().implicitlyWait(time,TimeUnit.SECONDS);}
-
 }

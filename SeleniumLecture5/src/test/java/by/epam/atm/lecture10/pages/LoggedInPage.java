@@ -19,7 +19,7 @@ public class LoggedInPage extends AbstractPage{
     }
 
     public boolean isLoginSuccessful() {
-        CustomWaiter.waitUntilVisible(driver, 5, loginSuccessful);
+        CustomWaiter.waitUntilVisible(loginSuccessful);
         return isElementPresent(loginSuccessful);
     }
 

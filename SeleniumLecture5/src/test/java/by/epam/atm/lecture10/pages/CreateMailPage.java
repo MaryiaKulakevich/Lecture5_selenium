@@ -44,7 +44,7 @@ public class CreateMailPage extends AbstractPage {
                 .build().perform();
 
         //Wait until the mail is saved
-        CustomWaiter.waitUntilVisible(driver, 5, mailSaved);
+//        CustomWaiter.waitUntilVisible(mailSaved);
 
         //Enter Drafts
         emailDraftsEnter.click();
