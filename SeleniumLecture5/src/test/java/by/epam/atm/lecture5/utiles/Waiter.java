@@ -9,20 +9,22 @@ import java.util.List;
 
 public class Waiter {
 
-    private long time;
-    private WebDriver driver;
+    private static WebDriverWait explicitWait;
+    private static final long TIME = 50;
 
-    public Waiter( WebDriver driver, long time){
-        this.driver = driver;
-        this.time=time;
+    public static WebDriverWait getDriverWaitInstance(WebDriver driver, int number) {
+        if (explicitWait == null) {
+            explicitWait = new WebDriverWait(driver, TIME / number);
+        }
+        return explicitWait;
     }
 
-    public void waitUntilVisible(List<WebElement> elements){
-        new WebDriverWait(driver, time).until(ExpectedConditions.visibilityOfAllElements(elements));
+    public static void waitUntilVisible(List<WebElement> elements) {
+        explicitWait.until(ExpectedConditions.visibilityOfAllElements(elements));
     }
 
-    public void waitUntilInvisible(List<WebElement> elements){
-        new WebDriverWait(driver, time).until(ExpectedConditions.invisibilityOfAllElements(elements));
+    public static void waitUntilInvisible(List<WebElement> elements) {
+        explicitWait.until(ExpectedConditions.invisibilityOfAllElements(elements));
     }
 
 }

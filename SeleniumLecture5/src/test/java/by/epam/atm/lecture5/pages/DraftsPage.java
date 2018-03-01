@@ -1,5 +1,6 @@
 package by.epam.atm.lecture5.pages;
 
+import by.epam.atm.lecture5.utiles.Waiter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -44,7 +45,7 @@ public class DraftsPage extends AbstractPage {
     }
 
     public boolean isMailPresent() {
-        explicitTimeout().waitUntilInvisible(savedMail);
+        Waiter.waitUntilInvisible(savedMail);
         return isElementPresent(savedMail);
     }
 

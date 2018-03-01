@@ -20,8 +20,6 @@ public abstract class AbstractPage {
         return element.size() > 0;
     }
 
-    public Waiter explicitTimeout() { return new Waiter(driver, 10);
-    }
 
     public void highlightElement(WebElement element) {
         HighlightAndScreenshot.highlightElement(element, driver);

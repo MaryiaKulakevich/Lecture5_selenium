@@ -1,6 +1,7 @@
 package by.epam.atm.lecture5.pages;
 
 import by.epam.atm.lecture5.bo.Letter;
+import by.epam.atm.lecture5.utiles.Waiter;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -43,7 +44,7 @@ public class CreateMailPage extends AbstractPage{
 
 
         //Wait until the mail is saved
-        explicitTimeout().waitUntilVisible(mailSaved);
+        Waiter.waitUntilVisible(mailSaved);
 
         //Enter Drafts
         emailDraftsEnter.click();

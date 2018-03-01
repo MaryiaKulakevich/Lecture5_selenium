@@ -1,5 +1,6 @@
 package by.epam.atm.lecture5.pages;
 
+import by.epam.atm.lecture5.utiles.Waiter;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -30,7 +31,7 @@ public class SentPage extends AbstractPage {
     }
 
     public boolean isMailRemoved() {
-        explicitTimeout().waitUntilInvisible(sentMail);
+        Waiter.waitUntilInvisible(sentMail);
         return isElementPresent(sentMail);
     }
 

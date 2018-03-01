@@ -3,6 +3,7 @@ package by.epam.atm.lecture5.tests;
 import by.epam.atm.lecture5.bo.Account;
 import by.epam.atm.lecture5.bo.Letter;
 import by.epam.atm.lecture5.pages.*;
+import by.epam.atm.lecture5.utiles.Waiter;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,6 +16,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -32,14 +34,18 @@ public class MyWebDriverTest {
     private DraftsPage drafts;
     private DraftMailPage savedDraft;
     private SentPage sent;
+    private static WebDriverWait explicitWait;
 
     @BeforeClass(description = "Start browser")
     public void startBrowser() {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         driver = new ChromeDriver();
 
-        // Setting standard timeout
+        // Setting implicit timeout
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+        //Get WebDriverWait instance
+        explicitWait = Waiter.getDriverWaitInstance(driver, 3);
 
         // Maximize browser window
         driver.manage().window().maximize();
