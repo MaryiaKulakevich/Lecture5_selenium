@@ -1,10 +1,10 @@
 package by.epam.atm.lecture9.pages;
 
+import by.epam.atm.patterns.decorator.driver_decorator.WebDriverDecorator;
 import by.epam.atm.patterns.staticfactory.CustomWaiter;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.util.List;
 
 public class LoggedInPage extends AbstractPage{
@@ -16,17 +16,17 @@ public class LoggedInPage extends AbstractPage{
     private WebElement clickWriteEmailBtn;
 
 
-    public LoggedInPage(WebDriver driver) {
+    public LoggedInPage(WebDriverDecorator driver) {
         super(driver);
     }
 
     public boolean isLoginSuccessful() {
-        CustomWaiter.waitUntilVisible(loginSuccessful);
+        CustomWaiter.waitUntilAllVisible(loginSuccessful);
         return isElementPresent(loginSuccessful);
     }
 
     public CreateMailPage createMail(){
-        clickWriteEmailBtn.click();
+        driver.click(clickWriteEmailBtn);
         return new CreateMailPage(driver);
     }
 }

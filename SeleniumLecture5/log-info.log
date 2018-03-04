@@ -1,0 +1,169 @@
+[2018-03-04 23:48:52][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-04 23:48:52][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-04 23:48:52][INFO ] [main] CustomLogger: Highlighting element 
+[2018-03-04 23:48:52][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-04 23:48:53][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-04 23:48:53][INFO ] [main] CustomLogger: Typing text into element: [[ChromeDriver: chrome on XP (d719dd339976dd5cdfedd2d3c0db7850)] -> id: mailbox:login]
+[2018-03-04 23:48:53][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-04 23:48:53][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-04 23:48:53][INFO ] [main] CustomLogger: Unhighlighting element 
+[2018-03-04 23:48:53][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-04 23:48:53][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-04 23:48:53][INFO ] [main] CustomLogger: Highlighting element 
+[2018-03-04 23:48:53][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-04 23:48:53][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-04 23:48:53][INFO ] [main] CustomLogger: Typing text into element: [[ChromeDriver: chrome on XP (d719dd339976dd5cdfedd2d3c0db7850)] -> id: mailbox:password]
+[2018-03-04 23:48:53][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-04 23:48:53][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-04 23:48:53][INFO ] [main] CustomLogger: Unhighlighting element 
+[2018-03-04 23:48:53][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-04 23:48:53][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-04 23:48:53][INFO ] [main] CustomLogger: Highlighting element 
+[2018-03-04 23:48:54][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/test-output/screenshot1520196534243.jpg#Screenshot
+[2018-03-04 23:48:54][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-04 23:48:54][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-04 23:48:54][INFO ] [main] CustomLogger: Unhighlighting element 
+[2018-03-04 23:48:54][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-04 23:48:54][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-04 23:48:54][INFO ] [main] CustomLogger: Clicking element: [[ChromeDriver: chrome on XP (d719dd339976dd5cdfedd2d3c0db7850)] -> xpath: //input[@value='Войти']]
+[2018-03-04 23:48:54][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-04 23:48:55][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-04 23:48:58][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-04 23:48:58][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-04 23:48:58][INFO ] [main] CustomLogger: Element is present
+[2018-03-04 23:48:58][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-04 23:48:58][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-04 23:48:58][INFO ] [main] CustomLogger: Highlighting element Написать письмо
+[2018-03-04 23:48:58][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/test-output/screenshot1520196538649.jpg#Screenshot
+[2018-03-04 23:48:58][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-04 23:48:58][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-04 23:48:58][INFO ] [main] CustomLogger: Unhighlighting element Написать письмо
+[2018-03-04 23:48:58][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-04 23:48:59][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-04 23:48:59][INFO ] [main] CustomLogger: Clicking element: [[ChromeDriver: chrome on XP (d719dd339976dd5cdfedd2d3c0db7850)] -> xpath: //div[@class='b-sticky']//a[@data-name='compose']]
+[2018-03-04 23:48:59][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-04 23:48:59][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-04 23:48:59][INFO ] [main] CustomLogger: Highlighting element 
+[2018-03-04 23:48:59][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-04 23:49:00][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-04 23:49:00][INFO ] [main] CustomLogger: Typing text into element: [[ChromeDriver: chrome on XP (d719dd339976dd5cdfedd2d3c0db7850)] -> xpath: //textarea[@tabindex='4']]
+[2018-03-04 23:49:00][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-04 23:49:00][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-04 23:49:00][INFO ] [main] CustomLogger: Unhighlighting element 
+[2018-03-04 23:49:00][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-04 23:49:00][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-04 23:49:00][INFO ] [main] CustomLogger: Highlighting element 
+[2018-03-04 23:49:00][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-04 23:49:00][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-04 23:49:00][INFO ] [main] CustomLogger: Typing text into element: [[ChromeDriver: chrome on XP (d719dd339976dd5cdfedd2d3c0db7850)] -> css selector: div.compose-head__field>input.b-input]
+[2018-03-04 23:49:00][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-04 23:49:00][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-04 23:49:00][INFO ] [main] CustomLogger: Unhighlighting element 
+[2018-03-04 23:49:00][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-04 23:49:01][INFO ] [main] CustomLogger: Executing a sequence of keyboard actions
+[2018-03-04 23:49:01][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@href='/messages/drafts']
+[2018-03-04 23:49:01][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@href='/messages/drafts']
+[2018-03-04 23:49:01][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-04 23:49:01][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-04 23:49:01][INFO ] [main] CustomLogger: Highlighting element Черновики
+[2018-03-04 23:49:02][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/test-output/screenshot1520196541929.jpg#Screenshot
+[2018-03-04 23:49:02][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-04 23:49:02][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-04 23:49:02][INFO ] [main] CustomLogger: Unhighlighting element Черновики
+[2018-03-04 23:49:02][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-04 23:49:02][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-04 23:49:02][INFO ] [main] CustomLogger: Clicking element: [[ChromeDriver: chrome on XP (d719dd339976dd5cdfedd2d3c0db7850)] -> xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']]
+[2018-03-04 23:49:02][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:02][INFO ] [main] CustomLogger: Element is present
+[2018-03-04 23:49:02][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[text()='mentee2017@mail.ru']
+[2018-03-04 23:49:02][INFO ] [main] CustomLogger: Element is present
+[2018-03-04 23:49:02][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:02][INFO ] [main] CustomLogger: Highlighting element 23:49
+lecture9 selenium392: Automation mentoring program -- test test
+mentee2017@mail.ru
+[2018-03-04 23:49:03][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/test-output/screenshot1520196543202.jpg#Screenshot
+[2018-03-04 23:49:03][INFO ] [main] CustomLogger: Unhighlighting element 23:49
+lecture9 selenium392: Automation mentoring program -- test test
+mentee2017@mail.ru
+[2018-03-04 23:49:03][INFO ] [main] CustomLogger: Clicking element: [[ChromeDriver: chrome on XP (d719dd339976dd5cdfedd2d3c0db7850)] -> xpath: //a[@data-subject='lecture9 selenium']]
+[2018-03-04 23:49:04][INFO ] [main] CustomLogger: Finding element: By.xpath: //body[@id='tinymce']//div[contains(text(),'Automation mentoring program')]
+[2018-03-04 23:49:04][INFO ] [main] CustomLogger: Element is present
+[2018-03-04 23:49:04][INFO ] [main] CustomLogger: Clicking Send button by javascript action
+[2018-03-04 23:49:04][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-04 23:49:04][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-04 23:49:04][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-04 23:49:04][INFO ] [main] CustomLogger: Highlighting element Черновики
+[2018-03-04 23:49:04][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/test-output/screenshot1520196544882.jpg#Screenshot
+[2018-03-04 23:49:04][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-04 23:49:05][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-04 23:49:05][INFO ] [main] CustomLogger: Unhighlighting element Черновики
+[2018-03-04 23:49:05][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-04 23:49:05][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-04 23:49:05][INFO ] [main] CustomLogger: Clicking element: [[ChromeDriver: chrome on XP (d719dd339976dd5cdfedd2d3c0db7850)] -> xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']]
+[2018-03-04 23:49:05][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:15][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:25][INFO ] [main] CustomLogger: Element is not present
+[2018-03-04 23:49:25][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-04 23:49:25][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-04 23:49:25][INFO ] [main] CustomLogger: Highlighting element Отправленные
+[2018-03-04 23:49:25][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/test-output/screenshot1520196565798.jpg#Screenshot
+[2018-03-04 23:49:25][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-04 23:49:25][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-04 23:49:25][INFO ] [main] CustomLogger: Unhighlighting element Отправленные
+[2018-03-04 23:49:25][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-04 23:49:25][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-04 23:49:25][INFO ] [main] CustomLogger: Clicking element: [[ChromeDriver: chrome on XP (d719dd339976dd5cdfedd2d3c0db7850)] -> xpath: //div[@data-id='500000']/a[@href='/messages/sent/']]
+[2018-03-04 23:49:25][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:26][INFO ] [main] CustomLogger: Element is present
+[2018-03-04 23:49:26][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:26][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='b-nav_folders']//a[@href='/messages/trash/']
+[2018-03-04 23:49:26][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='b-nav_folders']//a[@href='/messages/trash/']
+[2018-03-04 23:49:26][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='b-nav_folders']//a[@href='/messages/trash/']
+[2018-03-04 23:49:26][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='b-nav_folders']//a[@href='/messages/trash/']
+[2018-03-04 23:49:26][INFO ] [main] CustomLogger: Executing drag and drop mouse action
+[2018-03-04 23:49:26][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:27][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:27][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:28][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:28][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:29][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:29][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:30][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:30][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:31][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:31][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:32][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:32][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:33][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:33][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:34][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:34][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:35][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:35][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:36][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:36][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:37][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:37][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:38][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:38][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:39][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:40][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:40][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:41][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:41][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:42][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:42][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:42][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-04 23:49:42][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/test-output-failure/screenshotnoMailsLeft.jpg#Screenshot
+[2018-03-04 23:49:42][ERROR] [main] CustomLogger: The test noMailsLeft failed
+[2018-03-04 23:49:42][INFO ] [main] CustomLogger: Finding element: By.id: PH_logoutLink
+[2018-03-04 23:49:42][INFO ] [main] CustomLogger: Finding element: By.id: PH_logoutLink
+[2018-03-04 23:49:42][INFO ] [main] CustomLogger: Highlighting element выход
+[2018-03-04 23:49:43][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/test-output/screenshot1520196583301.jpg#Screenshot
+[2018-03-04 23:49:43][INFO ] [main] CustomLogger: Finding element: By.id: PH_logoutLink
+[2018-03-04 23:49:43][INFO ] [main] CustomLogger: Finding element: By.id: PH_logoutLink
+[2018-03-04 23:49:43][INFO ] [main] CustomLogger: Unhighlighting element выход
+[2018-03-04 23:49:43][INFO ] [main] CustomLogger: Finding element: By.id: PH_logoutLink
+[2018-03-04 23:49:44][INFO ] [main] CustomLogger: Finding element: By.id: PH_logoutLink
+[2018-03-04 23:49:44][INFO ] [main] CustomLogger: Clicking element: [[ChromeDriver: chrome on XP (d719dd339976dd5cdfedd2d3c0db7850)] -> id: PH_logoutLink]
+[2018-03-04 23:49:44][INFO ] [main] CustomLogger: Logout

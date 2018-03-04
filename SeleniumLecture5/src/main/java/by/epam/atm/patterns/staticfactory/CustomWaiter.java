@@ -20,16 +20,21 @@ public class CustomWaiter {
         return explicitWait;
     }
 
-    public static void waitUntilVisible(List<WebElement> elements){
+    public static void waitUntilAllVisible(List<WebElement> elements){
         explicitWait.until(ExpectedConditions.visibilityOfAllElements(elements));
     }
 
-    public static void waitUntilInvisible(List<WebElement> elements){
+    public static void waitUntilAllInvisible(List<WebElement> elements){
         explicitWait.until(ExpectedConditions.invisibilityOfAllElements(elements));
     }
 
+
     public static void waitUntilClickable(WebElement element){
         explicitWait.until(ExpectedConditions.elementToBeClickable(element));
+    }
+
+    public static void waitUntilVisible(WebElement element){
+        explicitWait.until(ExpectedConditions.visibilityOf(element));
     }
 
     public static void waitImplicitly(WebDriver driver, long time){

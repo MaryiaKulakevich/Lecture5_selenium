@@ -2,6 +2,8 @@ package by.epam.atm.lecture9.pages;
 
 import by.epam.atm.patterns.decorator.driver_decorator.WebDriverDecorator;
 import by.epam.atm.patterns.staticfactory.CustomWaiter;
+import by.epam.atm.utiles.CustomLogger;
+import by.epam.atm.utiles.HighlightElement;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,28 +21,28 @@ public class SentPage extends AbstractPage {
     @FindBy(id = "PH_logoutLink")
     private WebElement searchLogout;
 
-    public SentPage(WebDriver driver) {
+    public SentPage(WebDriverDecorator driver) {
         super(driver);
     }
 
     public boolean isMaleSent() {
-        ((WebDriverDecorator)driver).highlightElement(sentMail.get(0));
         return isElementPresent(sentMail);
     }
 
     public boolean isMailRemoved() {
-        CustomWaiter.waitUntilInvisible(sentMail);
+        CustomWaiter.waitUntilAllInvisible(sentMail);
         return isElementPresent(sentMail);
     }
 
     public void removeMailFromSent() {
-        ((WebDriverDecorator)driver).createAction().dragAndDrop(sentMail.get(0), bin).build().perform();
+        driver.createAction().dragAndDrop(sentMail.get(0), bin).build().perform();
+        CustomLogger.info("Executing drag and drop mouse action");
     }
 
     public void logout() {
         //Log out
-        searchLogout.click();
-        System.out.println("Logout");
+        driver.click(searchLogout);
+        CustomLogger.info("Logout");
     }
 
 }

@@ -1,5 +1,6 @@
 package by.epam.atm.lecture9.pages;
 
+import by.epam.atm.patterns.decorator.driver_decorator.WebDriverDecorator;
 import by.epam.atm.patterns.staticfactory.CustomWaiter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,7 +19,7 @@ public class DraftsPage extends AbstractPage {
     @FindBy(xpath = "//div[@data-id='500000']/a[@href='/messages/sent/']")
     private WebElement clickSent;
 
-    public DraftsPage(WebDriver driver) {
+    public DraftsPage(WebDriverDecorator driver) {
         super(driver);
     }
 
@@ -31,17 +32,17 @@ public class DraftsPage extends AbstractPage {
     }
 
     public DraftMailPage openDraft() {
-        savedMail.get(0).click();
+        driver.click(savedMail.get(0));
         return new DraftMailPage(driver);
     }
 
     public boolean isMailPresent() {
-        CustomWaiter.waitUntilInvisible(savedMail);
+        CustomWaiter.waitUntilAllInvisible(savedMail);
         return isElementPresent(savedMail);
     }
 
     public SentPage goToSent() {
-        clickSent.click();
+        driver.click(clickSent);
         return new SentPage(driver);
     }
 

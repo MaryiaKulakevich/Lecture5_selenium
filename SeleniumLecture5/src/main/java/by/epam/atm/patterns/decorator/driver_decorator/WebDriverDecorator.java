@@ -1,12 +1,16 @@
 package by.epam.atm.patterns.decorator.driver_decorator;
 
-import by.epam.atm.utiles.HighlightAndScreenshot;
+import by.epam.atm.patterns.staticfactory.CustomWaiter;
+import by.epam.atm.utiles.CustomLogger;
+import by.epam.atm.utiles.HighlightElement;
 import by.epam.atm.utiles.MakeScreenshot;
+import by.epam.atm.utiles.MakeScreenshotOnFailure;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.ITestResult;
 import org.testng.Reporter;
 
 import java.util.List;
@@ -33,17 +37,28 @@ public class WebDriverDecorator implements WebDriver{
     }
 
     public List<WebElement> findElements(By by)  {
-        Reporter.log(String.format("Finding element: %s, current URL: '%s'", by.toString(), driver.getCurrentUrl()),
-                true);
-        MakeScreenshot.makeScreenshot(driver);
+        CustomLogger.info(String.format("Finding element: %s", by.toString()));
         return driver.findElements(by);
     }
 
     public WebElement findElement(By by) {
-        Reporter.log(String.format("Finding element: %s, current URL: '%s'", by.toString(), driver.getCurrentUrl()),
-                true);
-        MakeScreenshot.makeScreenshot(driver);
+        CustomLogger.info(String.format("Finding element: %s", by.toString()));
         return driver.findElement(by);
+    }
+
+    public void click(WebElement element){
+        HighlightElement.highlightElement(driver, element);
+        MakeScreenshot.makeScreenshot(driver);
+        HighlightElement.unHighlightElement(driver, element);
+        element.click();
+        CustomLogger.info (String.format("Clicking element: %s", element.toString()));
+    }
+
+    public void type(WebElement element, String text){
+        HighlightElement.highlightElement(driver, element);
+        element.sendKeys(text);
+        CustomLogger.info (String.format("Typing text into element: %s", element.toString()));
+        HighlightElement.unHighlightElement(driver, element);
     }
 
     public void scriptExecutor(String script){
@@ -56,8 +71,8 @@ public class WebDriverDecorator implements WebDriver{
         return action;
     }
 
-    public void highlightElement(WebElement element) {
-        HighlightAndScreenshot.highlightElement(element, driver);
+    public void makeScreenshotOnFailure(ITestResult testResult){
+        MakeScreenshotOnFailure.makeScreenshot(testResult, driver);
     }
 
     public String getPageSource() {

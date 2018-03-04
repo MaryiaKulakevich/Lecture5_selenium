@@ -1,6 +1,8 @@
 package by.epam.atm.lecture9.pages;
 
 
+import by.epam.atm.patterns.decorator.driver_decorator.WebDriverDecorator;
+import by.epam.atm.utiles.CustomLogger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -8,15 +10,21 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.List;
 
 public abstract class AbstractPage {
-    protected WebDriver driver;
-    protected WebDriverWait explicitWait;
+    protected WebDriverDecorator driver;
 
-    public AbstractPage(WebDriver driver) {
+    public AbstractPage(WebDriverDecorator driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
     public boolean isElementPresent(List<WebElement> element) {
-        return element.size() > 0;
+        boolean present = element.size() > 0;
+        if (present == true) {
+            CustomLogger.info("Element is present");
+        }
+        else{
+            CustomLogger.info("Element is not present");
+        }
+        return present;
     }
 }

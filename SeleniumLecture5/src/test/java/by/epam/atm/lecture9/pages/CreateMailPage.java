@@ -4,11 +4,10 @@ import by.epam.atm.lecture9.bo.Letter;
 import by.epam.atm.patterns.decorator.driver_decorator.WebDriverDecorator;
 import by.epam.atm.patterns.singleton.UnknownDriverTypeException;
 import by.epam.atm.patterns.staticfactory.CustomWaiter;
+import by.epam.atm.utiles.CustomLogger;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
@@ -26,29 +25,30 @@ public class CreateMailPage extends AbstractPage {
     @FindBy(xpath = "//div[@data-id='500001']//span[@class='b-nav__item__text']")
     private WebElement emailDraftsEnter;
 
-    public CreateMailPage(WebDriver driver) {
+    public CreateMailPage(WebDriverDecorator driver) {
         super(driver);
     }
 
     public DraftsPage createAndSaveMail(Letter letter) throws UnknownDriverTypeException {
         //Enter To value
-        emailToField.sendKeys(letter.getRecipient());
+        driver.type(emailToField, letter.getRecipient());
 
         //Enter Subject value
-        emailSubjectField.sendKeys(letter.getSubject());
+        driver.type(emailSubjectField, letter.getSubject());
 
         //Switch to body, enter body text and save the draft
-        ((WebDriverDecorator)driver).createAction()
+        driver.createAction()
                 .sendKeys(emailSubjectField, Keys.TAB)
                 .sendKeys(letter.getBody()).keyDown(Keys.CONTROL).sendKeys("s")
                 .keyUp(Keys.CONTROL)
                 .build().perform();
+        CustomLogger.info("Executing a sequence of keyboard actions");
 
         //Wait until the mail is saved
-        CustomWaiter.waitUntilVisible(mailSaved);
+        CustomWaiter.waitUntilAllVisible(mailSaved);
 
         //Enter Drafts
-        emailDraftsEnter.click();
+        driver.click(emailDraftsEnter);
         return new DraftsPage(driver);
     }
 }

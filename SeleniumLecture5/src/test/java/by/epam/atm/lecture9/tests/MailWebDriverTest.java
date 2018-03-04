@@ -7,12 +7,17 @@ import by.epam.atm.patterns.decorator.driver_decorator.WebDriverDecorator;
 import by.epam.atm.patterns.singleton.UnknownDriverTypeException;
 import by.epam.atm.patterns.singleton.WebDriverSingleton;
 import by.epam.atm.patterns.staticfactory.CustomWaiter;
+import by.epam.atm.utiles.CustomLogger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
+import java.io.IOException;
 
 import static by.epam.atm.patterns.singleton.WebDriverType.CHROME;
 
@@ -20,8 +25,7 @@ public class MailWebDriverTest {
 
     private static final String URL = "https://mail.ru";
 
-    private static WebDriver driver;
-    private static WebDriverWait explicitWait;
+    private static WebDriverDecorator driver;
     private LoggedInPage login;
     private DraftsPage drafts;
     private DraftMailPage savedDraft;
@@ -29,10 +33,10 @@ public class MailWebDriverTest {
 
     @BeforeClass(description = "Start browser")
     public void startBrowser() throws UnknownDriverTypeException {
-        driver = WebDriverSingleton.getWebDriverInstance(CHROME);
-        driver = new WebDriverDecorator(driver);
+        WebDriver instance = WebDriverSingleton.getWebDriverInstance(CHROME);
+        driver = new WebDriverDecorator(instance);
         driver.get(URL);
-        explicitWait= CustomWaiter.getDriverWaitInstance(driver,3);
+        WebDriverWait explicitWait = CustomWaiter.getDriverWaitInstance(driver,3);
     }
 
     @Test(description = "Login")
@@ -89,6 +93,14 @@ public class MailWebDriverTest {
         boolean sentEmailRemoved = sent.isMailRemoved();
         Assert.assertFalse(sentEmailRemoved, "The sent mail is still present in Sent");
         System.out.println("The sent mail is not present in Sent anymore");
+    }
+
+    @AfterMethod
+    public void ifTestFailed(ITestResult testResult){
+        if (testResult.getStatus() == ITestResult.FAILURE) {
+         driver.makeScreenshotOnFailure(testResult);
+         CustomLogger.errorMessage("The test " + testResult.getName() + " failed");
+        }
     }
 
     @AfterClass(description = "Remove sent emails, log off and close browser")

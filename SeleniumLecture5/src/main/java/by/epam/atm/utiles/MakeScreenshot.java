@@ -12,9 +12,13 @@ public class MakeScreenshot {
     public static void makeScreenshot(WebDriver driver) {
         try {
             File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            FileUtils.copyFile(scrFile, new File("src/test/test-output/screenshot"+System.currentTimeMillis()+".png"));
+            String screenshotPath ="src/test/test-output/screenshot"+System.currentTimeMillis()+".jpg";
+            File copy = new File (screenshotPath);
+            FileUtils.copyFile(scrFile, copy);
+            CustomLogger.attach(screenshotPath, "Screenshot");
+
         } catch (IOException e) {
-            System.out.println(e);
+            CustomLogger.error ("Failed to take screenshot", e);
         }
     }
 }

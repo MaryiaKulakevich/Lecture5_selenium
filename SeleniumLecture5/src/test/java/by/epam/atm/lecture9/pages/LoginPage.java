@@ -1,6 +1,7 @@
 package by.epam.atm.lecture9.pages;
 
 import by.epam.atm.lecture9.bo.Account;
+import by.epam.atm.patterns.decorator.driver_decorator.WebDriverDecorator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -17,21 +18,21 @@ public class LoginPage extends AbstractPage {
     @FindBy(xpath = "//input[@value='Войти']")
     private WebElement clickEnterBtn;
 
-    public LoginPage(WebDriver driver) {
+    public LoginPage(WebDriverDecorator driver) {
         super(driver);
     }
 
     public LoggedInPage loginToMail(Account user) {
-        //Enter login
-        searchLogin.sendKeys(user.getLogin());
+       //Enter login
+       driver.type(searchLogin, user.getLogin() );
 
-        //Enter password
-        searchPassword.sendKeys(user.getPassword());
+       //Enter password
+       driver.type(searchPassword, user.getPassword());
 
-        //Click Enter button
-        clickEnterBtn.click();
+       //Click Enter button
+       driver.click(clickEnterBtn);
 
-        return new LoggedInPage(driver);
+       return new LoggedInPage(driver);
     }
 
 }

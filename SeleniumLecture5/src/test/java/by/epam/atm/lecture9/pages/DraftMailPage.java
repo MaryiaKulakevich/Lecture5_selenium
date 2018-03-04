@@ -2,7 +2,7 @@ package by.epam.atm.lecture9.pages;
 
 import by.epam.atm.patterns.decorator.driver_decorator.WebDriverDecorator;
 import by.epam.atm.patterns.staticfactory.CustomWaiter;
-import org.openqa.selenium.WebDriver;
+import by.epam.atm.utiles.CustomLogger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -16,7 +16,7 @@ public class DraftMailPage extends AbstractPage {
     @FindBy(xpath="//div[@id='LEGO']//a[@href='/messages/drafts/']")
     private WebElement emailDraftsEnter2;
 
-    public DraftMailPage(WebDriver driver) {
+    public DraftMailPage(WebDriverDecorator driver) {
         super(driver);
     }
 
@@ -28,11 +28,12 @@ public class DraftMailPage extends AbstractPage {
     public DraftsPage sendMailGoDraftsAgain(){
 
         driver.switchTo().defaultContent();
-        ((WebDriverDecorator)driver).scriptExecutor("document.querySelector(\"div#b-toolbar__right div[data-name='send']\").click()");
+        driver.scriptExecutor("document.querySelector(\"div#b-toolbar__right div[data-name='send']\").click()");
+        CustomLogger.info("Clicking Send button by javascript action");
 
         //Enter Drafts again
-        CustomWaiter.waitUntilClickable(emailDraftsEnter2);
-        emailDraftsEnter2.click();
+        CustomWaiter.waitUntilVisible(emailDraftsEnter2);
+        driver.click(emailDraftsEnter2);
 
         return new DraftsPage(driver);}
 }
