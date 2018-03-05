@@ -8,6 +8,17 @@
     <artifactId>SeleniumLecture5</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <repositories>
+        <repository>
+            <id>bintray</id>
+            <url>http://dl.bintray.com/epam/reportportal</url>
+        </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
@@ -51,10 +62,48 @@
         <dependency>
             <groupId>com.epam.reportportal</groupId>
             <artifactId>logger-java-log4j</artifactId>
-            <version>3.0.1</version>
+            <version>4.0.0</version>
         </dependency>
 
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.16</version>
+                <configuration>
+
+                    <!-- Uncomment it if you don't want your build to be failed in case of test errors -->
+                    <testFailureIgnore>true</testFailureIgnore>
+                    <suiteXmlFiles>
+                        <xmlFile>src/test/resources/suites/tests.xml</xmlFile>
+                    </suiteXmlFiles>
+                    <!-- ADD working directory to get TestNG know we to find suite files -->
+                    <workingDirectory>./</workingDirectory>
+
+                    <properties>
+                        <property>
+                            <name>listener</name>
+                            <value>com.epam.reportportal.testng.ReportPortalTestNGListener</value>
+                        </property>
+                    </properties>
+                </configuration>
+            </plugin>
+
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.0</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 
 </project>

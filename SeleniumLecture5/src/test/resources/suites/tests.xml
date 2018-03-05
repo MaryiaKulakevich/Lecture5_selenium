@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Driver test" verbose="1" parallel="classes" thread-count="4">
+
+    <listeners>
+        <listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener"/>
+    </listeners>
+
+    <test name="Web Driver test">
+        <classes>
+            <class name="by.epam.atm.lecture9.tests.MailWebDriverTest"/>
+        </classes>
+    </test>
+</suite>

@@ -12,7 +12,7 @@ public class MakeScreenshot {
     public static void makeScreenshot(WebDriver driver) {
         try {
             File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            String screenshotPath ="src/test/test-output/screenshot"+System.currentTimeMillis()+".jpg";
+            String screenshotPath ="src/test/resources/test-output/screenshot"+System.currentTimeMillis()+".jpg";
             File copy = new File (screenshotPath);
             FileUtils.copyFile(scrFile, copy);
             CustomLogger.attach(screenshotPath, " Taking screenshot");

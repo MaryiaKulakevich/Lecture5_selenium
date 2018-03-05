@@ -1,0 +1,10 @@
+by\epam\atm\lecture9\pages\LoginPage.class
+by\epam\atm\lecture9\pages\DraftMailPage.class
+by\epam\atm\lecture9\pages\DraftsPage.class
+by\epam\atm\lecture9\pages\AbstractPage.class
+by\epam\atm\lecture9\tests\MailWebDriverTest.class
+by\epam\atm\lecture9\pages\CreateMailPage.class
+by\epam\atm\lecture9\bo\Account.class
+by\epam\atm\lecture9\bo\Letter.class
+by\epam\atm\lecture9\pages\LoggedInPage.class
+by\epam\atm\lecture9\pages\SentPage.class

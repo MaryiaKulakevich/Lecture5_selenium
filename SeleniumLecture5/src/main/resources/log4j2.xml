@@ -5,8 +5,8 @@
             <PatternLayout pattern="[%d{yyyy-MM-dd HH:mm:ss}][%-5level] [%t] %c{1}: %m%n"/>
         </Console>
 
-        <RollingFile name="DailyFileAppender" fileName="src/test/logs/log-current.log"
-        filePattern="src/test/logs/log-%d{yyyy-MM-dd}.log.zip">
+        <RollingFile name="DailyFileAppender" fileName="src/test/resources/logs/log-current.log"
+        filePattern="src/test/resources/logs/log-%d{yyyy-MM-dd}.log.zip">
         <PatternLayout>
             <pattern> [%d{yyyy-MM-dd HH:mm:ss}][%-5level] [%t] %c{1}: %m%n</pattern>
         </PatternLayout>
@@ -16,17 +16,17 @@
         <DefaultRolloverStrategy max="5" />
     </RollingFile>
 
-    <!--<ReportPortalLog4j2Appender name="ReportPortalAppender">-->
-            <!--<PatternLayout-->
-                    <!--pattern="[%d{HH:mm:ss}] %-5p (%F) - %m%n"/>-->
-        <!--</ReportPortalLog4j2Appender>-->
+    <ReportPortalLog4j2Appender name="ReportPortalAppender">
+            <PatternLayout
+                    pattern="[%d{HH:mm:ss}] %-5p (%F):  %m%n"/>
+        </ReportPortalLog4j2Appender>
 
     </Appenders>
     <Loggers>
         <Root level="DEBUG">
             <AppenderRef ref="ConsoleAppender"/>
             <AppenderRef ref ="DailyFileAppender"/>
-            <!--<AppenderRef ref="ReportPortalAppender"/>-->
+            <AppenderRef ref="ReportPortalAppender"/>
         </Root>
     </Loggers>
 </Configuration>

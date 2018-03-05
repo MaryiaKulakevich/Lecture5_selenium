@@ -18,104 +18,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CreateMailPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture9/pages/CreateMailPage.java">
+      <file leaf-file-name="MailWebDriverTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture9/tests/MailWebDriverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
-              <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DraftMailPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture9/pages/DraftMailPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DraftsPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture9/pages/DraftsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="45" column="24" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+            <state relative-caret-position="-578">
+              <caret line="60" column="34" lean-forward="true" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
               <folding>
-                <element signature="e#727#728#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j2.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <file leaf-file-name="log-current.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/logs/log-current.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+            <state relative-caret-position="-24976">
+              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MailWebDriverTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture9/tests/MailWebDriverTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2100">
-              <caret line="103" column="5" lean-forward="true" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HighlightElement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/atm/utiles/HighlightElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebDriverDecorator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/atm/patterns/decorator/driver_decorator/WebDriverDecorator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="52" column="112" lean-forward="false" selection-start-line="52" selection-start-column="85" selection-end-line="52" selection-end-column="112" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MakeScreenshotOnFailure.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/atm/utiles/MakeScreenshotOnFailure.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="77" lean-forward="false" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MakeScreenshot.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MakeScreenshot.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/atm/utiles/MakeScreenshot.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="45" />
+              <caret line="14" column="55" lean-forward="false" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -146,10 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/utiles/Waiter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/pages/CreateMailPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/pages/DraftsPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/pages/SentPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/utiles/HighlightAndScreenshot.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/pages/AbstractPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/epam/atm/lecture5/utiles/AddNumberToString.java" />
@@ -191,12 +116,16 @@
         <option value="$PROJECT_DIR$/src/main/java/by/epam/atm/patterns/factorymethod/ChromeDriverCreator.java" />
         <option value="$PROJECT_DIR$/log-info.log" />
         <option value="$PROJECT_DIR$/src/test/java/by/epam/atm/lecture9/pages/AbstractPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/atm/utiles/HighlightElement.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/atm/utiles/MakeScreenshot.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/atm/utiles/MakeScreenshotOnFailure.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/atm/utiles/HighlightElement.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/epam/atm/lecture9/Runner.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/suites/tests.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/reportportal.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/by/epam/atm/lecture9/tests/MailWebDriverTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/logs/log-current.log" />
       </list>
     </option>
   </component>
@@ -207,11 +136,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="542" />
-    <option name="y" value="77" />
-    <option name="width" value="1379" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -283,10 +211,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,46 +246,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="atm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SeleniumLecture5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SeleniumLecture5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="atm" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SeleniumLecture5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SeleniumLecture5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="atm" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SeleniumLecture5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SeleniumLecture5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="atm" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
-              <item name="driver_decorator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SeleniumLecture5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SeleniumLecture5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="atm" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="staticfactory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SeleniumLecture5" type="b2602c69:ProjectViewProjectNode" />
@@ -404,24 +291,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lecture9" type="462c0819:PsiDirectoryNode" />
-              <item name="bo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SeleniumLecture5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SeleniumLecture5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lecture9" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SeleniumLecture5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SeleniumLecture5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lecture9" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -429,6 +298,14 @@
               <item name="SeleniumLecture5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumLecture5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumLecture5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -436,31 +313,56 @@
               <item name="SeleniumLecture5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="suites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumLecture5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumLecture5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test-output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumLecture5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumLecture5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="test-output-failure" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/Automated testing program/Lecture13/rp-demo" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="by.epam.atm.patterns.singleton" />
+      <recent name="by.epam.atm.lecture5.pages" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\ATP\Lecture5_selenium\SeleniumLecture5\src\main\resources" />
+      <recent name="E:\ATP\Lecture5_selenium\SeleniumLecture5\src\test\resources\suites" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="by.epam.atm.patterns.singleton" />
-      <recent name="by.epam.atm.lecture5.pages" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="by.epam.atm.lecture9" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ATP\Lecture5_selenium\SeleniumLecture5\src\test\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -475,13 +377,65 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MailWebDriverTest">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
+  <component name="RunManager" selected="TestNG.E:/ATP/Lecture5_selenium/SeleniumLecture5/src/test/resources/suites/tests.xml">
+    <configuration name="E:/ATP/Lecture5_selenium/SeleniumLecture5/src/test/resources/suites/tests.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="SeleniumLecture5" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/suites/tests.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="MailWebDriverTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="by.epam.atm.lecture9.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SeleniumLecture5" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="by.epam.atm.lecture4" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.atm.lecture9.tests.MailWebDriverTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
     </configuration>
     <configuration name="MyWebDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -491,6 +445,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="by.epam.atm.lecture5.MyWebDriver" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SeleniumLecture5" />
+      <envs />
+    </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="by.epam.atm.lecture9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="by.epam.atm.lecture9.Runner" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -520,6 +493,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="SeleniumLecture5" />
       <envs />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -555,108 +535,18 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-    </configuration>
-    <configuration name="MailWebDriverTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="by.epam.atm.lecture9.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SeleniumLecture5" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="by.epam.atm.lecture4" />
-      <option name="MAIN_CLASS_NAME" value="by.epam.atm.lecture9.tests.MailWebDriverTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="MailWebDriverTest.createMail" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="by.epam.atm.lecture9.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SeleniumLecture5" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="by.epam.atm.lecture4" />
-      <option name="MAIN_CLASS_NAME" value="by.epam.atm.lecture9.tests.MailWebDriverTest" />
-      <option name="METHOD_NAME" value="createMail" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="MailWebDriverTest.login" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="by.epam.atm.lecture9.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SeleniumLecture5" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="by.epam.atm.lecture4" />
-      <option name="MAIN_CLASS_NAME" value="by.epam.atm.lecture9.tests.MailWebDriverTest" />
-      <option name="METHOD_NAME" value="login" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -685,26 +575,20 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.MyWebDriver" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.MailWebDriverTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.MailWebDriverTest.login" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.MailWebDriverTest.createMail" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TryLogs" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TryLogs" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.E:/ATP/Lecture5_selenium/SeleniumLecture5/src/test/resources/suites/tests.xml" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Runner" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.MailWebDriverTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TryLogs" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MyWebDriver" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.MailWebDriverTest.createMail" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.MailWebDriverTest.login" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.E:/ATP/Lecture5_selenium/SeleniumLecture5/src/test/resources/suites/tests.xml" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.MailWebDriverTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Runner" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TryLogs" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MyWebDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -725,34 +609,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MailWebDriverTest - 2018.03.05 at 14h 32m 38s.xml">
+    <history-entry file="E__ATP_Lecture5_selenium_SeleniumLecture5_src_test_resources_suites_tests_xml - 2018.03.05 at 23h 32m 57s.xml">
+      <configuration name="E:/ATP/Lecture5_selenium/SeleniumLecture5/src/test/resources/suites/tests.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__ATP_Lecture5_selenium_SeleniumLecture5_src_test_resources_suites_tests_xml - 2018.03.05 at 23h 40m 52s.xml">
+      <configuration name="E:/ATP/Lecture5_selenium/SeleniumLecture5/src/test/resources/suites/tests.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__ATP_Lecture5_selenium_SeleniumLecture5_src_test_resources_suites_tests_xml - 2018.03.05 at 23h 57m 32s.xml">
+      <configuration name="E:/ATP/Lecture5_selenium/SeleniumLecture5/src/test/resources/suites/tests.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MailWebDriverTest - 2018.03.05 at 23h 00m 23s.xml">
       <configuration name="MailWebDriverTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MailWebDriverTest - 2018.03.05 at 14h 38m 25s.xml">
+    <history-entry file="MailWebDriverTest - 2018.03.05 at 23h 03m 28s.xml">
       <configuration name="MailWebDriverTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MailWebDriverTest - 2018.03.05 at 14h 41m 01s.xml">
+    <history-entry file="MailWebDriverTest - 2018.03.05 at 23h 31m 52s.xml">
       <configuration name="MailWebDriverTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MailWebDriverTest - 2018.03.05 at 14h 56m 59s.xml">
+    <history-entry file="MailWebDriverTest - 2018.03.05 at 23h 35m 36s.xml">
       <configuration name="MailWebDriverTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MailWebDriverTest - 2018.03.05 at 15h 23m 32s.xml">
+    <history-entry file="MailWebDriverTest - 2018.03.05 at 23h 39m 08s.xml">
       <configuration name="MailWebDriverTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MailWebDriverTest - 2018.03.05 at 15h 25m 09s.xml">
+    <history-entry file="MailWebDriverTest - 2018.03.05 at 23h 39m 44s.xml">
       <configuration name="MailWebDriverTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MailWebDriverTest - 2018.03.05 at 15h 31m 11s.xml">
-      <configuration name="MailWebDriverTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MailWebDriverTest - 2018.03.05 at 15h 37m 58s.xml">
-      <configuration name="MailWebDriverTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MailWebDriverTest - 2018.03.05 at 16h 07m 17s.xml">
-      <configuration name="MailWebDriverTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MailWebDriverTest - 2018.03.05 at 16h 09m 49s.xml">
+    <history-entry file="MailWebDriverTest - 2018.03.05 at 23h 55m 09s.xml">
       <configuration name="MailWebDriverTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -766,33 +650,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3181818" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47995666" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47995666" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.195629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1977612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55687976" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55687976" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3181818" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -837,20 +721,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/test-output/screenshot1520187159888.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/test-output/screenshot1520187181727.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/test-output/screenshot1520187846669.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/test-output/screenshot1520187851363.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/test-output/screenshot1520187854243.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/test-output/screenshot1520187855404.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/test-output/screenshot1520187857117.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/test-output/screenshot1520187877855.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/test-output/screenshot1520187899538.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/test-output/screenshot1520188477309.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/test-output/screenshot1520188486441.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/test-output/screenshot1520188494460.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/test-output/screenshot1520188495452.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/test-output/screenshot1520188496997.png" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.13.1/testng-6.13.1.jar!/org/testng/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -878,14 +748,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/test-output/screenshot1520193686551.jpg" />
     <entry file="file://$PROJECT_DIR$/src/test/test-output/screenshot1520193691102.jpg" />
     <entry file="file://$PROJECT_DIR$/src/test/test-output/screenshot1520193694225.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/atm/utiles/CustomLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/test-output-failure/screenshotcheckMessage.jpg" />
     <entry file="file://$PROJECT_DIR$/src/test/test-output-failure/screenshotsendMail.jpg" />
     <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/atm/patterns/singleton/UnknownDriverTypeException.java">
@@ -909,13 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/atm/patterns/factorymethod/ChromeDriverCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/atm/patterns/factorymethod/WebDriverFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -927,24 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/atm/patterns/singleton/WebDriverSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="41" column="1" lean-forward="false" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture9/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <marker date="1520240545118" expanded="true" signature="958:1003" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -965,14 +802,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/test-output-failure/screenshotnoMailsLeft.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/atm/patterns/staticfactory/CustomWaiter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture9/pages/SentPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -980,37 +809,7 @@
           <folding>
             <element signature="e#772#773#0" expanded="false" />
             <element signature="e#801#802#0" expanded="false" />
-            <marker date="1520240545118" expanded="true" signature="1331:1348" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/atm/utiles/MakeScreenshotOnFailure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="77" lean-forward="false" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test-output-failure/screenshot_noMailsLeft.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/atm/patterns/decorator/driver_decorator/WebDriverDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="52" column="112" lean-forward="false" selection-start-line="52" selection-start-column="85" selection-end-line="52" selection-end-column="112" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/atm/utiles/HighlightElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,41 +834,191 @@
         <state relative-caret-position="825">
           <caret line="45" column="24" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
           <folding>
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="false" />
+            <element signature="e#756#757#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/log-info.log" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/atm/utiles/MakeScreenshot.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture9/Runner.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/atm/utiles/CustomLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="45" />
+        <state relative-caret-position="175">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/atm/patterns/staticfactory/CustomWaiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/atm/patterns/factorymethod/ChromeDriverCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/epam/reportportal/agent-java-testng/4.0.0/agent-java-testng-4.0.0.jar!/com/epam/reportportal/testng/ReportPortalTestNGListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        <state relative-caret-position="175">
+          <caret line="7" column="74" lean-forward="false" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/reportportal.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/atm/patterns/decorator/driver_decorator/WebDriverDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <marker date="1520271453321" expanded="true" signature="1946:2037" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture9/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/test-output-failure/screenshot_noMailsLeft.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/atm/patterns/singleton/WebDriverSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/atm/utiles/HighlightElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/test-output/screenshot1520282380367.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/test-output/screenshot1520282344344.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/suites/tests.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/atm/utiles/MakeScreenshotOnFailure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/test-output/screenshot1520283211058.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/test-output/screenshot1520283215381.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/test-output/screenshot1520283221566.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/test-output/screenshot1520283222728.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/test-output/screenshot1520283224386.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/test-output/screenshot1520283265463.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/test-output/screenshot1520283307417.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/logs/log-current.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24976">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/atm/lecture9/tests/MailWebDriverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="103" column="5" lean-forward="true" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="-578">
+          <caret line="60" column="34" lean-forward="true" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/atm/utiles/MakeScreenshot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+        <state relative-caret-position="225">
+          <caret line="14" column="55" lean-forward="false" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
           <folding />
         </state>
       </provider>

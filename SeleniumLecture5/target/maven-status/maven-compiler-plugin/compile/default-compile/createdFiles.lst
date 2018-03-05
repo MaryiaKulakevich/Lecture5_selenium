@@ -1,0 +1,14 @@
+by\epam\atm\patterns\decorator\driver_decorator\WebDriverDecorator.class
+by\epam\atm\patterns\singleton\WebDriverType.class
+by\epam\atm\patterns\singleton\UnknownDriverTypeException.class
+by\epam\atm\utiles\HighlightElement.class
+by\epam\atm\patterns\staticfactory\CustomWaiter.class
+by\epam\atm\utiles\CustomLogger.class
+by\epam\atm\patterns\factorymethod\WebDriverFactory.class
+by\epam\atm\patterns\singleton\WebDriverSingleton.class
+by\epam\atm\patterns\singleton\WebDriverSingleton$1.class
+by\epam\atm\utiles\MakeScreenshotOnFailure.class
+by\epam\atm\patterns\decorator\string_decorator\AddNumberToString.class
+by\epam\atm\patterns\factorymethod\ChromeDriverCreator.class
+by\epam\atm\patterns\factorymethod\FireFoxDriverCreator.class
+by\epam\atm\utiles\MakeScreenshot.class

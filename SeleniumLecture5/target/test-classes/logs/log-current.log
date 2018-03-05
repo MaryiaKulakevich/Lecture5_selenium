@@ -1,0 +1,945 @@
+[2018-03-05 22:41:03][DEBUG] [main] CustomLogger: Setting implicit timeout to 10 seconds
+[2018-03-05 22:41:03][INFO ] [main] CustomLogger: Getting an instance of web driver: CHROME
+[2018-03-05 22:41:05][DEBUG] [main] CustomLogger: Getting an instance of WebDriverWait and setting explicit timeout to 16 seconds
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> id: mailbox:login]
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> id: mailbox:login]
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> id: mailbox:login]
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> id: mailbox:password]
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> id: mailbox:password]
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> id: mailbox:password]
+[2018-03-05 22:41:05][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:41:06][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:41:06][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:41:06][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //input[@value='Войти']]
+[2018-03-05 22:41:06][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/resources/test-output/screenshot1520278866585.jpg# Taking screenshot
+[2018-03-05 22:41:06][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:41:06][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:41:06][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:41:06][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //input[@value='Войти']]
+[2018-03-05 22:41:06][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:41:06][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:41:06][INFO ] [main] CustomLogger: Clicking element: '' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //input[@value='Войти']]
+[2018-03-05 22:41:06][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:41:06][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:41:07][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:41:10][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:41:10][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:41:10][DEBUG] [main] CustomLogger: Waiting until all elements are visible: [[[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> id: PH_user-email]]
+[2018-03-05 22:41:10][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:41:10][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:41:10][INFO ] [main] CustomLogger: Element is present: [[[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> id: PH_user-email]]
+[2018-03-05 22:41:10][INFO ] [main] CustomLogger: Login is successful
+[2018-03-05 22:41:10][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-05 22:41:10][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-05 22:41:10][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-05 22:41:10][INFO ] [main] CustomLogger: Highlighting element 'Написать письмо' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //div[@class='b-sticky']//a[@data-name='compose']]
+[2018-03-05 22:41:10][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/resources/test-output/screenshot1520278870614.jpg# Taking screenshot
+[2018-03-05 22:41:10][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-05 22:41:10][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-05 22:41:10][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-05 22:41:10][INFO ] [main] CustomLogger: Unhighlighting element 'Написать письмо' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //div[@class='b-sticky']//a[@data-name='compose']]
+[2018-03-05 22:41:10][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-05 22:41:10][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-05 22:41:10][INFO ] [main] CustomLogger: Clicking element: 'Написать письмо' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //div[@class='b-sticky']//a[@data-name='compose']]
+[2018-03-05 22:41:10][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-05 22:41:11][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-05 22:41:11][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-05 22:41:11][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-05 22:41:11][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //textarea[@tabindex='4']]
+[2018-03-05 22:41:11][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-05 22:41:12][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-05 22:41:12][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-05 22:41:12][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //textarea[@tabindex='4']]
+[2018-03-05 22:41:12][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-05 22:41:12][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-05 22:41:12][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-05 22:41:12][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //textarea[@tabindex='4']]
+[2018-03-05 22:41:12][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-05 22:41:12][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-05 22:41:12][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-05 22:41:12][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> css selector: div.compose-head__field>input.b-input]
+[2018-03-05 22:41:12][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-05 22:41:12][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-05 22:41:12][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-05 22:41:12][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> css selector: div.compose-head__field>input.b-input]
+[2018-03-05 22:41:12][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-05 22:41:12][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-05 22:41:12][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-05 22:41:12][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> css selector: div.compose-head__field>input.b-input]
+[2018-03-05 22:41:12][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-05 22:41:13][INFO ] [main] CustomLogger: Executing a sequence of keyboard actions
+[2018-03-05 22:41:13][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@href='/messages/drafts']
+[2018-03-05 22:41:13][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@href='/messages/drafts']
+[2018-03-05 22:41:13][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@href='/messages/drafts']
+[2018-03-05 22:41:13][DEBUG] [main] CustomLogger: Waiting until all elements are visible: [[[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //div[@class='b-sticky']//a[@href='/messages/drafts']]]
+[2018-03-05 22:41:13][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-05 22:41:13][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-05 22:41:13][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-05 22:41:13][INFO ] [main] CustomLogger: Highlighting element 'Черновики' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']]
+[2018-03-05 22:41:13][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/resources/test-output/screenshot1520278873846.jpg# Taking screenshot
+[2018-03-05 22:41:13][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-05 22:41:13][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-05 22:41:13][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-05 22:41:13][INFO ] [main] CustomLogger: Unhighlighting element 'Черновики' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']]
+[2018-03-05 22:41:13][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-05 22:41:13][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-05 22:41:13][INFO ] [main] CustomLogger: Clicking element: 'Черновики' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']]
+[2018-03-05 22:41:13][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-05 22:41:14][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:41:14][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:41:14][INFO ] [main] CustomLogger: Element is present: [[[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //a[@data-subject='lecture9 selenium']]]
+[2018-03-05 22:41:14][INFO ] [main] CustomLogger: The draft mail is present in Drafts
+[2018-03-05 22:41:14][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[text()='mentee2017@mail.ru']
+[2018-03-05 22:41:14][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[text()='mentee2017@mail.ru']
+[2018-03-05 22:41:14][INFO ] [main] CustomLogger: Element is present: [[[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //div[text()='mentee2017@mail.ru']]]
+[2018-03-05 22:41:14][INFO ] [main] CustomLogger: The addressee is correct
+[2018-03-05 22:41:14][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:41:14][INFO ] [main] CustomLogger: Highlighting element '22:41
+lecture9 selenium994: Automation mentoring program -- test test
+mentee2017@mail.ru' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //a[@data-subject='lecture9 selenium']]
+[2018-03-05 22:41:14][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/resources/test-output/screenshot1520278874948.jpg# Taking screenshot
+[2018-03-05 22:41:15][INFO ] [main] CustomLogger: Unhighlighting element '22:41
+lecture9 selenium994: Automation mentoring program -- test test
+mentee2017@mail.ru' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //a[@data-subject='lecture9 selenium']]
+[2018-03-05 22:41:15][INFO ] [main] CustomLogger: Clicking element: '22:41
+lecture9 selenium994: Automation mentoring program -- test test
+mentee2017@mail.ru' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //a[@data-subject='lecture9 selenium']]
+[2018-03-05 22:41:15][INFO ] [main] CustomLogger: Finding element: By.xpath: //body[@id='tinymce']//div[contains(text(),'Automation mentoring program')]
+[2018-03-05 22:41:15][INFO ] [main] CustomLogger: Finding element: By.xpath: //body[@id='tinymce']//div[contains(text(),'Automation mentoring program')]
+[2018-03-05 22:41:16][INFO ] [main] CustomLogger: Element is present: [[[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //body[@id='tinymce']//div[contains(text(),'Automation mentoring program')]]]
+[2018-03-05 22:41:16][INFO ] [main] CustomLogger: The body message is correct
+[2018-03-05 22:41:16][INFO ] [main] CustomLogger: Clicking Send button by javascript action
+[2018-03-05 22:41:16][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 22:41:16][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 22:41:16][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 22:41:16][DEBUG] [main] CustomLogger: Waiting until element is visible: 'Черновики' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']]
+[2018-03-05 22:41:16][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 22:41:16][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 22:41:16][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 22:41:16][INFO ] [main] CustomLogger: Highlighting element 'Черновики' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']]
+[2018-03-05 22:41:16][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/resources/test-output/screenshot1520278876674.jpg# Taking screenshot
+[2018-03-05 22:41:16][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 22:41:16][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 22:41:16][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 22:41:16][INFO ] [main] CustomLogger: Unhighlighting element 'Черновики' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']]
+[2018-03-05 22:41:16][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 22:41:16][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 22:41:16][INFO ] [main] CustomLogger: Clicking element: 'Черновики' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']]
+[2018-03-05 22:41:16][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 22:41:16][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:41:26][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:41:37][DEBUG] [main] CustomLogger: Waiting until all elements are invisible: []
+[2018-03-05 22:41:37][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:41:47][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:41:57][INFO ] [main] CustomLogger: Element is not present: []
+[2018-03-05 22:41:57][INFO ] [main] CustomLogger: The draft mail is not present in Drafts anymore
+[2018-03-05 22:41:57][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-05 22:41:57][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-05 22:41:57][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-05 22:41:57][INFO ] [main] CustomLogger: Highlighting element 'Отправленные' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //div[@data-id='500000']/a[@href='/messages/sent/']]
+[2018-03-05 22:41:57][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/resources/test-output/screenshot1520278917647.jpg# Taking screenshot
+[2018-03-05 22:41:57][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-05 22:41:57][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-05 22:41:57][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-05 22:41:57][INFO ] [main] CustomLogger: Unhighlighting element 'Отправленные' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //div[@data-id='500000']/a[@href='/messages/sent/']]
+[2018-03-05 22:41:57][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-05 22:41:57][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-05 22:41:57][INFO ] [main] CustomLogger: Clicking element: 'Отправленные' [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //div[@data-id='500000']/a[@href='/messages/sent/']]
+[2018-03-05 22:41:57][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-05 22:41:57][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:41:57][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:41:57][INFO ] [main] CustomLogger: Element is present: [[[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //a[@data-subject='lecture9 selenium']], [[ChromeDriver: chrome on XP (55c48c51fdc1743bba74667dc525a4ec)] -> xpath: //a[@data-subject='lecture9 selenium']]]
+[2018-03-05 22:41:57][INFO ] [main] CustomLogger: The mail is present in Sent
+[2018-03-05 22:41:57][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:41:58][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='b-nav_folders']//a[@href='/messages/trash/']
+[2018-03-05 22:41:58][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='b-nav_folders']//a[@href='/messages/trash/']
+[2018-03-05 22:41:58][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='b-nav_folders']//a[@href='/messages/trash/']
+[2018-03-05 22:41:58][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='b-nav_folders']//a[@href='/messages/trash/']
+[2018-03-05 22:41:58][INFO ] [main] CustomLogger: Executing drag and drop mouse action
+[2018-03-05 22:41:58][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:41:58][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:41:59][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:41:59][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:42:00][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:42:01][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:42:01][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:42:02][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:42:02][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:42:03][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:42:03][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:42:04][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:42:04][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:42:05][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:42:05][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:42:06][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:42:06][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:42:08][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 22:42:52][DEBUG] [main] CustomLogger: Setting implicit timeout to 10 seconds
+[2018-03-05 22:42:52][INFO ] [main] CustomLogger: Getting an instance of web driver: CHROME
+[2018-03-05 22:42:53][DEBUG] [main] CustomLogger: Getting an instance of WebDriverWait and setting explicit timeout to 16 seconds
+[2018-03-05 22:42:53][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:42:53][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:42:53][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:42:53][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (a5a55f91098a4a329f5e6e097df225a7)] -> id: mailbox:login]
+[2018-03-05 22:42:53][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:42:53][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:42:53][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:42:53][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (a5a55f91098a4a329f5e6e097df225a7)] -> id: mailbox:login]
+[2018-03-05 22:42:53][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:42:53][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:42:53][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:42:54][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (a5a55f91098a4a329f5e6e097df225a7)] -> id: mailbox:login]
+[2018-03-05 22:42:54][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:42:54][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:42:54][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:42:54][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (a5a55f91098a4a329f5e6e097df225a7)] -> id: mailbox:password]
+[2018-03-05 22:42:54][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:42:54][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:42:54][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:42:54][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (a5a55f91098a4a329f5e6e097df225a7)] -> id: mailbox:password]
+[2018-03-05 22:42:54][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:42:54][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:42:54][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:42:54][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (a5a55f91098a4a329f5e6e097df225a7)] -> id: mailbox:password]
+[2018-03-05 22:42:54][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:42:54][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:42:54][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:42:54][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (a5a55f91098a4a329f5e6e097df225a7)] -> xpath: //input[@value='Войти']]
+[2018-03-05 22:42:55][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/resources/test-output/screenshot1520278975055.jpg# Taking screenshot
+[2018-03-05 22:42:55][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:42:55][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:42:55][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:42:55][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (a5a55f91098a4a329f5e6e097df225a7)] -> xpath: //input[@value='Войти']]
+[2018-03-05 22:42:55][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:42:55][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:42:55][INFO ] [main] CustomLogger: Clicking element: '' [[ChromeDriver: chrome on XP (a5a55f91098a4a329f5e6e097df225a7)] -> xpath: //input[@value='Войти']]
+[2018-03-05 22:42:55][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:42:55][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:42:55][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:42:58][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:42:58][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:42:58][DEBUG] [main] CustomLogger: Waiting until all elements are visible: [[[ChromeDriver: chrome on XP (a5a55f91098a4a329f5e6e097df225a7)] -> id: PH_user-email]]
+[2018-03-05 22:42:58][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:42:58][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:42:58][INFO ] [main] CustomLogger: Element is present: [[[ChromeDriver: chrome on XP (a5a55f91098a4a329f5e6e097df225a7)] -> id: PH_user-email]]
+[2018-03-05 22:42:58][INFO ] [main] CustomLogger: Login is successful
+[2018-03-05 22:50:49][DEBUG] [main] CustomLogger: Setting implicit timeout to 10 seconds
+[2018-03-05 22:50:49][INFO ] [main] CustomLogger: Getting an instance of web driver: CHROME
+[2018-03-05 22:50:50][DEBUG] [main] CustomLogger: Getting an instance of WebDriverWait and setting explicit timeout to 16 seconds
+[2018-03-05 22:50:50][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:50:50][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:50:50][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:50:50][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (7a93bbaeef47a541fc776aad2a790d6e)] -> id: mailbox:login]
+[2018-03-05 22:50:50][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:50:51][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:50:51][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:50:51][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (7a93bbaeef47a541fc776aad2a790d6e)] -> id: mailbox:login]
+[2018-03-05 22:50:51][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:50:51][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:50:51][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:50:51][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (7a93bbaeef47a541fc776aad2a790d6e)] -> id: mailbox:login]
+[2018-03-05 22:50:51][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:50:51][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:50:51][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:50:51][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (7a93bbaeef47a541fc776aad2a790d6e)] -> id: mailbox:password]
+[2018-03-05 22:50:51][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:50:51][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:50:51][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:50:51][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (7a93bbaeef47a541fc776aad2a790d6e)] -> id: mailbox:password]
+[2018-03-05 22:50:51][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:50:51][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:50:51][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:50:51][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (7a93bbaeef47a541fc776aad2a790d6e)] -> id: mailbox:password]
+[2018-03-05 22:50:51][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:50:51][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:50:51][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:50:51][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (7a93bbaeef47a541fc776aad2a790d6e)] -> xpath: //input[@value='Войти']]
+[2018-03-05 22:50:52][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/resources/test-output/screenshot1520279452358.jpg# Taking screenshot
+[2018-03-05 22:50:52][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:50:52][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:50:52][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:50:52][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (7a93bbaeef47a541fc776aad2a790d6e)] -> xpath: //input[@value='Войти']]
+[2018-03-05 22:50:52][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:50:52][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:50:52][INFO ] [main] CustomLogger: Clicking element: '' [[ChromeDriver: chrome on XP (7a93bbaeef47a541fc776aad2a790d6e)] -> xpath: //input[@value='Войти']]
+[2018-03-05 22:50:52][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:50:52][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:50:53][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:50:56][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:50:56][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:50:56][DEBUG] [main] CustomLogger: Waiting until all elements are visible: [[[ChromeDriver: chrome on XP (7a93bbaeef47a541fc776aad2a790d6e)] -> id: PH_user-email]]
+[2018-03-05 22:50:56][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:50:56][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:50:56][INFO ] [main] CustomLogger: Element is present: [[[ChromeDriver: chrome on XP (7a93bbaeef47a541fc776aad2a790d6e)] -> id: PH_user-email]]
+[2018-03-05 22:50:56][INFO ] [main] CustomLogger: Login is successful
+[2018-03-05 22:52:31][DEBUG] [main] CustomLogger: Setting implicit timeout to 10 seconds
+[2018-03-05 22:52:31][INFO ] [main] CustomLogger: Getting an instance of web driver: CHROME
+[2018-03-05 22:52:33][DEBUG] [main] CustomLogger: Getting an instance of WebDriverWait and setting explicit timeout to 16 seconds
+[2018-03-05 22:52:33][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:52:33][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:52:33][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:52:33][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (7517e1eb47773598e7223d05c45e58b1)] -> id: mailbox:login]
+[2018-03-05 22:52:33][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:52:33][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:52:33][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:52:33][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (7517e1eb47773598e7223d05c45e58b1)] -> id: mailbox:login]
+[2018-03-05 22:52:33][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:52:33][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:52:33][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:52:33][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (7517e1eb47773598e7223d05c45e58b1)] -> id: mailbox:login]
+[2018-03-05 22:52:33][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:52:33][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:52:33][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:52:33][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (7517e1eb47773598e7223d05c45e58b1)] -> id: mailbox:password]
+[2018-03-05 22:52:33][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:52:33][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:52:34][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:52:34][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (7517e1eb47773598e7223d05c45e58b1)] -> id: mailbox:password]
+[2018-03-05 22:52:34][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:52:34][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:52:34][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:52:34][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (7517e1eb47773598e7223d05c45e58b1)] -> id: mailbox:password]
+[2018-03-05 22:52:34][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:52:34][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:52:34][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:52:34][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (7517e1eb47773598e7223d05c45e58b1)] -> xpath: //input[@value='Войти']]
+[2018-03-05 22:52:34][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/resources/test-output/screenshot1520279554666.jpg# Taking screenshot
+[2018-03-05 22:52:34][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:52:34][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:52:34][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:52:34][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (7517e1eb47773598e7223d05c45e58b1)] -> xpath: //input[@value='Войти']]
+[2018-03-05 22:52:34][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:52:34][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:52:34][INFO ] [main] CustomLogger: Clicking element: '' [[ChromeDriver: chrome on XP (7517e1eb47773598e7223d05c45e58b1)] -> xpath: //input[@value='Войти']]
+[2018-03-05 22:52:34][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:52:34][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:52:35][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:52:38][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:52:38][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:52:38][DEBUG] [main] CustomLogger: Waiting until all elements are visible: [[[ChromeDriver: chrome on XP (7517e1eb47773598e7223d05c45e58b1)] -> id: PH_user-email]]
+[2018-03-05 22:52:38][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:52:38][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:52:38][INFO ] [main] CustomLogger: Element is present: [[[ChromeDriver: chrome on XP (7517e1eb47773598e7223d05c45e58b1)] -> id: PH_user-email]]
+[2018-03-05 22:52:38][INFO ] [main] CustomLogger: Login is successful
+[2018-03-05 22:53:01][DEBUG] [main] CustomLogger: Setting implicit timeout to 10 seconds
+[2018-03-05 22:53:01][INFO ] [main] CustomLogger: Getting an instance of web driver: CHROME
+[2018-03-05 22:53:03][DEBUG] [main] CustomLogger: Getting an instance of WebDriverWait and setting explicit timeout to 16 seconds
+[2018-03-05 22:53:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:53:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:53:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:53:03][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (794b83944068dd27b9fb86e35d13cefc)] -> id: mailbox:login]
+[2018-03-05 22:53:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:53:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:53:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:53:03][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (794b83944068dd27b9fb86e35d13cefc)] -> id: mailbox:login]
+[2018-03-05 22:53:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:53:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:53:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 22:53:03][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (794b83944068dd27b9fb86e35d13cefc)] -> id: mailbox:login]
+[2018-03-05 22:53:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:53:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:53:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:53:03][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (794b83944068dd27b9fb86e35d13cefc)] -> id: mailbox:password]
+[2018-03-05 22:53:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:53:04][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:53:04][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:53:04][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (794b83944068dd27b9fb86e35d13cefc)] -> id: mailbox:password]
+[2018-03-05 22:53:04][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:53:04][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:53:04][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 22:53:04][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (794b83944068dd27b9fb86e35d13cefc)] -> id: mailbox:password]
+[2018-03-05 22:53:04][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:53:04][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:53:04][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:53:04][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (794b83944068dd27b9fb86e35d13cefc)] -> xpath: //input[@value='Войти']]
+[2018-03-05 22:53:04][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/resources/test-output/screenshot1520279584837.jpg# Taking screenshot
+[2018-03-05 22:53:04][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:53:04][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:53:04][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:53:04][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (794b83944068dd27b9fb86e35d13cefc)] -> xpath: //input[@value='Войти']]
+[2018-03-05 22:53:04][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:53:04][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:53:04][INFO ] [main] CustomLogger: Clicking element: '' [[ChromeDriver: chrome on XP (794b83944068dd27b9fb86e35d13cefc)] -> xpath: //input[@value='Войти']]
+[2018-03-05 22:53:04][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 22:53:05][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:53:05][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:53:08][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:53:08][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:53:08][DEBUG] [main] CustomLogger: Waiting until all elements are visible: [[[ChromeDriver: chrome on XP (794b83944068dd27b9fb86e35d13cefc)] -> id: PH_user-email]]
+[2018-03-05 22:53:08][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:53:08][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 22:53:08][INFO ] [main] CustomLogger: Element is present: [[[ChromeDriver: chrome on XP (794b83944068dd27b9fb86e35d13cefc)] -> id: PH_user-email]]
+[2018-03-05 22:53:08][INFO ] [main] CustomLogger: Login is successful
+[2018-03-05 23:00:16][DEBUG] [main] CustomLogger: Setting implicit timeout to 10 seconds
+[2018-03-05 23:00:16][INFO ] [main] CustomLogger: Getting an instance of web driver: CHROME
+[2018-03-05 23:00:18][DEBUG] [main] CustomLogger: Getting an instance of WebDriverWait and setting explicit timeout to 16 seconds
+[2018-03-05 23:00:18][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:00:18][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:00:18][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:00:18][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (6bf46c1dab6c3e0d49a710f09e8747af)] -> id: mailbox:login]
+[2018-03-05 23:00:18][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:00:18][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:00:18][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:00:18][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (6bf46c1dab6c3e0d49a710f09e8747af)] -> id: mailbox:login]
+[2018-03-05 23:00:18][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:00:18][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:00:18][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:00:18][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (6bf46c1dab6c3e0d49a710f09e8747af)] -> id: mailbox:login]
+[2018-03-05 23:00:18][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:00:18][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:00:18][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:00:18][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (6bf46c1dab6c3e0d49a710f09e8747af)] -> id: mailbox:password]
+[2018-03-05 23:00:18][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:00:19][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:00:19][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:00:19][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (6bf46c1dab6c3e0d49a710f09e8747af)] -> id: mailbox:password]
+[2018-03-05 23:00:19][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:00:19][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:00:19][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:00:19][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (6bf46c1dab6c3e0d49a710f09e8747af)] -> id: mailbox:password]
+[2018-03-05 23:00:19][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:00:19][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:00:19][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:00:19][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (6bf46c1dab6c3e0d49a710f09e8747af)] -> xpath: //input[@value='Войти']]
+[2018-03-05 23:00:19][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/resources/test-output/screenshot1520280019725.jpg# Taking screenshot
+[2018-03-05 23:00:19][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:00:19][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:00:19][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:00:19][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (6bf46c1dab6c3e0d49a710f09e8747af)] -> xpath: //input[@value='Войти']]
+[2018-03-05 23:00:19][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:00:19][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:00:19][INFO ] [main] CustomLogger: Clicking element: '' [[ChromeDriver: chrome on XP (6bf46c1dab6c3e0d49a710f09e8747af)] -> xpath: //input[@value='Войти']]
+[2018-03-05 23:00:19][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:00:19][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:00:20][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:00:23][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:00:23][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:00:23][DEBUG] [main] CustomLogger: Waiting until all elements are visible: [[[ChromeDriver: chrome on XP (6bf46c1dab6c3e0d49a710f09e8747af)] -> id: PH_user-email]]
+[2018-03-05 23:00:23][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:00:23][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:00:23][INFO ] [main] CustomLogger: Element is present: [[[ChromeDriver: chrome on XP (6bf46c1dab6c3e0d49a710f09e8747af)] -> id: PH_user-email]]
+[2018-03-05 23:00:23][INFO ] [main] CustomLogger: Login is successful
+[2018-03-05 23:03:21][DEBUG] [main] CustomLogger: Setting implicit timeout to 10 seconds
+[2018-03-05 23:03:21][INFO ] [main] CustomLogger: Getting an instance of web driver: CHROME
+[2018-03-05 23:03:22][DEBUG] [main] CustomLogger: Getting an instance of WebDriverWait and setting explicit timeout to 16 seconds
+[2018-03-05 23:03:22][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:03:22][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (bbaf6996a6ee6f4e6605bd135e3a0b16)] -> id: mailbox:login]
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (bbaf6996a6ee6f4e6605bd135e3a0b16)] -> id: mailbox:login]
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (bbaf6996a6ee6f4e6605bd135e3a0b16)] -> id: mailbox:login]
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (bbaf6996a6ee6f4e6605bd135e3a0b16)] -> id: mailbox:password]
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (bbaf6996a6ee6f4e6605bd135e3a0b16)] -> id: mailbox:password]
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (bbaf6996a6ee6f4e6605bd135e3a0b16)] -> id: mailbox:password]
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:03:23][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (bbaf6996a6ee6f4e6605bd135e3a0b16)] -> xpath: //input[@value='Войти']]
+[2018-03-05 23:03:24][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/resources/test-output/screenshot1520280204317.jpg# Taking screenshot
+[2018-03-05 23:03:24][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:03:24][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:03:24][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:03:24][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (bbaf6996a6ee6f4e6605bd135e3a0b16)] -> xpath: //input[@value='Войти']]
+[2018-03-05 23:03:24][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:03:24][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:03:24][INFO ] [main] CustomLogger: Clicking element: '' [[ChromeDriver: chrome on XP (bbaf6996a6ee6f4e6605bd135e3a0b16)] -> xpath: //input[@value='Войти']]
+[2018-03-05 23:03:24][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:03:24][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:03:25][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:03:28][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:03:28][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:03:28][DEBUG] [main] CustomLogger: Waiting until all elements are visible: [[[ChromeDriver: chrome on XP (bbaf6996a6ee6f4e6605bd135e3a0b16)] -> id: PH_user-email]]
+[2018-03-05 23:03:28][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:03:28][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:03:28][INFO ] [main] CustomLogger: Element is present: [[[ChromeDriver: chrome on XP (bbaf6996a6ee6f4e6605bd135e3a0b16)] -> id: PH_user-email]]
+[2018-03-05 23:03:28][INFO ] [main] CustomLogger: Login is successful
+[2018-03-05 23:27:36][DEBUG] [main] CustomLogger: Setting implicit timeout to 10 seconds
+[2018-03-05 23:27:36][INFO ] [main] CustomLogger: Getting an instance of web driver: CHROME
+[2018-03-05 23:27:39][DEBUG] [main] CustomLogger: Getting an instance of WebDriverWait and setting explicit timeout to 16 seconds
+[2018-03-05 23:27:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:27:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:27:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:27:39][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (38ad6f3ffde1a3268c975c1ac318191c)] -> id: mailbox:login]
+[2018-03-05 23:27:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:27:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:27:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:27:39][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (38ad6f3ffde1a3268c975c1ac318191c)] -> id: mailbox:login]
+[2018-03-05 23:27:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:27:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:27:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:27:39][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (38ad6f3ffde1a3268c975c1ac318191c)] -> id: mailbox:login]
+[2018-03-05 23:27:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:27:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:27:40][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:27:40][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (38ad6f3ffde1a3268c975c1ac318191c)] -> id: mailbox:password]
+[2018-03-05 23:27:40][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:27:40][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:27:40][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:27:40][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (38ad6f3ffde1a3268c975c1ac318191c)] -> id: mailbox:password]
+[2018-03-05 23:27:40][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:27:40][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:27:40][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:27:40][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (38ad6f3ffde1a3268c975c1ac318191c)] -> id: mailbox:password]
+[2018-03-05 23:27:40][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:31:39][DEBUG] [main] CustomLogger: Setting implicit timeout to 10 seconds
+[2018-03-05 23:31:39][INFO ] [main] CustomLogger: Getting an instance of web driver: CHROME
+[2018-03-05 23:31:40][DEBUG] [main] CustomLogger: Getting an instance of WebDriverWait and setting explicit timeout to 16 seconds
+[2018-03-05 23:31:40][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:31:40][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:31:40][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:31:40][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (077d023155f9c006587d74a033beca12)] -> id: mailbox:login]
+[2018-03-05 23:31:40][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:31:40][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:31:41][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:31:41][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (077d023155f9c006587d74a033beca12)] -> id: mailbox:login]
+[2018-03-05 23:31:41][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:31:41][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:31:41][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:31:41][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (077d023155f9c006587d74a033beca12)] -> id: mailbox:login]
+[2018-03-05 23:31:41][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:31:41][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:31:41][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:31:41][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (077d023155f9c006587d74a033beca12)] -> id: mailbox:password]
+[2018-03-05 23:31:41][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:31:41][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:31:41][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:31:41][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (077d023155f9c006587d74a033beca12)] -> id: mailbox:password]
+[2018-03-05 23:31:41][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:31:41][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:31:41][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:31:41][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (077d023155f9c006587d74a033beca12)] -> id: mailbox:password]
+[2018-03-05 23:31:41][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Р’РѕР№С‚Рё']
+[2018-03-05 23:32:44][DEBUG] [main] CustomLogger: Setting implicit timeout to 10 seconds
+[2018-03-05 23:32:44][INFO ] [main] CustomLogger: Getting an instance of web driver: CHROME
+[2018-03-05 23:32:45][DEBUG] [main] CustomLogger: Getting an instance of WebDriverWait and setting explicit timeout to 16 seconds
+[2018-03-05 23:32:45][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:32:45][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:32:45][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:32:45][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (397b3b1e492677fac6a36765c6354dd7)] -> id: mailbox:login]
+[2018-03-05 23:32:45][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:32:45][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:32:45][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:32:45][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (397b3b1e492677fac6a36765c6354dd7)] -> id: mailbox:login]
+[2018-03-05 23:32:45][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:32:46][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:32:46][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:32:46][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (397b3b1e492677fac6a36765c6354dd7)] -> id: mailbox:login]
+[2018-03-05 23:32:46][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:32:46][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:32:46][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:32:46][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (397b3b1e492677fac6a36765c6354dd7)] -> id: mailbox:password]
+[2018-03-05 23:32:46][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:32:46][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:32:46][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:32:46][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (397b3b1e492677fac6a36765c6354dd7)] -> id: mailbox:password]
+[2018-03-05 23:32:46][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:32:46][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:32:46][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:32:46][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (397b3b1e492677fac6a36765c6354dd7)] -> id: mailbox:password]
+[2018-03-05 23:32:46][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Р’РѕР№С‚Рё']
+[2018-03-05 23:35:24][DEBUG] [main] CustomLogger: Setting implicit timeout to 10 seconds
+[2018-03-05 23:35:24][INFO ] [main] CustomLogger: Getting an instance of web driver: CHROME
+[2018-03-05 23:35:25][DEBUG] [main] CustomLogger: Getting an instance of WebDriverWait and setting explicit timeout to 16 seconds
+[2018-03-05 23:35:25][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:35:25][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:35:25][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:35:25][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (70ddfbd21372d14c109c7c34bedc29f6)] -> id: mailbox:login]
+[2018-03-05 23:35:25][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:35:25][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:35:25][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:35:25][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (70ddfbd21372d14c109c7c34bedc29f6)] -> id: mailbox:login]
+[2018-03-05 23:35:25][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:35:26][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:35:26][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:35:26][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (70ddfbd21372d14c109c7c34bedc29f6)] -> id: mailbox:login]
+[2018-03-05 23:35:26][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:35:26][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:35:26][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:35:26][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (70ddfbd21372d14c109c7c34bedc29f6)] -> id: mailbox:password]
+[2018-03-05 23:35:26][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:35:26][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:35:26][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:35:26][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (70ddfbd21372d14c109c7c34bedc29f6)] -> id: mailbox:password]
+[2018-03-05 23:35:26][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:35:26][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:35:26][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:35:26][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (70ddfbd21372d14c109c7c34bedc29f6)] -> id: mailbox:password]
+[2018-03-05 23:35:26][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Р’РѕР№С‚Рё']
+[2018-03-05 23:39:01][DEBUG] [main] CustomLogger: Setting implicit timeout to 10 seconds
+[2018-03-05 23:39:01][INFO ] [main] CustomLogger: Getting an instance of web driver: CHROME
+[2018-03-05 23:39:02][DEBUG] [main] CustomLogger: Getting an instance of WebDriverWait and setting explicit timeout to 16 seconds
+[2018-03-05 23:39:02][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:39:02][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (896e77cc2dc23d6190c1e1f29a9edfaf)] -> id: mailbox:login]
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (896e77cc2dc23d6190c1e1f29a9edfaf)] -> id: mailbox:login]
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (896e77cc2dc23d6190c1e1f29a9edfaf)] -> id: mailbox:login]
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (896e77cc2dc23d6190c1e1f29a9edfaf)] -> id: mailbox:password]
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (896e77cc2dc23d6190c1e1f29a9edfaf)] -> id: mailbox:password]
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (896e77cc2dc23d6190c1e1f29a9edfaf)] -> id: mailbox:password]
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:39:03][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (896e77cc2dc23d6190c1e1f29a9edfaf)] -> xpath: //input[@value='Войти']]
+[2018-03-05 23:39:04][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/resources/test-output/screenshot1520282344344.jpg# Taking screenshot
+[2018-03-05 23:39:04][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:39:04][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:39:04][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:39:04][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (896e77cc2dc23d6190c1e1f29a9edfaf)] -> xpath: //input[@value='Войти']]
+[2018-03-05 23:39:04][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:39:04][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:39:04][INFO ] [main] CustomLogger: Clicking element: '' [[ChromeDriver: chrome on XP (896e77cc2dc23d6190c1e1f29a9edfaf)] -> xpath: //input[@value='Войти']]
+[2018-03-05 23:39:04][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:39:04][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:39:05][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:39:08][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:39:08][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:39:08][DEBUG] [main] CustomLogger: Waiting until all elements are visible: [[[ChromeDriver: chrome on XP (896e77cc2dc23d6190c1e1f29a9edfaf)] -> id: PH_user-email]]
+[2018-03-05 23:39:08][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:39:08][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:39:08][INFO ] [main] CustomLogger: Element is present: [[[ChromeDriver: chrome on XP (896e77cc2dc23d6190c1e1f29a9edfaf)] -> id: PH_user-email]]
+[2018-03-05 23:39:08][INFO ] [main] CustomLogger: Login is successful
+[2018-03-05 23:39:37][DEBUG] [main] CustomLogger: Setting implicit timeout to 10 seconds
+[2018-03-05 23:39:37][INFO ] [main] CustomLogger: Getting an instance of web driver: CHROME
+[2018-03-05 23:39:38][DEBUG] [main] CustomLogger: Getting an instance of WebDriverWait and setting explicit timeout to 16 seconds
+[2018-03-05 23:39:38][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:39:38][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:39:38][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (857718206b8d6c87954cc99273c40120)] -> id: mailbox:login]
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (857718206b8d6c87954cc99273c40120)] -> id: mailbox:login]
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (857718206b8d6c87954cc99273c40120)] -> id: mailbox:login]
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (857718206b8d6c87954cc99273c40120)] -> id: mailbox:password]
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (857718206b8d6c87954cc99273c40120)] -> id: mailbox:password]
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (857718206b8d6c87954cc99273c40120)] -> id: mailbox:password]
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:39:39][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (857718206b8d6c87954cc99273c40120)] -> xpath: //input[@value='Войти']]
+[2018-03-05 23:39:40][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/resources/test-output/screenshot1520282380367.jpg# Taking screenshot
+[2018-03-05 23:39:40][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:39:40][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:39:40][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:39:40][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (857718206b8d6c87954cc99273c40120)] -> xpath: //input[@value='Войти']]
+[2018-03-05 23:39:40][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:39:40][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:39:40][INFO ] [main] CustomLogger: Clicking element: '' [[ChromeDriver: chrome on XP (857718206b8d6c87954cc99273c40120)] -> xpath: //input[@value='Войти']]
+[2018-03-05 23:39:40][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:39:40][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:39:41][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:39:43][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:39:43][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:39:43][DEBUG] [main] CustomLogger: Waiting until all elements are visible: [[[ChromeDriver: chrome on XP (857718206b8d6c87954cc99273c40120)] -> id: PH_user-email]]
+[2018-03-05 23:39:43][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:39:43][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:39:43][INFO ] [main] CustomLogger: Element is present: [[[ChromeDriver: chrome on XP (857718206b8d6c87954cc99273c40120)] -> id: PH_user-email]]
+[2018-03-05 23:39:43][INFO ] [main] CustomLogger: Login is successful
+[2018-03-05 23:40:45][DEBUG] [main] CustomLogger: Setting implicit timeout to 10 seconds
+[2018-03-05 23:40:45][INFO ] [main] CustomLogger: Getting an instance of web driver: CHROME
+[2018-03-05 23:40:46][DEBUG] [main] CustomLogger: Getting an instance of WebDriverWait and setting explicit timeout to 16 seconds
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (9de7a0ceca46566df58147733af2e19d)] -> id: mailbox:login]
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (9de7a0ceca46566df58147733af2e19d)] -> id: mailbox:login]
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (9de7a0ceca46566df58147733af2e19d)] -> id: mailbox:login]
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (9de7a0ceca46566df58147733af2e19d)] -> id: mailbox:password]
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (9de7a0ceca46566df58147733af2e19d)] -> id: mailbox:password]
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (9de7a0ceca46566df58147733af2e19d)] -> id: mailbox:password]
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:40:47][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:40:48][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:40:48][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (9de7a0ceca46566df58147733af2e19d)] -> xpath: //input[@value='Войти']]
+[2018-03-05 23:40:48][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/resources/test-output/screenshot1520282448518.jpg# Taking screenshot
+[2018-03-05 23:40:48][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:40:48][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:40:48][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:40:48][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (9de7a0ceca46566df58147733af2e19d)] -> xpath: //input[@value='Войти']]
+[2018-03-05 23:40:48][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:40:48][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:40:48][INFO ] [main] CustomLogger: Clicking element: '' [[ChromeDriver: chrome on XP (9de7a0ceca46566df58147733af2e19d)] -> xpath: //input[@value='Войти']]
+[2018-03-05 23:40:48][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:40:48][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:40:49][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:40:52][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:40:52][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:40:52][DEBUG] [main] CustomLogger: Waiting until all elements are visible: [[[ChromeDriver: chrome on XP (9de7a0ceca46566df58147733af2e19d)] -> id: PH_user-email]]
+[2018-03-05 23:40:52][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:40:52][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:40:52][INFO ] [main] CustomLogger: Element is present: [[[ChromeDriver: chrome on XP (9de7a0ceca46566df58147733af2e19d)] -> id: PH_user-email]]
+[2018-03-05 23:40:52][INFO ] [main] CustomLogger: Login is successful
+[2018-03-05 23:53:28][DEBUG] [main] CustomLogger: Setting implicit timeout to 10 seconds
+[2018-03-05 23:53:28][INFO ] [main] CustomLogger: Getting an instance of web driver: CHROME
+[2018-03-05 23:53:29][DEBUG] [main] CustomLogger: Getting an instance of WebDriverWait and setting explicit timeout to 16 seconds
+[2018-03-05 23:53:29][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:53:29][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:53:29][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:53:29][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> id: mailbox:login]
+[2018-03-05 23:53:29][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:53:29][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:53:29][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:53:29][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> id: mailbox:login]
+[2018-03-05 23:53:29][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:53:29][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:53:29][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:login
+[2018-03-05 23:53:30][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> id: mailbox:login]
+[2018-03-05 23:53:30][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:53:30][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:53:30][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:53:30][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> id: mailbox:password]
+[2018-03-05 23:53:30][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:53:30][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:53:30][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:53:30][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> id: mailbox:password]
+[2018-03-05 23:53:30][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:53:30][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:53:30][INFO ] [main] CustomLogger: Finding element: By.id: mailbox:password
+[2018-03-05 23:53:30][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> id: mailbox:password]
+[2018-03-05 23:53:30][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:53:30][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:53:30][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:53:30][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //input[@value='Войти']]
+[2018-03-05 23:53:31][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/resources/test-output/screenshot1520283211058.jpg# Taking screenshot
+[2018-03-05 23:53:31][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:53:31][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:53:31][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:53:31][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //input[@value='Войти']]
+[2018-03-05 23:53:31][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:53:31][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:53:31][INFO ] [main] CustomLogger: Clicking element: '' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //input[@value='Войти']]
+[2018-03-05 23:53:31][INFO ] [main] CustomLogger: Finding element: By.xpath: //input[@value='Войти']
+[2018-03-05 23:53:31][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:53:31][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:53:34][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:53:34][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:53:34][DEBUG] [main] CustomLogger: Waiting until all elements are visible: [[[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> id: PH_user-email]]
+[2018-03-05 23:53:34][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:53:34][INFO ] [main] CustomLogger: Finding element: By.id: PH_user-email
+[2018-03-05 23:53:34][INFO ] [main] CustomLogger: Element is present: [[[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> id: PH_user-email]]
+[2018-03-05 23:53:34][INFO ] [main] CustomLogger: Login is successful
+[2018-03-05 23:53:34][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-05 23:53:34][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-05 23:53:35][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-05 23:53:35][INFO ] [main] CustomLogger: Highlighting element 'Написать письмо' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //div[@class='b-sticky']//a[@data-name='compose']]
+[2018-03-05 23:53:35][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/resources/test-output/screenshot1520283215381.jpg# Taking screenshot
+[2018-03-05 23:53:35][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-05 23:53:35][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-05 23:53:35][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-05 23:53:35][INFO ] [main] CustomLogger: Unhighlighting element 'Написать письмо' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //div[@class='b-sticky']//a[@data-name='compose']]
+[2018-03-05 23:53:35][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-05 23:53:35][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-05 23:53:35][INFO ] [main] CustomLogger: Clicking element: 'Написать письмо' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //div[@class='b-sticky']//a[@data-name='compose']]
+[2018-03-05 23:53:35][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@data-name='compose']
+[2018-03-05 23:53:36][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-05 23:53:36][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-05 23:53:36][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-05 23:53:36][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //textarea[@tabindex='4']]
+[2018-03-05 23:53:36][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-05 23:53:37][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-05 23:53:37][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-05 23:53:37][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //textarea[@tabindex='4']]
+[2018-03-05 23:53:37][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-05 23:53:37][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-05 23:53:37][INFO ] [main] CustomLogger: Finding element: By.xpath: //textarea[@tabindex='4']
+[2018-03-05 23:53:37][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //textarea[@tabindex='4']]
+[2018-03-05 23:53:37][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-05 23:53:37][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-05 23:53:37][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-05 23:53:37][INFO ] [main] CustomLogger: Highlighting element '' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> css selector: div.compose-head__field>input.b-input]
+[2018-03-05 23:53:37][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-05 23:53:37][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-05 23:53:37][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-05 23:53:37][INFO ] [main] CustomLogger: Typing text into element: '' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> css selector: div.compose-head__field>input.b-input]
+[2018-03-05 23:53:37][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-05 23:53:37][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-05 23:53:37][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-05 23:53:37][INFO ] [main] CustomLogger: Unhighlighting element '' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> css selector: div.compose-head__field>input.b-input]
+[2018-03-05 23:53:37][INFO ] [main] CustomLogger: Finding element: By.cssSelector: div.compose-head__field>input.b-input
+[2018-03-05 23:53:38][INFO ] [main] CustomLogger: Executing a sequence of keyboard actions
+[2018-03-05 23:53:38][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@href='/messages/drafts']
+[2018-03-05 23:53:41][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@href='/messages/drafts']
+[2018-03-05 23:53:41][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@class='b-sticky']//a[@href='/messages/drafts']
+[2018-03-05 23:53:41][DEBUG] [main] CustomLogger: Waiting until all elements are visible: [[[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //div[@class='b-sticky']//a[@href='/messages/drafts']]]
+[2018-03-05 23:53:41][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-05 23:53:41][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-05 23:53:41][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-05 23:53:41][INFO ] [main] CustomLogger: Highlighting element 'Черновики' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']]
+[2018-03-05 23:53:41][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/resources/test-output/screenshot1520283221566.jpg# Taking screenshot
+[2018-03-05 23:53:41][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-05 23:53:41][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-05 23:53:41][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-05 23:53:41][INFO ] [main] CustomLogger: Unhighlighting element 'Черновики' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']]
+[2018-03-05 23:53:41][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-05 23:53:41][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-05 23:53:41][INFO ] [main] CustomLogger: Clicking element: 'Черновики' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']]
+[2018-03-05 23:53:41][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500001']//span[@class='b-nav__item__text']
+[2018-03-05 23:53:41][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 23:53:41][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 23:53:42][INFO ] [main] CustomLogger: Element is present: [[[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //a[@data-subject='lecture9 selenium']]]
+[2018-03-05 23:53:42][INFO ] [main] CustomLogger: The draft mail is present in Drafts
+[2018-03-05 23:53:42][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[text()='mentee2017@mail.ru']
+[2018-03-05 23:53:42][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[text()='mentee2017@mail.ru']
+[2018-03-05 23:53:42][INFO ] [main] CustomLogger: Element is present: [[[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //div[text()='mentee2017@mail.ru']]]
+[2018-03-05 23:53:42][INFO ] [main] CustomLogger: The addressee is correct
+[2018-03-05 23:53:42][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 23:53:42][INFO ] [main] CustomLogger: Highlighting element '23:53
+lecture9 selenium941: Automation mentoring program -- test test
+mentee2017@mail.ru' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //a[@data-subject='lecture9 selenium']]
+[2018-03-05 23:53:42][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/resources/test-output/screenshot1520283222728.jpg# Taking screenshot
+[2018-03-05 23:53:42][INFO ] [main] CustomLogger: Unhighlighting element '23:53
+lecture9 selenium941: Automation mentoring program -- test test
+mentee2017@mail.ru' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //a[@data-subject='lecture9 selenium']]
+[2018-03-05 23:53:42][INFO ] [main] CustomLogger: Clicking element: '23:53
+lecture9 selenium941: Automation mentoring program -- test test
+mentee2017@mail.ru' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //a[@data-subject='lecture9 selenium']]
+[2018-03-05 23:53:43][INFO ] [main] CustomLogger: Finding element: By.xpath: //body[@id='tinymce']//div[contains(text(),'Automation mentoring program')]
+[2018-03-05 23:53:43][INFO ] [main] CustomLogger: Finding element: By.xpath: //body[@id='tinymce']//div[contains(text(),'Automation mentoring program')]
+[2018-03-05 23:53:43][INFO ] [main] CustomLogger: Element is present: [[[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //body[@id='tinymce']//div[contains(text(),'Automation mentoring program')]]]
+[2018-03-05 23:53:43][INFO ] [main] CustomLogger: The body message is correct
+[2018-03-05 23:53:43][INFO ] [main] CustomLogger: Clicking Send button by javascript action
+[2018-03-05 23:53:43][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 23:53:43][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 23:53:43][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 23:53:43][DEBUG] [main] CustomLogger: Waiting until element is visible: 'Черновики' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']]
+[2018-03-05 23:53:43][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 23:53:43][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 23:53:43][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 23:53:44][INFO ] [main] CustomLogger: Highlighting element 'Черновики' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']]
+[2018-03-05 23:53:44][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/resources/test-output/screenshot1520283224386.jpg# Taking screenshot
+[2018-03-05 23:53:44][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 23:53:44][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 23:53:44][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 23:53:44][INFO ] [main] CustomLogger: Unhighlighting element 'Черновики' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']]
+[2018-03-05 23:53:44][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 23:53:44][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 23:53:44][INFO ] [main] CustomLogger: Clicking element: 'Черновики' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']]
+[2018-03-05 23:53:44][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='LEGO']//a[@href='/messages/drafts/']
+[2018-03-05 23:53:44][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 23:53:54][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 23:54:04][DEBUG] [main] CustomLogger: Waiting until all elements are invisible: []
+[2018-03-05 23:54:04][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 23:54:15][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 23:54:25][INFO ] [main] CustomLogger: Element is not present: []
+[2018-03-05 23:54:25][INFO ] [main] CustomLogger: The draft mail is not present in Drafts anymore
+[2018-03-05 23:54:25][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-05 23:54:25][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-05 23:54:25][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-05 23:54:25][INFO ] [main] CustomLogger: Highlighting element 'Отправленные' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //div[@data-id='500000']/a[@href='/messages/sent/']]
+[2018-03-05 23:54:25][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/resources/test-output/screenshot1520283265463.jpg# Taking screenshot
+[2018-03-05 23:54:25][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-05 23:54:25][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-05 23:54:25][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-05 23:54:25][INFO ] [main] CustomLogger: Unhighlighting element 'Отправленные' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //div[@data-id='500000']/a[@href='/messages/sent/']]
+[2018-03-05 23:54:25][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-05 23:54:25][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-05 23:54:25][INFO ] [main] CustomLogger: Clicking element: 'Отправленные' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //div[@data-id='500000']/a[@href='/messages/sent/']]
+[2018-03-05 23:54:25][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@data-id='500000']/a[@href='/messages/sent/']
+[2018-03-05 23:54:25][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 23:54:25][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 23:54:25][INFO ] [main] CustomLogger: Element is present: [[[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> xpath: //a[@data-subject='lecture9 selenium']]]
+[2018-03-05 23:54:25][INFO ] [main] CustomLogger: The mail is present in Sent
+[2018-03-05 23:54:25][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 23:54:25][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='b-nav_folders']//a[@href='/messages/trash/']
+[2018-03-05 23:54:26][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='b-nav_folders']//a[@href='/messages/trash/']
+[2018-03-05 23:54:26][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='b-nav_folders']//a[@href='/messages/trash/']
+[2018-03-05 23:54:26][INFO ] [main] CustomLogger: Finding element: By.xpath: //div[@id='b-nav_folders']//a[@href='/messages/trash/']
+[2018-03-05 23:54:26][INFO ] [main] CustomLogger: Executing drag and drop mouse action
+[2018-03-05 23:54:26][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 23:54:26][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 23:54:36][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 23:54:46][DEBUG] [main] CustomLogger: Waiting until all elements are invisible: []
+[2018-03-05 23:54:46][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 23:54:56][INFO ] [main] CustomLogger: Finding element: By.xpath: //a[@data-subject='lecture9 selenium']
+[2018-03-05 23:55:06][INFO ] [main] CustomLogger: Element is not present: []
+[2018-03-05 23:55:06][INFO ] [main] CustomLogger: The sent mail is not present in Sent anymore
+[2018-03-05 23:55:06][INFO ] [main] CustomLogger: Finding element: By.id: PH_logoutLink
+[2018-03-05 23:55:06][INFO ] [main] CustomLogger: Finding element: By.id: PH_logoutLink
+[2018-03-05 23:55:06][INFO ] [main] CustomLogger: Finding element: By.id: PH_logoutLink
+[2018-03-05 23:55:06][INFO ] [main] CustomLogger: Highlighting element 'выход' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> id: PH_logoutLink]
+[2018-03-05 23:55:07][INFO ] [main] CustomLogger: RP_MESSAGE#FILE#src/test/resources/test-output/screenshot1520283307417.jpg# Taking screenshot
+[2018-03-05 23:55:07][INFO ] [main] CustomLogger: Finding element: By.id: PH_logoutLink
+[2018-03-05 23:55:07][INFO ] [main] CustomLogger: Finding element: By.id: PH_logoutLink
+[2018-03-05 23:55:07][INFO ] [main] CustomLogger: Finding element: By.id: PH_logoutLink
+[2018-03-05 23:55:07][INFO ] [main] CustomLogger: Unhighlighting element 'выход' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> id: PH_logoutLink]
+[2018-03-05 23:55:07][INFO ] [main] CustomLogger: Finding element: By.id: PH_logoutLink
+[2018-03-05 23:55:07][INFO ] [main] CustomLogger: Finding element: By.id: PH_logoutLink
+[2018-03-05 23:55:07][INFO ] [main] CustomLogger: Clicking element: 'выход' [[ChromeDriver: chrome on XP (fde1d008b8b33e85c4ff7349ea4da118)] -> id: PH_logoutLink]
+[2018-03-05 23:55:07][INFO ] [main] CustomLogger: Finding element: By.id: PH_logoutLink
+[2018-03-05 23:55:08][INFO ] [main] CustomLogger: Logout
