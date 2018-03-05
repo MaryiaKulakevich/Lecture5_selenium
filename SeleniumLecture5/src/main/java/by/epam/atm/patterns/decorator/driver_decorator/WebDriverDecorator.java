@@ -50,14 +50,14 @@ public class WebDriverDecorator implements WebDriver{
         HighlightElement.highlightElement(driver, element);
         MakeScreenshot.makeScreenshot(driver);
         HighlightElement.unHighlightElement(driver, element);
+        CustomLogger.info (String.format("Clicking element: '" + element.getText() + "' %s" , element.toString()));
         element.click();
-        CustomLogger.info (String.format("Clicking element: %s", element.toString()));
     }
 
     public void type(WebElement element, String text){
         HighlightElement.highlightElement(driver, element);
         element.sendKeys(text);
-        CustomLogger.info (String.format("Typing text into element: %s", element.toString()));
+        CustomLogger.info (String.format("Typing text into element: '" + element.getText() + "' %s" , element.toString()));
         HighlightElement.unHighlightElement(driver, element);
     }
 

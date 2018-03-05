@@ -15,10 +15,10 @@ public class MakeScreenshotOnFailure {
     public static void makeScreenshot(ITestResult testResult, WebDriver driver) {
         try {
             File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            String screenshotPath = "src/test/test-output-failure/screenshot" + testResult.getName() + ".jpg";
+            String screenshotPath = "src/test/test-output-failure/screenshot_" + testResult.getName() + ".jpg";
             File copy = new File(screenshotPath);
             FileUtils.copyFile(scrFile, copy);
-            CustomLogger.attach(screenshotPath, "Screenshot");
+            CustomLogger.attach(screenshotPath, " Taking screenshot");
         } catch (IOException e) {
             CustomLogger.error("Failed to take screenshot", e);
         }

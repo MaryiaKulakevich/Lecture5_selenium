@@ -3,6 +3,7 @@ package by.epam.atm.patterns.singleton;
 import by.epam.atm.patterns.factorymethod.ChromeDriverCreator;
 import by.epam.atm.patterns.factorymethod.FireFoxDriverCreator;
 import by.epam.atm.patterns.factorymethod.WebDriverFactory;
+import by.epam.atm.utiles.CustomLogger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -15,7 +16,7 @@ public class WebDriverSingleton {
     private static WebDriver driver;
 
     public static WebDriver getWebDriverInstance(WebDriverType type) throws UnknownDriverTypeException {
-        if (driver == null){
+        if (driver == null) {
             switch (type) {
                 case CHROME: {
                     WebDriverFactory creator = new ChromeDriverCreator();
@@ -28,8 +29,13 @@ public class WebDriverSingleton {
                     break;
                 }
                 default:
-                    throw new UnknownDriverTypeException("Unknown web driver type: " + type);
+                    try {
+                        throw new UnknownDriverTypeException("Unknown web driver type: " + type);
+                    } catch (UnknownDriverTypeException e) {
+                        CustomLogger.error("Unknown web driver type: " + type, e);
+                }
             }
+            CustomLogger.info ("Getting an instance of web driver: " + type);
         }
         return driver;
     }

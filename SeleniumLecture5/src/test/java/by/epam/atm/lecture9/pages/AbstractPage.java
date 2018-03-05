@@ -20,10 +20,10 @@ public abstract class AbstractPage {
     public boolean isElementPresent(List<WebElement> element) {
         boolean present = element.size() > 0;
         if (present == true) {
-            CustomLogger.info("Element is present");
+            CustomLogger.info(String.format("Element is present: %s", element.toString()));
         }
         else{
-            CustomLogger.info("Element is not present");
+            CustomLogger.info(String.format("Element is not present: %s", element.toString()));
         }
         return present;
     }

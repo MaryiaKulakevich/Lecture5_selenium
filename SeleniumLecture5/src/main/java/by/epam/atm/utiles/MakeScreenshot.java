@@ -15,7 +15,7 @@ public class MakeScreenshot {
             String screenshotPath ="src/test/test-output/screenshot"+System.currentTimeMillis()+".jpg";
             File copy = new File (screenshotPath);
             FileUtils.copyFile(scrFile, copy);
-            CustomLogger.attach(screenshotPath, "Screenshot");
+            CustomLogger.attach(screenshotPath, " Taking screenshot");
 
         } catch (IOException e) {
             CustomLogger.error ("Failed to take screenshot", e);

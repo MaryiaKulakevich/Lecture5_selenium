@@ -44,7 +44,7 @@ public class MailWebDriverTest {
         login = new LoginPage(driver).loginToMail(new Account());
         boolean loginSuccessful = login.isLoginSuccessful();
         Assert.assertTrue(loginSuccessful, "Login was not successful");
-        System.out.println("Login is successful");
+        CustomLogger.info("Login is successful");
     }
 
     @Test(description = "Creation of an email, saving it to Drafts, check that the mail is saved", dependsOnMethods = {
@@ -53,7 +53,7 @@ public class MailWebDriverTest {
         drafts = login.createMail().createAndSaveMail(new Letter());
         boolean mailSaved = drafts.isMaleSaved();
         Assert.assertTrue(mailSaved, "The draft mail is not present in Drafts");
-        System.out.println("The draft mail is present in Drafts");
+        CustomLogger.info("The draft mail is present in Drafts");
     }
 
     @Test(description = "Check if the addressee of the saved mail is correct", dependsOnMethods = {
@@ -61,7 +61,7 @@ public class MailWebDriverTest {
     public void checkAddressee() {
         boolean addresseeCorrect = drafts.isAddresseeCorrect();
         Assert.assertTrue(addresseeCorrect, "the addressee is wrong");
-        System.out.println("The addressee is correct");
+        CustomLogger.info("The addressee is correct");
     }
 
     @Test(description = "Check if the body message of the saved mail is correct", dependsOnMethods = {
@@ -70,20 +70,20 @@ public class MailWebDriverTest {
         savedDraft = drafts.openDraft();
         boolean bodyCorrect = savedDraft.isBodyCorrect();
         Assert.assertTrue(bodyCorrect, "the body message is wrong");
-        System.out.println("The body message is correct");
+        CustomLogger.info("The body message is correct");
     }
 
     @Test(description = "Send the email, verify the mail has disappeared from ‘Draft’ folder", dependsOnMethods = {"checkMessage"})
     public void sendMail() {
         boolean draftDisappears = savedDraft.sendMailGoDraftsAgain().isMailPresent();
         Assert.assertFalse(draftDisappears, "The draft mail is still present in Drafts");
-        System.out.println("The draft mail is not present in Drafts anymore");}
+        CustomLogger.info("The draft mail is not present in Drafts anymore");}
 
     @Test(description = "Verify that the mail is present in Sent", dependsOnMethods = {"sendMail"})
     public void sentMail(){
         boolean mailSent = drafts.goToSent().isMaleSent();
         Assert.assertTrue(mailSent, "The mail is not present in Sent");
-        System.out.println("The mail is present in Sent");
+        CustomLogger.info("The mail is present in Sent");
     }
 
     @Test(description = "Remove the mail, check no sent mails are left", dependsOnMethods = {"sentMail"})
@@ -92,14 +92,14 @@ public class MailWebDriverTest {
         sent.removeMailFromSent();
         boolean sentEmailRemoved = sent.isMailRemoved();
         Assert.assertFalse(sentEmailRemoved, "The sent mail is still present in Sent");
-        System.out.println("The sent mail is not present in Sent anymore");
+        CustomLogger.info("The sent mail is not present in Sent anymore");
     }
 
     @AfterMethod
     public void ifTestFailed(ITestResult testResult){
         if (testResult.getStatus() == ITestResult.FAILURE) {
          driver.makeScreenshotOnFailure(testResult);
-         CustomLogger.errorMessage("The test " + testResult.getName() + " failed");
+         CustomLogger.errorMessage("The test '" + testResult.getName() + "' failed");
         }
     }
 

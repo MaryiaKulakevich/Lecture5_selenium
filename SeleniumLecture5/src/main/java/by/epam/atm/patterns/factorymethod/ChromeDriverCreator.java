@@ -1,6 +1,7 @@
 package by.epam.atm.patterns.factorymethod;
 
 import by.epam.atm.patterns.staticfactory.CustomWaiter;
+import by.epam.atm.utiles.CustomLogger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
