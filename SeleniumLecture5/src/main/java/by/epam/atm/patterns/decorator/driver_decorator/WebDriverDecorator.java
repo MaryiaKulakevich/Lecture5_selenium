@@ -26,6 +26,7 @@ public class WebDriverDecorator implements WebDriver{
 
     public void get(String s) {
         driver.get(s);
+        CustomLogger.info (String.format("Navigating to url: %s", s));
     }
 
     public String getCurrentUrl() {
@@ -85,6 +86,7 @@ public class WebDriverDecorator implements WebDriver{
 
     public void quit() {
         driver.quit();
+        CustomLogger.info("Quiting the browser");
     }
 
     public Set<String> getWindowHandles() {

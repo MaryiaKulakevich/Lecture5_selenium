@@ -17,6 +17,7 @@ public class WebDriverSingleton {
 
     public static WebDriver getWebDriverInstance(WebDriverType type) throws UnknownDriverTypeException {
         if (driver == null) {
+            CustomLogger.info ("Getting an instance of web driver: " + type);
             switch (type) {
                 case CHROME: {
                     WebDriverFactory creator = new ChromeDriverCreator();
@@ -35,7 +36,6 @@ public class WebDriverSingleton {
                         CustomLogger.error("Unknown web driver type: " + type, e);
                 }
             }
-            CustomLogger.info ("Getting an instance of web driver: " + type);
         }
         return driver;
     }

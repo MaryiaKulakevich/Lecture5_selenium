@@ -107,6 +107,6 @@ public class MailWebDriverTest {
     public void logOffStopBrowser() {
         sent.logout();
         driver.quit();
-        System.out.println("Browser was successfully quited.");
+        CustomLogger.info("Browser was successfully quited.");
     }
 }
